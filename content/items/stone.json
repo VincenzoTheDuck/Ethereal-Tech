@@ -1,0 +1,6 @@
+{
+  "localizedName": "Stone",
+  "description": "Rock. Used for structures and making materials.",
+  "hardness": 3,
+  "cost": 2
+}
