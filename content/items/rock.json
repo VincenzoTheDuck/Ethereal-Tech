@@ -1,6 +1,7 @@
 {
   "localizedName": "Rock",
   "description": "Used for structures and making materials.",
+  "color": 515151,
   "hardness": 3,
   "cost": 2
 }
