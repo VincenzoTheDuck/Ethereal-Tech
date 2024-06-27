@@ -4,7 +4,7 @@
   "description": "Shoots alternating bullets at ground enemies.",
   "health": 550,
   "researchCostMultiplier": 0.05,
-  "armor": 2,
+  "armor": 1.5,
   "reload": 30,
   "range": 150,
   "recoil": 2,
@@ -51,8 +51,8 @@
       "ammoMultiplier": 2,
       "speed": 5,
       "lifetime": 30,
-      "shootEffect": "shootLarge",
-      "smokeEffect": "shootLargeSmoke",
+      "shootEffect": "shootBig",
+      "smokeEffect": "shootBigSmoke",
       "trailEffect": "none"
     },
     "lead": {
@@ -64,8 +64,8 @@
       "reloadMultiplier": 0.85,
       "speed": 5,
       "lifetime": 30,
-      "shootEffect": "shootLarge",
-      "smokeEffect": "shootLargeSmoke",
+      "shootEffect": "shootBig",
+      "smokeEffect": "shootBigSmoke",
       "trailEffect": "none"
     },
     "graphite": {
@@ -77,8 +77,8 @@
       "reloadMultiplier": 0.6,
       "speed": 5,
       "lifetime": 30,
-      "shootEffect": "shootLarge",
-      "smokeEffect": "shootLargeSmoke",
+      "shootEffect": "shootBig",
+      "smokeEffect": "shootBigSmoke",
       "trailEffect": "none"
     },
     "stone": {
@@ -90,8 +90,8 @@
       "reloadMultiplier": 0.87,
       "speed": 5,
       "lifetime": 30,
-      "shootEffect": "shootLarge",
-      "smokeEffect": "shootLargeSmoke",
+      "shootEffect": "shootBig",
+      "smokeEffect": "shootBigSmoke",
       "trailEffect": "none"
     }
   },
