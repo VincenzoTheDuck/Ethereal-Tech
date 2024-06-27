@@ -40,7 +40,7 @@
         "suffix": "-barrel-r",
         "mirror": false,
         "progress": "recoil",
-        "recoilIndex": 0,
+        "recoilIndex": 1,
         "moveY": -2.5,
         "heatLight": true,
         "under": true
