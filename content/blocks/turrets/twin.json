@@ -34,6 +34,16 @@
         "moveY": -2.5,
         "heatLight": true,
         "under": true
+      },
+      {
+        "type": "RegionPart",
+        "suffix": "-barrel-r",
+        "mirror": false,
+        "progress": "recoil",
+        "recoilIndex": 0,
+        "moveY": -2.5,
+        "heatLight": true,
+        "under": true
       }
     ]
   },
