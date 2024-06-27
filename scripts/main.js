@@ -1,2 +1,2 @@
 require("blocks/turrets");
-require("items")
+require("items");
