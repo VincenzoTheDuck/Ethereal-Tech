@@ -1,1 +1,1 @@
-const stone = new Item("stone"){}
+const stone = extend(Item, "stone", {})
