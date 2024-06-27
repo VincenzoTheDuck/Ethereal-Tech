@@ -18,17 +18,19 @@
   "ammoPerShot": 6,
   "consumes": {
     "coolant": {
-      "amount": 0.05
+      "amount": 0.12
     }
   },
+  "recoils": 2,
   "drawer": {
     "type": "DrawTurret",
     "parts": [
       {
         "type": "RegionPart",
-        "suffix": "-barrel",
-        "mirror": true,
+        "suffix": "-barrel-l",
+        "mirror": false,
         "progress": "recoil",
+        "recoilIndex": 0,
         "moveY": -2.5,
         "heatLight": true,
         "under": true
