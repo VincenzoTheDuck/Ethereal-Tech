@@ -31,8 +31,7 @@
         "mirror": false,
         "progress": "recoil",
         "recoilIndex": 0,
-        "moveY": -2.5,
-        "heatLight": true,
+        "moveY": -0.7,
         "under": true
       },
       {
@@ -41,8 +40,7 @@
         "mirror": false,
         "progress": "recoil",
         "recoilIndex": 1,
-        "moveY": -2.5,
-        "heatLight": true,
+        "moveY": -0.7,
         "under": true
       }
     ]
