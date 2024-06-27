@@ -1,5 +1,4 @@
 {
-  "type": "ItemTurret",
   "localizedName": "Twin",
   "description": "Shoots alternating bullets at ground enemies.",
   "health": 550,
