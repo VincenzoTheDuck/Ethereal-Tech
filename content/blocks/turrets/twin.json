@@ -1,0 +1,107 @@
+{
+  "type": "ItemTurret",
+  "localizedName": "Twin",
+  "description": "Shoots alternating bullets at ground enemies.",
+  "health": 550,
+  "researchCostMultiplier": 0.05,
+  "armor": 2,
+  "reload": 30,
+  "range": 150,
+  "recoil": 2,
+  "recoilTime": 45,
+  "shootY": 10,
+  "shootCone": 5,
+  "shootY": 11,
+  "shake": 0.4,
+  "size": 2,
+  "targetAir": false,
+  "ammoPerShot": 6,
+  "consumes": {
+    "coolant": {
+      "amount": 0.05
+    }
+  },
+  "drawer": {
+    "type": "DrawTurret",
+    "parts": [
+      {
+        "type": "RegionPart",
+        "suffix": "-barrel",
+        "mirror": true,
+        "progress": "recoil",
+        "moveY": -2.5,
+        "heatLight": true,
+        "under": true
+      }
+    ]
+  },
+  "shoot": {
+    "type": "ShootAlternate",
+    "barrels": 2,
+    "spread": 6.5
+  },
+  "ammoTypes": {
+    "copper": {
+      "type": "BasicBulletType",
+      "width": 6,
+      "height": 6,
+      "damage": 11,
+      "ammoMultiplier": 2,
+      "speed": 5,
+      "lifetime": 30,
+      "shootEffect": "shootLarge",
+      "smokeEffect": "shootLargeSmoke",
+      "trailEffect": "none"
+    },
+    "lead": {
+      "type": "BasicBulletType",
+      "width": 6,
+      "height": 6,
+      "damage": 14,
+      "ammoMultiplier": 3,
+      "reloadMultiplier": 0.85,
+      "speed": 5,
+      "lifetime": 30,
+      "shootEffect": "shootLarge",
+      "smokeEffect": "shootLargeSmoke",
+      "trailEffect": "none"
+    },
+    "graphite": {
+      "type": "BasicBulletType",
+      "width": 6,
+      "height": 6,
+      "damage": 19,
+      "ammoMultiplier": 4,
+      "reloadMultiplier": 0.6,
+      "speed": 5,
+      "lifetime": 30,
+      "shootEffect": "shootLarge",
+      "smokeEffect": "shootLargeSmoke",
+      "trailEffect": "none"
+    },
+    "stone": {
+      "type": "BasicBulletType",
+      "width": 6,
+      "height": 6,
+      "damage": 17,
+      "ammoMultiplier": 3.5,
+      "reloadMultiplier": 0.87,
+      "speed": 5,
+      "lifetime": 30,
+      "shootEffect": "shootLarge",
+      "smokeEffect": "shootLargeSmoke",
+      "trailEffect": "none"
+    }
+  },
+  "requirements": [
+    "copper/85",
+    "stone/50"
+  ],
+  "category": "turret",
+  "research": {
+    "parent": "duo",
+    "objectives": [
+      "stone"
+    ]
+  }
+}
