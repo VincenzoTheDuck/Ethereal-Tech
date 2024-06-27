@@ -1,1 +1,1 @@
-const twin = new ItemTurret("twin"){}
+const twin = extend(ItemTurret, "twin", {})
