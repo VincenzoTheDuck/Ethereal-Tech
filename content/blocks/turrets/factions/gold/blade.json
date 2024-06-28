@@ -4,13 +4,14 @@
   "health": 1200,
   "researchCostMultiplier": 0.06,
   "armor": 3,
-  "range": 140,
+  "range": 100,
   "recoil": 3,
-  "recoilTime": 45,
+  "recoilTime": 100,
+  "rotateSpeed": 4
   "shootY": 8,
   "shootCone": 0,
   "shootY": 11,
-  "shake": 1,
+  "shake": 0,
   "size": 3,
   "consumes": {
     "power": 8.5,
@@ -24,7 +25,8 @@
   "shootType": {
     "type": "ContinuousLaserBulletType",
     "fadeTime": 25,
-    "length": 145,
+    "length": 110,
+    "pierceArmor": true,
     "ammoMultiplier": 1,
     "lifetime": 20,
     "pierceCap": 3,
