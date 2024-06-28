@@ -28,7 +28,7 @@
     "ammoMultiplier": 1,
     "lifetime": 20,
     "pierceCap": 3,
-    "damage": 1,
+    "damage": 6,
     "shootEffect": {
       "type": "ParticleEffect",
       "line": true,
@@ -65,7 +65,7 @@
       "type": "LightningBulletType",
       "lightningLength": 18.5,
       "lightningColor": ffdf87,
-      "lightningDamage": 20,
+      "damage": 20,
       "lightningLengthRand": 1
     },
     "colors": [d6b55a, e7c66b, ffdf87, ffffff],
