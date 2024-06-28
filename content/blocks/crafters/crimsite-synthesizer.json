@@ -1,6 +1,6 @@
 {
   "localizedName": "Crimsite Synthesizer",
-  "description": "Constructs a strong crystal lattice out of lead and carbon under high temperatures.",
+  "description": "Constructs a strong crystal lattice out of copper and carbon under high temperatures.",
   "health": 700,
   "armor": 1,
   "researchCostMultiplier": 0.05,
