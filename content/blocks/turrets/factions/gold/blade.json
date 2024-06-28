@@ -1,0 +1,94 @@
+{
+  "localizedName": "Blade",
+  "description": "Indefinitely shoots a continuous energy beam at enemies. Requires water to run.",
+  "health": 1200,
+  "researchCostMultiplier": 0.06,
+  "armor": 3,
+  "range": 140,
+  "recoil": 3,
+  "recoilTime": 45,
+  "shootY": 8,
+  "shootCone": 0,
+  "shootY": 11,
+  "shake": 1,
+  "size": 2,
+  "consumes": {
+    "power": 8.5,
+    "liquid": {
+      "water": 0.33
+    }
+  },
+  "loopSound": "beam",
+  "shootSound": "shockBlast",
+  "shootType": {
+    "type": "ContinuousLaserBulletType",
+    "fadeTime": 25,
+    "length": 145,
+    "ammoMultiplier": 1,
+    "lifetime": 20,
+    "pierceCap": 3,
+    "damage": 1,
+    "shootEffect": {
+      "type": "ParticleEffect",
+      "line": true,
+      "particles": 6,
+      "lifetime": 20,
+      "cone": 180,
+      "colorFrom": ffffff,
+      "colorTo": d6b55a,
+      "lenFrom": 2.5,
+      "lenTo": 0,
+      "strokeFrom": 0.7,
+      "strokeTo": 0.7,
+      "length": 25
+    },
+    "smokeEffect": "smokeCloud",
+    "hitEffect": {
+      "type": "ParticleEffect",
+      "line": true,
+      "particles": 6,
+      "lifetime": 20,
+      "cone": 180,
+      "colorFrom": ffffff,
+      "colorTo": d6b55a,
+      "lenFrom": 2.5,
+      "lenTo": 0,
+      "strokeFrom": 0.7,
+      "strokeTo": 0.7,
+      "length": 25
+    },
+    "bulletInterval": 12,
+    "intervalBullets": 2,
+    "intervalRandomSpread": 3,
+    "intervalBullet": {
+      "type": "LightningBulletType",
+      "lightningLength": 18.5,
+      "lightningColor": ffdf87,
+      "lightningDamage": 20,
+      "lightningLengthRand": 1
+    },
+    "colors": [d6b55a, e7c66b, ffdf87, ffffff],
+    "lightColor": ffdf87,
+    "width": 7,
+    "oscScl": 0.9,
+    "oscMag": 2.3,
+    "lightning": 3,
+    "lightningColor": ffdf87,
+    "lightningLength": 4.5,
+    "lightningLengthRand": 0.6,
+    "lightningDamage": 10,
+  },
+  "requirements": [
+    "dense-alloy/95",
+    "copper/80",
+    "graphite/110",
+    "charged-ingot/75"
+  ],
+  "category": "turret",
+  "research": {
+    "parent": "lancer",
+    "objectives": [
+      
+    ]
+  }
+}
