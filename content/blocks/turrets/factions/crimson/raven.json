@@ -28,8 +28,35 @@
     "ammoMultiplier": 1,
     "lifetime": 20,
     "pierceCap": 3,
-    "shootEffect": "shootBig",
-    "smokeEffect": "shootBigSmoke",
+    "shootEffect": {
+      "type": "ParticleEffect",
+      "line": true,
+      "particles": 8,
+      "lifetime": 20,
+      "cone": 55,
+      "colorFrom": ffffff,
+      "colorTo": bc5452,
+      "lenFrom": 2.5,
+      "lenTo": 0,
+      "strokeFrom": 0.7,
+      "strokeTo": 0.7,
+      "length": 37
+    },
+    "smokeEffect": "none",
+    "hitEffect": {
+      "type": "ParticleEffect",
+      "line": true,
+      "particles": 6,
+      "lifetime": 20,
+      "cone": 180,
+      "colorFrom": ffffff,
+      "colorTo": bc5452,
+      "lenFrom": 2.5,
+      "lenTo": 0,
+      "strokeFrom": 0.7,
+      "strokeTo": 0.7,
+      "length": 25
+    },
     "colors": [bc5452, c85c51, ff795e, ffffff]
   },
   "requirements": [
