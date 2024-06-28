@@ -14,4 +14,4 @@ const crimsiteSynthesizer = extend(GenericCrafter, "crimsite-synthesizer", {});
 
 // blocks / turrets
 
-const raven = extend(ItemTurret, "raven", {});
+const raven = extend(PowerTurret, "raven", {});
