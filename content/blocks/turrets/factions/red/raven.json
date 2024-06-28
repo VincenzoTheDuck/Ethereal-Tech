@@ -13,7 +13,6 @@
   "shootY": 11,
   "shake": 1,
   "size": 2,
-  "ammoPerShot": 6,
   "consumes": {
     "power": 7.5,
     "coolant": {
