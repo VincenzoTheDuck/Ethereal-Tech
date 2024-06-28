@@ -11,7 +11,7 @@
   "shootCone": 0,
   "shootY": 11,
   "shake": 1,
-  "size": 2,
+  "size": 3,
   "consumes": {
     "power": 8.5,
     "liquid": {
