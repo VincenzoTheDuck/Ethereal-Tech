@@ -1,3 +1,3 @@
-require("blocks/turrets");
-require("blocks/production");
+require("turrets");
+require("production");
 require("items");
