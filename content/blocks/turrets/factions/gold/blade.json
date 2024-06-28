@@ -15,7 +15,8 @@
   "consumes": {
     "power": 8.5,
     "liquid": {
-      "water": 0.33
+      "liquid": "water",
+      "amount": 0.33
     }
   },
   "loopSound": "beam",
