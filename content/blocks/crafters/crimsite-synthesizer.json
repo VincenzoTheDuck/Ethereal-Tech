@@ -8,7 +8,7 @@
   "consumes": {
     "power": 1.25
     "items": [
-      "lead/4",
+      "copper/4",
       "graphite/3",
       "coal/2"
     ]
