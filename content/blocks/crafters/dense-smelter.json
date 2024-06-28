@@ -1,0 +1,48 @@
+{
+  "localizedName": "Dense Smelter",
+  "description": "Melts copper and lead to make dense alloy.",
+  "health": 500,
+  "armor": 1,
+  "researchCostMultiplier": 0.05,
+  "size": 2,
+  "consumes": {
+    "power": 0.75
+    "items": [
+      "copper/1",
+      "lead/2"
+    ]
+  },
+  "itemCapacity": 25,
+  "outputItems": [
+    "dense-alloy/2"
+  ],
+  "craftEffect": "smeltsmoke",
+  "updateEffect": "coalSmeltsmoke",
+  "updateEffectChance": 0.03,
+  "ambientSound": "smelter",
+  "ambientSoundVolume": 0.07,
+  "craftTime": 60,
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawFlame",
+        "color": ffef99
+      },
+    ]
+  },
+  "requirements": [
+    "copper/65",
+    "stone/45"
+  ],
+  "category": "crafting",
+  "research": {
+    "parent": "graphite-press",
+    "objectives": [
+      "stone"
+    ]
+  }
+}
