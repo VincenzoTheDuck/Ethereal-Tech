@@ -21,14 +21,15 @@
     "type": "ParticleEffect",
     "line": true,
     "particles": 7,
+    "lifetime": 17,
     "cone": 180,
     "colorFrom": ff795e,
     "colorTo": bc5452,
     "lenFrom": 2.5,
     "lenTo": 0,
-    "strokeFrom": 1.5,
-    "strokeTo": 1.5
-    "length": 23
+    "strokeFrom": 0.7,
+    "strokeTo": 0.7,
+    "length": 33
   },
   "updateEffect": {
     "type": "ParticleEffect",
