@@ -28,6 +28,7 @@
     "ammoMultiplier": 1,
     "lifetime": 20,
     "pierceCap": 3,
+    "damage": 170,
     "shootEffect": {
       "type": "ParticleEffect",
       "line": true,
