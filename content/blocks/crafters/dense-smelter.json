@@ -30,7 +30,7 @@
       },
       {
         "type": "DrawFlame",
-        "color": ffef99
+        "flameColor": ffef99
       },
     ]
   },
