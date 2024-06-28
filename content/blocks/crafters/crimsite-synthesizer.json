@@ -60,14 +60,14 @@
     ]
   },
   "requirements": [
-    "copper/65",
-    "stone/45"
+    "dense-alloy/75",
+    "graphite/45"
   ],
   "category": "crafting",
   "research": {
-    "parent": "graphite-press",
+    "parent": "silicon-smelter",
     "objectives": [
-      "stone"
+      "dense-alloy"
     ]
   }
 }
