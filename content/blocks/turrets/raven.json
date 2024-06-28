@@ -1,0 +1,46 @@
+{
+  "localizedName": "Raven",
+  "description": "Shoots piercing lasers at enemies.",
+  "health": 900,
+  "researchCostMultiplier": 0.05,
+  "armor": 2,
+  "reload": 85,
+  "range": 165,
+  "recoil": 3,
+  "recoilTime": 45,
+  "shootY": 8,
+  "shootCone": 0,
+  "shootY": 11,
+  "shake": 1,
+  "size": 2,
+  "ammoPerShot": 6,
+  "consumes": {
+    "coolant": {
+      "amount": 7.5
+    }
+  },
+  "shootSound": "laser",
+  "shootType": {
+    "type": "LaserBulletType",
+    "length": 170,
+    "drawSize": 450,
+    "hitSize": 4.5,
+    "ammoMultiplier": 1,
+    "lifetime": 20,
+    "pierceCap": 3,
+    "shootEffect": "shootBig",
+    "smokeEffect": "shootBigSmoke",
+    "colors": [bc5452, c85c51, ff795e, ffffff]
+  },
+  "requirements": [
+    "dense-alloy/65",
+    "crimsite/75"
+  ],
+  "category": "turret",
+  "research": {
+    "parent": "lancer",
+    "objectives": [
+      "crimsite"
+    ]
+  }
+}
