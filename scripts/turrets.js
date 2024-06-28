@@ -1,1 +1,1 @@
-const sword = extend(ItemTurret, "g-sword", {}); // for testing
+const raven = extend(ItemTurret, "raven", {});
