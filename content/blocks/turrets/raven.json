@@ -15,8 +15,9 @@
   "size": 2,
   "ammoPerShot": 6,
   "consumes": {
+    "power": 7.5,
     "coolant": {
-      "amount": 7.5
+      "amount": 0.23
     }
   },
   "shootSound": "laser",
