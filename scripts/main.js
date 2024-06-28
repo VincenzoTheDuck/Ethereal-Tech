@@ -1,3 +1,3 @@
 require("blocks/turrets");
-require("blocks/crafters");
+require("blocks/production");
 require("items");
