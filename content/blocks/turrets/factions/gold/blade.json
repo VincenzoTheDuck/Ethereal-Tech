@@ -1,97 +1,62 @@
-{
-  "localizedName": "Blade",
-  "description": "Indefinitely shoots a continuous energy beam at enemies. Requires water to run.",
-  "health": 1200,
-  "researchCostMultiplier": 0.06,
-  "armor": 3,
-  "range": 100,
-  "recoil": 3,
-  "recoilTime": 100,
-  "rotateSpeed": 4
-  "shootY": 8,
-  "shootCone": 0,
-  "shootY": 11,
-  "shake": 0,
-  "size": 3,
-  "consumes": {
-    "power": 8.5,
-    "liquid": {
-      "liquid": "water",
-      "amount": 0.33
-    }
-  },
-  "loopSound": "beam",
-  "shootSound": "shockBlast",
-  "shootType": {
-    "type": "ContinuousLaserBulletType",
-    "fadeTime": 25,
-    "length": 110,
-    "pierceArmor": true,
-    "ammoMultiplier": 1,
-    "lifetime": 20,
-    "pierceCap": 3,
-    "damage": 6,
-    "shootEffect": {
-      "type": "ParticleEffect",
-      "line": true,
-      "particles": 6,
-      "lifetime": 20,
-      "cone": 180,
-      "colorFrom": ffffff,
-      "colorTo": d6b55a,
-      "lenFrom": 2.5,
-      "lenTo": 0,
-      "strokeFrom": 0.7,
-      "strokeTo": 0.7,
-      "length": 25
-    },
-    "smokeEffect": "smokeCloud",
-    "hitEffect": {
-      "type": "ParticleEffect",
-      "line": true,
-      "particles": 6,
-      "lifetime": 20,
-      "cone": 180,
-      "colorFrom": ffffff,
-      "colorTo": d6b55a,
-      "lenFrom": 2.5,
-      "lenTo": 0,
-      "strokeFrom": 0.7,
-      "strokeTo": 0.7,
-      "length": 25
-    },
-    "bulletInterval": 12,
-    "intervalBullets": 2,
-    "intervalRandomSpread": 3,
-    "intervalBullet": {
-      "type": "LightningBulletType",
-      "lightningLength": 18.5,
-      "lightningColor": ffdf87,
-      "damage": 20,
-      "lightningLengthRand": 1
-    },
-    "colors": [d6b55a, e7c66b, ffdf87, ffffff],
-    "lightColor": ffdf87,
-    "width": 7,
-    "oscScl": 0.9,
-    "oscMag": 2.3,
-    "lightning": 3,
-    "lightningColor": ffdf87,
-    "lightningLength": 4.5,
-    "lightningLengthRand": 0.6,
-    "lightningDamage": 10,
-  },
-  "requirements": [
-    "dense-alloy/95",
-    "copper/80",
-    "graphite/110",
-    "charged-ingot/75"
-  ],
-  "category": "turret",
-  "research": {
-    "parent": "lancer",
-    "objectives": [
-      
-    ]
-  }
+name: "Blade",
+description: '''
+Indefinitely shoots a laser beam at enemies.
+'''
+health: 950
+size: 3
+shootY: 12
+range: 110
+consumes: {
+power: 9.25
+liquid: {
+liquid: water
+amount: 0.34
 }
+}
+reload: 80
+recoil: 2
+shake: 1.2
+shootSound: shockBlast
+loopSound: beam
+shootType: {
+type: ContinuousLaserBulletType
+damage: 5
+length: 117
+fadeTime: 27
+colors: [d6b55a, e7c66b, ffdf87, ffffff]
+lightColor: ffdf87
+pierceCap: 2
+ammoMultiplier: 1
+width: 7
+oscScl: 1.1
+oscMag: 2.5
+lightningLength: 4.5
+lightningLengthRand: 0.2
+lightningColor: ffdf87
+lightningDamage: 20
+intervalBullet: {
+type: LightningBulletType
+lightningLength: 1.4
+lightningLengthRand: 0.3
+lightningColor: ffdf87
+damage: 30
+}
+bulletInterval: 15
+intervalBullets: 2
+intervalRandomSpread: 3
+intervalSpread: 3
+shootEffect: pulverizeRed
+smokeEffect: pulverize
+hitEffect: pulverizeRed
+}
+research: {
+parent: lancer
+objectives: []
+}
+category: turret
+requirements: [
+dense-alloy/100
+silicon/85
+lead/90
+charged-ingot/115
+]
