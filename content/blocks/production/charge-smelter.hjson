@@ -15,9 +15,20 @@ silicon/4
 }
 }
 outputItem: charged-ingot/1
-updateEffect: smeltsmoke
-updateEfectChance: 0.1
-craftEffect: pulverizeRed
+updateEffect: none
+craftEffect: {
+type: ParticleEffect
+line: true
+particles: 7
+colorFrom: ffffff
+colorTo: ffdf87
+strokeFrom: 1.3
+strokeTo: 0
+lenFrom: 2
+lenTo: 0
+lifetime: 20
+length: 9
+}
 craftTime: 70
 drawer: {
 type: DrawMulti
