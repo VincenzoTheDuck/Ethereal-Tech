@@ -9,6 +9,7 @@ consumes: {power: 8}
 reload: 80
 recoil: 2
 shake: 1.2
+size: 2
 shootSound: laser
 shootType: {
 type: LaserBulletType
