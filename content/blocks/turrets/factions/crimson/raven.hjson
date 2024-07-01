@@ -1,0 +1,35 @@
+name: "Raven",
+description: '''
+Shoots lasers at nearby enemies.
+'''
+health: 700
+shootY: 10
+range: 170
+consumes: {power: 8}
+reload: 80
+recoil: 2
+shake: 1.2
+shootSound: laser
+shootType: {
+type: LaserBulletType
+damage: 170
+length: 170
+colors: [bc5452, c85c51, ff795e, ffffff]
+pierceCap: 3
+ammoMultiplier: 1
+drawSize: 450
+hitSize: 4.3
+shootEffect: pulverizeRed
+smokeEffect: pulverize
+hitEffect: pulverizeRed
+}
+research: {
+parent: lancer
+objectives: []
+}
+category: turret
+requirements: [
+copper/50
+silicon/100
+crimsite/70
+]
