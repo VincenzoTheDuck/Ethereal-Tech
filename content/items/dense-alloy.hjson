@@ -1,0 +1,8 @@
+name: "Dense Alloy"
+description: '''
+Used for moderately advanced structures.
+'''
+research: silicon
+color: 989aa4
+cost: 2
+healthScaling: 0.7
