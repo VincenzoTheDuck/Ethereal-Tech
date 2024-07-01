@@ -34,6 +34,7 @@ objectives: [
 ]
 }
 requirements: [
-lead/70
+stone/35
+lead/50
 copper/85
 ]
