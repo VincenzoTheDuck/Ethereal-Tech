@@ -18,9 +18,7 @@ updateEffect: smeltsmoke
 updateEffectChance: 0.1
 craftEffect: pulverizeRed
 craftTime: 40
-drawer: {
-type: DrawMulti
-drawers: [
+drawer: [
 {
 type: DrawRegion
 suffix: -bottom
@@ -31,7 +29,6 @@ glowColor: 000000ff
 }
 DrawDefault
 ]
-}
 category: crafting
 research: {
 parent: silicon-smelter
