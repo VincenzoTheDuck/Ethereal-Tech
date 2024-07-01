@@ -1,0 +1,10 @@
+name: "ethereal-tech"
+displayName: "Etherium"
+description: '''
+Small mod, big goals.
+'''
+author: '''
+[078e70]Vi[26ceaa]nc[98e8c1]en[ffffff]zo[7bade2]The[5049cb]Du[3d1a78]ck
+'''
+minGameVersion: 136.1
+version: 2.0
