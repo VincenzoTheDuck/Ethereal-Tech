@@ -1,0 +1,43 @@
+name: "Crimsite Synthesizer"
+description: '''
+Constructs a strong crystal lattice from copper and carbon.
+'''
+health: 450
+size: 2
+consumes: {
+power: 2.5
+items: {
+items: [
+graphite/2
+copper/4
+]
+}
+}
+outputItem: crimsite/1
+updateEffect: smeltsmoke
+updateEfectChance: 0.1
+craftEffect: pulverizeRed
+craftTime: 40
+drawer: {
+type: DrawMulti
+drawers: [
+{
+type: DrawRegion
+suffix: -bottom
+}
+DrawMultiWeave
+DrawDefault
+]
+}
+category: crafting
+research: {
+parent: silicon-smelter
+objectives: [
+
+]
+}
+requirements: [
+dense-alloy/40
+copper/75
+graphite/20
+]
