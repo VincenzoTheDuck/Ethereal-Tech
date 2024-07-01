@@ -21,7 +21,6 @@ craftTime: 50
 drawer: {
 type: DrawMulti
 drawers: [
-{
 DrawDefault
 DrawFlame
 ]
