@@ -1,0 +1,47 @@
+name: "Charge Smelter"
+description: '''
+Melts copper, lead and silicon into charged ingots.
+'''
+health: 450
+size: 2
+consumes: {
+power: 2.5
+items: {
+items: [
+graphite/2
+copper/4
+]
+}
+}
+outputItem: charged-ingot/1
+updateEffect: smeltsmoke
+updateEfectChance: 0.1
+craftEffect: pulverizeRed
+craftTime: 40
+drawer: {
+type: DrawMulti
+drawers: [
+{
+type: DrawRegion
+suffix: -bottom
+}
+DrawArcSmelt
+{
+type: DrawFlame
+top: "clear"
+}
+DrawDefault
+]
+}
+category: crafting
+research: {
+parent: silicon-smelter
+objectives: [
+
+]
+}
+requirements: [
+dense-alloy/40
+copper/75
+graphite/20
+]
