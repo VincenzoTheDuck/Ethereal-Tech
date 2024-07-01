@@ -38,6 +38,7 @@ damage: 5
 length: 210
 fadeTime: 27
 colors: [d6b55a, e7c66b, ffdf87, ffffff]
+hitColor: ffdf87
 lightColor: ffdf87
 pierceCap: 2
 ammoMultiplier: 1
