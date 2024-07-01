@@ -1,0 +1,39 @@
+name: "Dense Smelter"
+description: '''
+Melts lead and copper to make dense alloy.
+'''
+health: 320
+size: 2
+consumes: {
+power: 1.75
+items: {
+items: [
+lead/2
+copper/3
+]
+}
+}
+outputItem: dense-alloy/1
+updateEffect: smeltsmoke
+updateEfectChance: 0.1
+craftEffect: pulverize
+craftTime: 50
+drawer: {
+type: DrawMulti
+drawers: [
+{
+DrawDefault
+DrawFlame
+]
+}
+category: crafting
+research: {
+parent: graphite-press
+objectives: [
+
+]
+}
+requirements: [
+lead/70
+copper/85
+]
