@@ -49,7 +49,7 @@ objectives: [
 ]
 }
 requirements: [
-dense-alloy/40
-copper/75
-graphite/20
+dense-alloy/110
+stone/80
+copper/45
 ]
