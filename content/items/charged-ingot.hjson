@@ -1,0 +1,8 @@
+name: "Charged Ingot"
+description: '''
+Used for gold faction structures.
+'''
+research: dense-alloy
+color: 989aa4
+cost: 2.2
+healthScaling: 0.72
