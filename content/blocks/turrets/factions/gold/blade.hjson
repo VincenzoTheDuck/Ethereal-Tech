@@ -23,8 +23,8 @@ parts: [
 type: RegionPart
 suffix: "-opening"
 under: true
-moveX: -0.23
-moveRot: 3
+moveY: -0.23
+moveRot: -4
 mirror: true
 progress: warmup
 }
