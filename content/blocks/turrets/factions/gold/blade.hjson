@@ -14,8 +14,21 @@ amount: 0.34
 }
 }
 reload: 80
-recoil: 2
+recoil: 0.6
 shake: 1.2
+drawer: {
+type: DrawTurret
+parts: [
+{
+type: RegionPart
+suffix: -opening
+moveX: -0.23
+moveRot: 3
+mirror: true
+progress: warmup
+}
+]
+}
 shootSound: shockBlast
 loopSound: beam
 shootType: {
