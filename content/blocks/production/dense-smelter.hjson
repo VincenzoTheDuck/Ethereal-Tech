@@ -18,13 +18,10 @@ updateEffect: smeltsmoke
 updateEffectChance: 0.1
 craftEffect: pulverize
 craftTime: 50
-drawer: {
-type: DrawMulti
-drawers: [
+drawer: [
 DrawDefault
 DrawFlame
 ]
-}
 category: crafting
 research: {
 parent: graphite-press
