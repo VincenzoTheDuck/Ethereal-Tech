@@ -21,7 +21,7 @@ loopSound: beam
 shootType: {
 type: ContinuousLaserBulletType
 damage: 5
-length: 117
+length: 160
 fadeTime: 27
 colors: [d6b55a, e7c66b, ffdf87, ffffff]
 lightColor: ffdf87
@@ -30,13 +30,14 @@ ammoMultiplier: 1
 width: 7
 oscScl: 1.1
 oscMag: 2.5
-lightningLength: 4.5
+lightning: 5
+lightningLength: 3
 lightningLengthRand: 0.2
 lightningColor: ffdf87
 lightningDamage: 20
 intervalBullet: {
 type: LightningBulletType
-lightningLength: 1.4
+lightningLength: 7
 lightningLengthRand: 0.3
 lightningColor: ffdf87
 damage: 30
@@ -45,9 +46,8 @@ bulletInterval: 15
 intervalBullets: 2
 intervalRandomSpread: 3
 intervalSpread: 3
-shootEffect: pulverizeRed
-smokeEffect: pulverize
-hitEffect: pulverizeRed
+shootEffect: none
+smokeEffect: smokeCloud
 }
 research: {
 parent: lancer
