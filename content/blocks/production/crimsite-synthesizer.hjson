@@ -25,7 +25,10 @@ drawers: [
 type: DrawRegion
 suffix: -bottom
 }
-DrawMultiWeave
+{
+type: DrawMultiWeave
+glowColor: 000000ff
+}
 DrawDefault
 ]
 }
