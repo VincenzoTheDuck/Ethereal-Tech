@@ -30,9 +30,7 @@ lifetime: 20
 length: 17.5
 }
 craftTime: 70
-drawer: {
-type: DrawMulti
-drawers: [
+drawer: [
 {
 type: DrawRegion
 suffix: -bottom
@@ -40,7 +38,6 @@ suffix: -bottom
 DrawArcSmelt
 DrawDefault
 ]
-}
 category: crafting
 research: {
 parent: silicon-smelter
