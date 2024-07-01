@@ -21,7 +21,8 @@ type: DrawTurret
 parts: [
 {
 type: RegionPart
-suffix: -opening
+suffix: "-opening"
+under: true
 moveX: -0.23
 moveRot: 3
 mirror: true
