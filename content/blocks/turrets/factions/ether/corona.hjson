@@ -19,7 +19,7 @@ shake: 1.7
 size: 2
 targetAir: false
 shootSound: artillery
-ammo: [
+ammoTypes: {
 graphite: {
 type: ArtilleryBulletType
 sprite: "ethereal-tech-pierce-shell"
@@ -89,7 +89,7 @@ waveRad: 27
 despawnEffect: none
 despawnHit: true
 }
-]
+}
 ammoPerShot: 2
 ammoCapacity: 20
 research: {
