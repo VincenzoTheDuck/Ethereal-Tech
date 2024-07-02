@@ -20,7 +20,7 @@ suffix: "-bottom"
 }
 {
 type: DrawLiquidTile
-liquid: astrogen
+drawLiquid: astrogen
 }
 DrawDefault
 ]
