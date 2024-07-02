@@ -1,0 +1,50 @@
+name: "Astrolium Crystallizer"
+description: '''
+Produces astrolium from graphite and astrogen.
+'''
+health: 400
+size: 2
+hasLiquids: true
+consumes: {
+power: 2
+items: {
+items: [
+graphite/3
+]
+}
+liquid: {
+liquid: astrogen
+amount: 0.1
+}
+}
+outputItem: astrolium/1
+craftEffect: none
+craftTime: 60
+drawer: [
+{
+type: DrawRegion
+suffix: "-bottom"
+}
+{
+type: DrawLiquidTile
+liquid: astrogen
+}
+{
+type: DrawCrucibleFlame
+flameColor: 5c5e9f
+midColor: 8aa3f4
+}
+DrawDefault
+]
+category: crafting
+research: {
+parent: graphite-press
+objectives: [
+astrogen
+]
+}
+requirements: [
+stone/35
+graphite/50
+lead/85
+]
