@@ -34,5 +34,5 @@ water
 requirements: [
 stone/35
 graphite/50
-lead/85
+dense-alloy/85
 ]
