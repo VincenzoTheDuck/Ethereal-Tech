@@ -6,7 +6,7 @@ health: 370
 heatColor: 8aa3f4
 cooldownTime: 55
 shootY: 8
-range: 2402
+range: 240
 consumes: {
 power: 3
 coolant: {
