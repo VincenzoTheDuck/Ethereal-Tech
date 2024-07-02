@@ -44,7 +44,8 @@ astrogen
 ]
 }
 requirements: [
-stone/35
-graphite/50
-lead/85
+stone/55
+dense-alloy/45
+graphite/75
+copper/55
 ]
