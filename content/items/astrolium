@@ -1,0 +1,9 @@
+name: "Astrolium"
+description: '''
+A carbon compound. Used for Ether faction structures.
+'''
+research: graphite
+color: 7a8cdc
+cost: 1.3
+healthScaling: 0.66
+radioactivity: 0.16
