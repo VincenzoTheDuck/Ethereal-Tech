@@ -92,7 +92,7 @@ despawnHit: true
 }
 }
 ammoPerShot: 2
-ammoCapacity: 20
+maxAmmo: 20
 research: {
 parent: twinkle
 objectives: []
