@@ -1,0 +1,54 @@
+name: "Slash",
+description: '''
+Shoots alternating slashes at enemies.
+'''
+health: 500
+shootY: 10
+range: 100
+consumes: {
+power: 2.5
+coolant: {
+amount: 0.19
+}
+}
+shoot: {
+shots: 5
+shotDelay: 9
+}
+inaccuracy: 0
+reload: 25
+recoil: 2
+shake: 0.4
+size: 2
+shootSound: shotgun
+shootType: {
+type: ShrapnelBulletType
+damage: 55
+length: 110
+status: shocked
+statusDuration: 100
+lifetime: 30
+width: 14
+pierceCap: 3
+fromColor: ffffff
+toColor: ffdf87
+serrations: 4
+ammoMultiplier: 1
+shootEffect: {
+type: WrapEffect
+effect: colorSparkBig
+color: ffdf87
+}
+smokeEffect: shootBigSmoke
+absorbable: true
+}
+research: {
+parent: lancer
+objectives: []
+}
+category: turret
+requirements: [
+copper/30
+dense-alloy/50
+charged-ingot/35
+]
