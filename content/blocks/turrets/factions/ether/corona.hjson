@@ -4,8 +4,9 @@ Fires small shells at ground enemies. Requires power.
 '''
 health: 370
 heatColor: 8aa3f4
+cooldownTime: 55
 shootY: 8
-range: 160
+range: 2402
 consumes: {
 power: 3
 coolant: {
@@ -29,10 +30,10 @@ splashDamage: 37
 splashDamageRadius: 33
 status: blasted
 statusDuration: 55
-speed: 5
-lifetime: 32
-height: 7
-width: 5
+speed: 4
+lifetime: 60
+height: 16
+width: 11
 backColor: 989aa4
 frontColor: ffffff
 trailColor: 989aa4
@@ -65,10 +66,10 @@ lightningLength: 4
 lightningLengthRand: 2.2
 lightningDamage: 8
 lightningColor: 8aa3f4
-speed: 5
-lifetime: 32
-height: 7
-width: 5
+speed: 4
+lifetime: 60
+height: 16
+width: 11
 backColor: 8aa3f4
 frontColor: ffffff
 trailColor: 8aa3f4
