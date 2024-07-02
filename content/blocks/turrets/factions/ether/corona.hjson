@@ -45,7 +45,7 @@ smokeEffect: shootBigSmoke
 hitEffect: {
 type: ExplosionEffect
 waveColor: 989aa4
-sparkColor: ff795e
+sparkColor: e8895c
 smokeColor: 676486
 waveStroke: 3.5
 waveRad: 33
