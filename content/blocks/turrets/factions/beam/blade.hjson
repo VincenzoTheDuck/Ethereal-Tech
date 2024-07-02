@@ -61,7 +61,7 @@ shootEffect: none
 smokeEffect: smokeCloud
 }
 research: {
-parent: lancer
+parent: slash
 objectives: []
 }
 category: turret
