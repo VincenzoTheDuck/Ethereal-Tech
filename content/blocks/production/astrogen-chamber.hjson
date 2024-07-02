@@ -1,0 +1,38 @@
+name: "Astrogen Chamber"
+description: '''
+Generates astrogen from water.
+'''
+health: 400
+size: 2
+hasLiquids: true
+consumes: {
+power: 3.5
+liquid: {
+liquid: water
+amount: 0.2
+}
+}
+outputLiquid: astrogen/0.12
+drawer: [
+{
+type: DrawRegion
+suffix: "-bottom"
+}
+{
+type: DrawLiquidTile
+liquid: astrogen
+}
+DrawDefault
+]
+category: crafting
+research: {
+parent: silicon-smelter
+objectives: [
+water
+]
+}
+requirements: [
+stone/35
+graphite/50
+lead/85
+]
