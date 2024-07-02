@@ -1,0 +1,65 @@
+name: "Twinkle",
+description: '''
+Shoots bursts of homing energy charges at enemies.
+'''
+health: 700
+shootY: 10
+range: 80
+consumes: {
+power: 2.5
+coolant: {
+amount: 0.03
+}
+}
+shoot: {
+shots: 5
+shotDelay: 9
+}
+inaccuracy: 30
+reload: 40
+recoil: 2
+shake: 0.4
+size: 1
+shootSound: laser
+shootType: {
+type: BasicBulletType
+damage: 15
+splashDamage: 9
+splashDamageRadius: 16
+status: freezing
+statusDuration: 70
+speed: 6
+lifetime: 13
+height: 6
+width: 6
+backColor: 8aa3f4
+frontColor: ffffff
+trailColor: 8aa3f4
+trailWidth: 3
+trailLength: 7
+homingPower: 0.16
+shrinkX: 0
+shrinkY: 0
+ammoMultiplier: 1
+shootEffect: hitLancer
+smokeEffect: none
+hitEffect: {
+type: ExplosionEffect
+waveColor: 8aa3f4
+sparkColor: 8aa3f4
+smokeColor: 676486
+waveStroke: 2.5
+waveRad: 16
+}
+despawnEffect: none
+despawnHit: true
+}
+research: {
+parent: arc
+objectives: []
+}
+category: turret
+requirements: [
+dense-alloy/50
+astrolium/45
+]
