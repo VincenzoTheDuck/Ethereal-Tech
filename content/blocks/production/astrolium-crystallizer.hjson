@@ -38,7 +38,7 @@ DrawDefault
 ]
 category: crafting
 research: {
-parent: graphite-press
+parent: astrogen-chamber
 objectives: [
 astrogen
 ]
