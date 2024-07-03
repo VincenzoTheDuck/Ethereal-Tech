@@ -1,0 +1,39 @@
+name: "Quarry"
+description: '''
+Extracts stone from the ground. Requires a small amount of power.
+'''
+health: 420
+size: 2
+consumes: {
+power: 1.2
+}
+outputItem: stone/1
+updateEffect: smeltsmoke
+updateEffectChance: 0.1
+craftEffect: pulverize
+craftTime: 60
+drawer: [
+DrawDefault
+{
+type: DrawRegion
+suffix: "-rotator"
+spinSprite: true
+rotateSpeed: 2
+}
+{
+type: DrawRegion
+suffix: "-top"
+}
+]
+category: production
+research: {
+parent: pneumatic-drill
+objectives: [
+
+]
+}
+requirements: [
+graphite/20
+lead/18
+copper/14
+]
