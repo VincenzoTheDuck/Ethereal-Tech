@@ -1,0 +1,104 @@
+name: "Supernova",
+description: '''
+Shoots huge bursts of homing laser charges at enemies.
+'''
+health: 1250
+shootY: 3
+range: 460
+consumes: {
+power: 12
+coolant: {
+amount: 1
+}
+}
+shoot: {
+shots: 7
+shotDelay: 3
+}
+shootCone: 6
+inaccuracy: 6
+reload: 175
+recoil: 3.7
+cooldownTime: 120
+recoilTime: 135
+rotateSpeed: 0.7
+heatColor: 8aa3f4
+shake: 3
+size: 5
+shootSound: plasmaboom
+shootType: {
+type: BasicBulletType
+sprite: "ethereal-tech-pierce-shell"
+damage: 0
+splashDamage: 500
+splashDamageRadius: 45
+status: freezing
+statusDuration: 200
+speed: 8
+lifetime: 57.5
+height: 14
+width: 21
+backColor: 8aa3f4
+frontColor: ffffff
+trailColor: 8aa3f4
+trailWidth: 5
+trailLength: 23
+shrinkX: 0
+shrinkY: 0
+ammoMultiplier: 1
+shootEffect: {
+type: ExplosionEffect
+waveColor: 8aa3f4
+sparkColor: 8aa3f4
+smokeColor: 00000000
+waveStroke: 1.5
+waveRad: 22
+}
+smokeEffect: none
+homingPower: 0.19
+lightning: 4
+lightningColor: 8aa3f4
+lightningLength: 6.5
+lightningDamage: 15
+lightningLengthRand: 1.4
+hitEffect: {
+type: ExplosionEffect
+waveColor: 8aa3f4
+sparkColor: 8aa3f4
+smokeColor: 8aa3f443
+waveStroke: 2.3
+waveRad: 45
+}
+fragBullets: 1
+fragRandomSpread: 0
+fragBullet: {
+type: LaserBulletType
+damage: 100
+length: 50
+status: freezing
+pierceCap: 5
+statusDuration: 90
+lifetime: 45
+lightningSpacing: 4
+lightningDelay: 0.6
+lightningAngleRand: 3
+drawSize: 420
+hitSize: 4
+colors: [312c63, 5c5e9f, 8aa3f4, ffffff]
+}
+despawnEffect: none
+despawnHit: true
+}
+research: {
+parent: protostar
+objectives: []
+}
+category: turret
+requirements: [
+dense-alloy/175
+thorium/145
+lead/95
+copper/140
+titanium/70
+astrolium/190
+]
