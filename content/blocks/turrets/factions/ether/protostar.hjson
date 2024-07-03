@@ -19,7 +19,7 @@ cooldownTime: 60
 recoilTime: 60
 heatColor: 8aa3f4
 shake: 1.4
-size: 2
+size: 3
 shootSound: laser
 shootType: {
 type: BasicBulletType
