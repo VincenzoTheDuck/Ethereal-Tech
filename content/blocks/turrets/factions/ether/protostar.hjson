@@ -22,12 +22,12 @@ size: 3
 shootSound: laser
 shootType: {
 type: BasicBulletType
-sprite: "pierce-shell"
+sprite: "ethereal-tech-pierce-shell"
 damage: 13
 status: freezing
 statusDuration: 40
 speed: 6
-drag: 0.5
+drag: 0.05
 lifetime: 20
 height: 6
 width: 9
@@ -53,7 +53,7 @@ fragBullets: 5
 fragRandomSpread: 50
 fragBullet: {
 type: BasicBulletType
-sprite: "pierce-shell"
+sprite: "ethereal-tech-pierce-shell"
 damage: 42
 status: freezing
 statusDuration: 120
