@@ -119,6 +119,8 @@ category: turret
 requirements: [
 dense-alloy/175
 thorium/145
+plastanium/110
+surge-alloy/75
 lead/95
 copper/140
 titanium/70
