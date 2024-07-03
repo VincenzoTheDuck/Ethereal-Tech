@@ -39,3 +39,7 @@ const blade = extend(ContinuousTurret, "blade", {});
 const twinkle = extend(PowerTurret, "twinkle", {});
 
 const corona = extend(ItemTurret, "corona", {});
+
+const nebula = extend(PowerTurret, "nebula", {});
+
+const protostar = extend(PowerTurret, "protostar", {});
