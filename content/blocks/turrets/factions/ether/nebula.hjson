@@ -22,7 +22,7 @@ size: 2
 shootSound: laser
 shootType: {
 type: BasicBulletType
-sprite: "pierce-shell"
+sprite: "ethereal-tech-pierce-shell"
 damage: 100
 status: freezing
 statusDuration: 70
