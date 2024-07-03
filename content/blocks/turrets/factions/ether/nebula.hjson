@@ -35,12 +35,12 @@ frontColor: ffffff
 trailColor: 8aa3f4
 trailWidth: 2.5
 trailLength: 10
-/* lightningCone: 0
+lightningCone: 0
 lightning: 3
 lightningColor: 8aa3f4
 lightningLength: 4.5
 lightningLengthRand: 1.2
-lightningDamage: 13 */
+lightningDamage: 13
 shrinkX: 0
 shrinkY: 0
 ammoMultiplier: 1
