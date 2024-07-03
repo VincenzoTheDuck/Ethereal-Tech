@@ -17,7 +17,7 @@ reload: 110
 recoil: 3.7
 cooldownTime: 85
 recoilTime: 60
-rotateSpeed: 2.5
+rotateSpeed: 1
 heatColor: 8aa3f4
 shake: 1.4
 size: 3
