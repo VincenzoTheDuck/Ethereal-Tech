@@ -16,7 +16,6 @@ inaccuracy: 0
 reload: 35
 recoil: 3
 cooldownTime: 30
-recoilTime: 30
 heatColor: 8aa3f4
 shake: 1
 size: 2
