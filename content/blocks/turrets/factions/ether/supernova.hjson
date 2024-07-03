@@ -38,7 +38,7 @@ moveRot: -5
 shootCone: 9
 inaccuracy: 9
 reload: 240
-recoil: 3.7
+recoil: 5.5
 cooldownTime: 100
 recoilTime: 190
 rotateSpeed: 0.7
