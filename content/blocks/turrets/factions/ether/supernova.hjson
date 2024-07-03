@@ -24,15 +24,15 @@ under: true
 heatColor: 8aa3f4
 progress: warmup
 mirror: true
-moveY: 1.5
+moveY: 2.2
 moveX: -0.5
 moveRot: -9
 moves: [
 {
 progress: recoil
-y: -0.3
+y: 1
 x: -0.7
-rot: -5
+rot: -7
 }
 ]
 }
