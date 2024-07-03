@@ -13,14 +13,24 @@ amount: 1
 }
 shoot: {
 shots: 7
-shotDelay: 3
 }
-shootCone: 6
-inaccuracy: 6
-reload: 175
+drawer: {
+{
+type: RegionPart
+suffix: "-wing"
+heatColor: 8aa3f4
+progress: warmup
+mirror: true
+moveY: -3
+moveRot: 8
+}
+}
+shootCone: 9
+inaccuracy: 9
+reload: 240
 recoil: 3.7
-cooldownTime: 120
-recoilTime: 135
+cooldownTime: 200
+recoilTime: 190
 rotateSpeed: 0.7
 heatColor: 8aa3f4
 shake: 3
@@ -82,6 +92,7 @@ lifetime: 45
 lightningSpacing: 4
 lightningDelay: 0.6
 lightningAngleRand: 3
+lightningColor: 8aa3f4
 drawSize: 420
 hitSize: 4
 colors: [312c63, 5c5e9f, 8aa3f4, ffffff]
