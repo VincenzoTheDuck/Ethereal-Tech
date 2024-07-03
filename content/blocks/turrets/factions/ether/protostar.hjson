@@ -1,0 +1,70 @@
+name: "Protostar",
+description: '''
+Shoots clusters of homing lightning charges at enemies.
+'''
+health: 300
+shootY: 2
+range: 240
+consumes: {
+power: 7.5
+coolant: {
+amount: 0.44
+}
+}
+shootCone: 0
+inaccuracy: 0
+reload: 85
+recoil: 3.7
+cooldownTime: 60
+recoilTime: 60
+heatColor: 8aa3f4
+shake: 1.4
+size: 2
+shootSound: laser
+shootType: {
+type: BasicBulletType
+sprite: "pierce-shell"
+damage: 13
+status: freezing
+statusDuration: 70
+speed: 6
+lifetime: 40
+height: 6
+width: 9
+backColor: 8aa3f4
+frontColor: ffffff
+trailColor: 8aa3f4
+trailWidth: 2.5
+trailLength: 10
+lightningCone: 0
+lightning: 3
+lightningColor: 8aa3f4
+lightningLength: 4.5
+lightningLengthRand: 1.2
+lightningDamage: 13
+shrinkX: 0
+shrinkY: 0
+ammoMultiplier: 1
+shootEffect: hitLancer
+smokeEffect: none
+hitEffect: {
+type: ExplosionEffect
+waveColor: 8aa3f4
+sparkColor: 8aa3f4
+smokeColor: 00000000
+waveStroke: 0.8
+waveRad: 9
+}
+despawnEffect: none
+despawnHit: true
+}
+research: {
+parent: twinkle
+objectives: []
+}
+category: turret
+requirements: [
+dense-alloy/50
+titanium/70
+astrolium/45
+]
