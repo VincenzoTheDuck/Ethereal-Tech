@@ -27,8 +27,7 @@ damage: 13
 status: freezing
 statusDuration: 40
 speed: 6
-drag: 0.05
-lifetime: 20
+lifetime: 10
 height: 6
 width: 9
 backColor: 8aa3f4
@@ -59,7 +58,7 @@ status: freezing
 statusDuration: 120
 speed: 6
 homingPower: 0.14
-lifetime: 20
+lifetime: 30
 height: 4.5
 width: 7
 backColor: 8aa3f4
@@ -70,8 +69,8 @@ trailLength: 10
 lightningCone: 0
 lightning: 3
 lightningColor: 8aa3f4
-lightningLength: 4.5
-lightningLengthRand: 1.2
+lightningLength: 7
+lightningLengthRand: 3
 lightningDamage: 13
 shrinkX: 0
 shrinkY: 0
