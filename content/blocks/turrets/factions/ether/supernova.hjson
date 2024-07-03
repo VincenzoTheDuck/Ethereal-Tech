@@ -24,7 +24,7 @@ under: true
 heatColor: 8aa3f4
 progress: warmup
 mirror: true
-moveY: 0.7
+moveY: 1.5
 moveX: -0.5
 moveRot: -9
 moves: [
