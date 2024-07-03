@@ -23,8 +23,15 @@ suffix: "-wing"
 heatColor: 8aa3f4
 progress: warmup
 mirror: true
-moveY: -3
-moveRot: 8
+moveY: -1
+moveRot: -9
+moves: [
+{
+progress: recoil
+moveY: -0.7
+moveRot: -4
+}
+]
 }
 ]
 }
@@ -32,7 +39,7 @@ shootCone: 9
 inaccuracy: 9
 reload: 240
 recoil: 3.7
-cooldownTime: 200
+cooldownTime: 100
 recoilTime: 190
 rotateSpeed: 0.7
 heatColor: 8aa3f4
