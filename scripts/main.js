@@ -43,3 +43,5 @@ const corona = extend(ItemTurret, "corona", {});
 const nebula = extend(PowerTurret, "nebula", {});
 
 const protostar = extend(PowerTurret, "protostar", {});
+
+const supernova = extend(PowerTurret, "supernova", {});
