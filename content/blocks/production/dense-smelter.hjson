@@ -1,6 +1,6 @@
 name: "Dense Smelter"
 description: '''
-Melts lead and copper to make dense alloy.
+Melts lead and copper to make densite.
 '''
 health: 320
 size: 2
