@@ -77,7 +77,7 @@ smokeColor: 00000000
 waveStroke: 1.5
 waveRad: 22
 }
-smokeEffect: none
+smokeEffect: smokeCloud
 homingPower: 0.05
 lightning: 4
 lightningColor: 8aa3f4
