@@ -49,6 +49,7 @@ sparkColor: 8aa3f4
 smokeColor: 00000000
 waveStroke: 0.8
 waveRad: 9
+}
 fragBullets: 5
 fragCone: 45
 fragBullet: {
@@ -75,7 +76,6 @@ lightningLengthRand: 1.2
 lightningDamage: 13
 shrinkX: 0
 shrinkY: 0
-ammoMultiplier: 1
 hitEffect: {
 type: ExplosionEffect
 waveColor: 8aa3f4
@@ -86,7 +86,6 @@ waveRad: 12
 }
 despawnEffect: none
 despawnHit: true
-}
 }
 despawnEffect: none
 despawnHit: true
