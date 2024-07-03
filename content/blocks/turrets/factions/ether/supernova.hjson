@@ -28,8 +28,8 @@ moveRot: -9
 moves: [
 {
 progress: recoil
-moveY: -0.7
-moveRot: -4
+moveY: -1.3
+moveRot: -5
 }
 ]
 }
@@ -75,12 +75,13 @@ waveStroke: 1.5
 waveRad: 22
 }
 smokeEffect: none
-homingPower: 0.19
+homingPower: 0.05
 lightning: 4
 lightningColor: 8aa3f4
 lightningLength: 6.5
 lightningDamage: 15
 lightningLengthRand: 1.4
+lightningCone: 3
 hitEffect: {
 type: ExplosionEffect
 waveColor: 8aa3f4
