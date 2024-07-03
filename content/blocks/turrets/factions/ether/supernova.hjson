@@ -20,6 +20,7 @@ parts: [
 {
 type: RegionPart
 suffix: "-wing"
+under: true
 heatColor: 8aa3f4
 progress: warmup
 mirror: true
@@ -28,22 +29,22 @@ moveRot: -9
 moves: [
 {
 progress: recoil
-moveY: -1.3
-moveRot: -5
+y: -1.3
+rot: -5
 }
 ]
 }
 ]
 }
-shootCone: 9
-inaccuracy: 9
+shootCone: 13
+inaccuracy: 13
 reload: 240
 recoil: 5.5
 cooldownTime: 100
 recoilTime: 190
-rotateSpeed: 0.7
+rotateSpeed: 0.83
 heatColor: 8aa3f4
-shake: 3
+shake: 4
 size: 5
 shootSound: plasmaboom
 shootType: {
