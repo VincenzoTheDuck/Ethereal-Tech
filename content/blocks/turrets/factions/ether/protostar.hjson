@@ -51,7 +51,7 @@ waveStroke: 0.8
 waveRad: 9
 }
 fragBullets: 5
-fragCone: 45
+fragRandomSpread: 50
 fragBullet: {
 type: BasicBulletType
 sprite: "pierce-shell"
