@@ -28,6 +28,7 @@ shootSound: flame
 ammoTypes: {
 coal: {
 type: BulletType
+hittable: false
 hitSize: 10.5
 damage: 20
 status: burning
@@ -80,6 +81,7 @@ despawnEffect: none
 }
 pyratite: {
 type: BulletType
+hittable: false
 reloadMultiplier: 1.2
 hitSize: 10.5
 damage: 28
