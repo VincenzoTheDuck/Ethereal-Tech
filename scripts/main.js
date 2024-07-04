@@ -38,6 +38,8 @@ const slash = extend(PowerTurret, "slash", {});
 
 const blade = extend(ContinuousTurret, "blade", {});
 
+const thearchy = extend(PowerTurret, "thearchy", {});
+
 const twinkle = extend(PowerTurret, "twinkle", {});
 
 const corona = extend(ItemTurret, "corona", {});
