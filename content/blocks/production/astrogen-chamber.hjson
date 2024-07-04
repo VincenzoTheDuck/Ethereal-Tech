@@ -6,7 +6,7 @@ health: 400
 size: 2
 hasLiquids: true
 consumes: {
-power: 3.5
+power: 1.25
 liquid: {
 liquid: water
 amount: 0.2
