@@ -24,25 +24,6 @@ suffix: "-main"
 progress: recoil
 moveY: -7
 }
-{
-type: RegionPart
-suffix: "-wing"
-under: true
-heatColor: 8aa3f4
-progress: warmup
-mirror: true
-moveY: 2
-moveX: 0.6
-moveRot: -3
-moves: [
-{
-progress: recoil
-y: 0.8
-x: 0.65
-rot: -4
-}
-]
-}
 ]
 }
 shootCone: 3
