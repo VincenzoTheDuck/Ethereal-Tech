@@ -55,6 +55,7 @@ size: 5
 shootSound: plasmaboom
 shootType: {
 type: BasicBulletType
+hittable: false
 sprite: "ethereal-tech-pierce-shell"
 damage: 0
 splashDamage: 147
