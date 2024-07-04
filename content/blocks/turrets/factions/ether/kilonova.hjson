@@ -9,7 +9,7 @@ unitSort: strongest
 consumes: {
 power: 20
 coolant: {
-amount: 1.7
+amount: 1.2
 }
 }
 shoot: {
@@ -64,7 +64,7 @@ shootType: {
 type: BasicBulletType
 sprite: "ethereal-tech-pierce-shell"
 damage: 0
-splashDamage: 210
+splashDamage: 297
 splashDamageRadius: 94
 status: freezing
 statusDuration: 200
