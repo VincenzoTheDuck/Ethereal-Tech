@@ -1,0 +1,145 @@
+name: "Combust",
+description: '''
+Fires 3 streams of flame at ground enemies.
+'''
+health: 670
+cooldownTime: 65
+shootY: 6.5
+range: 90
+consumes: {
+coolant: {
+amount: 0.21
+}
+}
+shoot: {
+type: ShootSpread
+shots: 3
+spread: 15
+}
+inaccuracy: 3
+reload: 5
+recoil: 1.1
+shake: 1.7
+size: 2
+shootCone: 45
+targetAir: false
+shootSound: flame
+ammoTypes: {
+coal: {
+type: BulletType
+hitSize: 10.5
+damage: 20
+status: burning
+statusDuration: 75
+speed: 5
+lifetime: 20
+collidesAir: false
+ammoMultiplier: 3
+shootEffect: {
+type: MultiEffect
+effects: [
+{
+type: ParticleEffect
+particles: 21
+cone: 26
+lifetime: 20
+sizeFrom: 3.5
+interp: pow3Out
+sizeInterp: pow5Out
+colorFrom: ff795e
+colorTo: 8aa3f4
+length: 97
+}
+{
+type: ParticleEffect
+particles: 11
+line: true
+cone: 20
+lifetime: 14
+strokeFrom: 2.3
+strokeTo: 0
+lenFrom: 6
+lenTo: 0
+interp: swingOut
+sizeInterp: pow5Out
+colorFrom: ff795e
+colorTo: 8aa3f4
+length: 88
+}
+]
+}
+smokeEffect: shootBigSmoke
+hitEffect: {
+type: ExplosionEffect
+waveColor: 00000000
+sparkColor: ff795e
+smokeColor: 666666
+}
+despawnEffect: none
+}
+pyratite: {
+type: BulletType
+reloadMultiplier: 1.2
+hitSize: 10.5
+damage: 28
+status: burning
+statusDuration: 90
+speed: 5
+lifetime: 20
+collidesAir: false
+ammoMultiplier: 3
+shootEffect: {
+type: MultiEffect
+effects: [
+{
+type: ParticleEffect
+particles: 21
+cone: 26
+lifetime: 20
+sizeFrom: 3.5
+interp: pow3Out
+sizeInterp: pow5Out
+colorFrom: ffffff
+colorTo: ff795e
+length: 97
+}
+{
+type: ParticleEffect
+particles: 11
+line: true
+cone: 20
+lifetime: 14
+strokeFrom: 2.3
+strokeTo: 0
+lenFrom: 6
+lenTo: 0
+interp: swingOut
+sizeInterp: pow5Out
+colorFrom: ffffff
+colorTo: ff795e
+length: 88
+}
+]
+}
+smokeEffect: shootBigSmoke
+hitEffect: {
+type: ExplosionEffect
+waveColor: 00000000
+sparkColor: ff795e
+smokeColor: 666666
+}
+despawnEffect: none
+}
+}
+ammoPerShot: 2
+maxAmmo: 20
+research: {
+parent: scorch
+objectives: []
+}
+category: turret
+requirements: [
+dense-alloy/65
+graphite/45
+copper/55
+]
