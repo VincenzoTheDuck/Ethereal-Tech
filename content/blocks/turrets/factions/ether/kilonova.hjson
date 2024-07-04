@@ -12,6 +12,7 @@ liquid: {
 liquid: astrogen
 amount: 0.97
 }
+}
 shoot: {
 firstShotDelay: 40
 shots: 5
