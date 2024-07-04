@@ -45,7 +45,7 @@ sprite: "circle-bullet"
 hittable: false
 damage: 1300
 splashDamage: 6000
-splashDamageRadius: 140
+splashDamageRadius: 180
 status: melting
 statusDuration: 220
 speed: 5
@@ -126,8 +126,8 @@ sparkColor: ec7458
 smokeColor: 989aa4
 sparks: 8
 smokes: 14
-waveStroke: 4
-waveRad: 140
+waveStroke: 10
+waveRad: 180
 sparkRad: 150
 smokeSize: 9
 smokeRad: 133
