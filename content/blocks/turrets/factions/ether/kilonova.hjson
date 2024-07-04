@@ -5,6 +5,7 @@ Charges up then shoots bursts of homing energy charges at enemies.
 health: 4400
 shootY: 6
 range: 460
+unitSort: strongest
 consumes: {
 power: 20
 coolant: {
