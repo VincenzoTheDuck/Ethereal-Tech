@@ -1,6 +1,6 @@
 name: "Kilonova",
 description: '''
-Charges up then shoots bursts of homing energy charges at enemies.
+Charges up then shoots bursts of homing energy charges at enemies. Prioritizes the strongest enemies.
 '''
 health: 4400
 shootY: 6
