@@ -29,7 +29,7 @@ type: RegionPart
 suffix: "-main"
 heatColor: 8aa3f4
 progress: recoil
-moveY: -4.3
+moveY: -6.7
 }
 {
 type: RegionPart
