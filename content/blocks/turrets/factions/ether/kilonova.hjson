@@ -1,6 +1,6 @@
 name: "Kilonova",
 description: '''
-Charges up then shoots bursts of homing energy charges at enemies. Prioritizes the strongest enemies.
+Charges up then shoots bursts of homing ether charges at enemies. Prioritizes the strongest enemies.
 '''
 health: 4400
 shootY: 6
@@ -8,13 +8,10 @@ range: 460
 unitSort: strongest
 consumes: {
 power: 20
-}
-coolant: {
-type: ConsumeLiquid
+liquid: {
 liquid: astrogen
-amount: 0.93
+amount: 0.97
 }
-coolantMultiplier: 1.22
 shoot: {
 firstShotDelay: 40
 shots: 5
