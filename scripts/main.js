@@ -32,6 +32,8 @@ const astroliumCrystallizer = extend(GenericCrafter, "astrolium-crystallizer", {
 
 const raven = extend(PowerTurret, "raven", {});
 
+const combust = extend(ItemTurret, "combust", {});
+
 const slash = extend(PowerTurret, "slash", {});
 
 const blade = extend(ContinuousTurret, "blade", {});
