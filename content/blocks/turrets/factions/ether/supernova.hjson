@@ -4,7 +4,7 @@ Shoots huge bursts of homing laser charges at enemies.
 '''
 health: 1250
 shootY: 3
-range: 460
+range: 360
 consumes: {
 power: 12
 coolant: {
@@ -58,7 +58,7 @@ splashDamageRadius: 45
 status: freezing
 statusDuration: 200
 speed: 8
-lifetime: 57.5
+lifetime: 47.5
 height: 14
 width: 21
 backColor: 8aa3f4
