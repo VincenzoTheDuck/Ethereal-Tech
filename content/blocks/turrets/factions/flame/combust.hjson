@@ -87,7 +87,7 @@ statusDuration: 90
 speed: 5
 lifetime: 20
 collidesAir: false
-ammoMultiplier: 3
+ammoMultiplier: 2
 shootEffect: {
 type: MultiEffect
 effects: [
