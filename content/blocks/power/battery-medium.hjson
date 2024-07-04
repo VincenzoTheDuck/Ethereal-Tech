@@ -1,0 +1,14 @@
+name: "Medium Battery"
+health: 550
+baseExplosiveness: 3
+consumePowerBuffered: 15000
+category: power
+research: {
+parent: battery
+objectives: []
+}
+requirements: [
+lead/25
+graphite/30
+copper/15
+]
