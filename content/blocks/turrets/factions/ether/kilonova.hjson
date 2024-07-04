@@ -12,7 +12,7 @@ power: 20
 coolant: {
 type: ConsumeLiquid
 liquid: astrogen
-amount: 0.44
+amount: 1
 }
 coolantMultiplier: 1.64
 shoot: {
