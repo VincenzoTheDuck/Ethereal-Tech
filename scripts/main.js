@@ -14,6 +14,10 @@ const astrolium = extend(Item, "astrolium", {});
 
 const astrogen = extend(Liquid, "astrogen", {});
 
+// blocks/power
+
+const batteryMedium = extend(Battery, "battery-medium", {});
+
 // blocks/production
 
 const quarry = extend(GenericCrafter, "quarry", {});
