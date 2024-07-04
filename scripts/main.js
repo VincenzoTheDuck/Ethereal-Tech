@@ -45,3 +45,5 @@ const nebula = extend(PowerTurret, "nebula", {});
 const protostar = extend(PowerTurret, "protostar", {});
 
 const supernova = extend(PowerTurret, "supernova", {});
+
+const kilonova = extend(PowerTurret, "kilonova", {});
