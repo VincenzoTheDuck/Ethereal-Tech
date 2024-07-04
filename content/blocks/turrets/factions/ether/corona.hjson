@@ -15,7 +15,7 @@ type: ConsumeLiquid
 liquid: astrogen
 amount: 0.13
 }
-coolantMultiplier: 14
+coolantMultiplier: 10
 inaccuracy: 2
 reload: 90
 recoil: 2.5
