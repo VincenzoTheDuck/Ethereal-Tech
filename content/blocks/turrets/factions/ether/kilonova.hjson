@@ -142,9 +142,9 @@ length: -53
 }
 ]
 }
-homingPower: 0.01
+homingPower: 0.15
 pierceCap: 3
-lightning: 5
+lightning: 6
 lightningColor: 8aa3f4
 lightningLength: 10.3
 lightningDamage: 30
