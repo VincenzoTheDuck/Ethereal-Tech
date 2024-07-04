@@ -8,7 +8,7 @@ range: 360
 consumes: {
 power: 12
 coolant: {
-amount: 1
+amount: 0.87
 }
 }
 shoot: {
@@ -54,7 +54,7 @@ shootType: {
 type: BasicBulletType
 sprite: "ethereal-tech-pierce-shell"
 damage: 0
-splashDamage: 113
+splashDamage: 147
 splashDamageRadius: 45
 status: freezing
 statusDuration: 200
