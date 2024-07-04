@@ -145,6 +145,7 @@ length: -53
 ]
 }
 homingPower: 0.01
+pierceCap: 3
 lightning: 5
 lightningColor: 8aa3f4
 lightningLength: 10.3
@@ -154,12 +155,18 @@ hitEffect: {
 type: ExplosionEffect
 waveColor: 8aa3f4
 sparkColor: 8aa3f4
+smokeColor: 00000000
+waveStroke: 1.4
+waveRad: 19
+}
+despawnEffect: {
+type: ExplosionEffect
+waveColor: 8aa3f4
+sparkColor: 8aa3f4
 smokeColor: 8aa3f443
 waveStroke: 2.3
 waveRad: 45
 }
-despawnEffect: none
-despawnHit: true
 }
 research: {
 parent: supernova
