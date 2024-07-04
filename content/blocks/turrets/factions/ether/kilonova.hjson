@@ -11,8 +11,8 @@ power: 20
 }
 coolant: {
 type: ConsumeLiquid
-liquid: slag
-amount: 1
+liquid: astrogen
+amount: 0.93
 }
 coolantMultiplier: 1.64
 shoot: {
@@ -20,7 +20,7 @@ firstShotDelay: 40
 shots: 5
 shotDelay: 4
 }
-liquidCapacity: 75
+liquidCapacity: 240
 drawer: {
 type: DrawTurret
 parts: [
