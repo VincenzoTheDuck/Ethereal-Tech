@@ -7,10 +7,13 @@ shootY: 3
 range: 360
 consumes: {
 power: 12
+}
 coolant: {
-amount: 0.87
+type: ConsumeLiquid
+liquid: astrogen
+amount: 0.19
 }
-}
+coolantMultiplier: 1.53
 shoot: {
 shots: 7
 }
