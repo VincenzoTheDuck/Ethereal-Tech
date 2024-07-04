@@ -11,13 +11,13 @@ power: 12
 coolant: {
 type: ConsumeLiquid
 liquid: astrogen
-amount: 0.88
+amount: 0.75
 }
-coolantMultiplier: 1.53
+coolantMultiplier: 1.36
 shoot: {
 shots: 7
 }
-liquidCapacity: 50
+liquidCapacity: 120
 drawer: {
 type: DrawTurret
 parts: [
