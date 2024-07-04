@@ -7,4 +7,3 @@ gas: true
 color: 8aa3f4
 temperature: 0.13
 explosiveness: 0.2
-coolant: false
