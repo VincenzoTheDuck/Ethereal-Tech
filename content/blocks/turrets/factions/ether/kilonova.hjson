@@ -11,7 +11,7 @@ power: 20
 }
 coolant: {
 type: ConsumeLiquid
-liquid: astrogen
+liquid: slag
 amount: 1
 }
 coolantMultiplier: 1.64
