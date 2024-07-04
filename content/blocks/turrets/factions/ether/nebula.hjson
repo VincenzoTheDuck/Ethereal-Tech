@@ -30,6 +30,7 @@ damage: 100
 status: freezing
 statusDuration: 70
 speed: 6
+hittable: false
 lifetime: 31
 height: 6
 width: 9
