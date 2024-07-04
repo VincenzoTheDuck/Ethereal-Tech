@@ -1,6 +1,7 @@
 name: "Medium Battery"
 description: "Stores some power."
 health: 550
+size: 2
 baseExplosiveness: 3
 consumes: {
 powerBuffered: 15000
