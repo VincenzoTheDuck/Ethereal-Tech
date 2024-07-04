@@ -58,6 +58,7 @@ rotateSpeed: 0.66
 shake: 5.7
 size: 7
 shootSound: plasmaboom
+chargeSound: lasercharge2
 shootType: {
 type: BasicBulletType
 sprite: "ethereal-tech-pierce-shell"
@@ -93,10 +94,11 @@ effects: [
 {
 type: ParticleEffect
 particles: 1
-lifetime: 60
+lifetime: 45
 rotWithParent: true
+followParent: true
 sizeFrom: 0
-sizeTo: 8
+sizeTo: 11
 colorFrom: 8aa3f4
 colorTo: 8aa3f4
 length: 0
@@ -105,24 +107,26 @@ length: 0
 type: ParticleEffect
 particles: 11
 cone: 360
-lifetime: 60
+lifetime: 45
 rotWithParent: true
+followParent: true
 sizeFrom: 0
-sizeTo: 3
+sizeTo: 4.5
 interp: pow3In
 sizeInterp: pow5Out
 colorFrom: 8aa3f4
 colorTo: 8aa3f4
-baseLength: 22
-length: -22
+baseLength: 33
+length: -33
 }
 {
 type: ParticleEffect
 particles: 7
 line: true
 cone: 360
-lifetime: 60
+lifetime: 45
 rotWithParent: true
+followParent: true
 strokeFrom: 0
 strokeTo: 2
 lenFrom: 2
