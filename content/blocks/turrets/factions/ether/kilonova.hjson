@@ -16,6 +16,7 @@ firstShotDelay: 60
 shots: 5
 shotDelay: 4
 }
+liquidCapacity: 75
 drawer: {
 type: DrawTurret
 parts: [
