@@ -17,7 +17,7 @@ shots: 3
 spread: 15
 }
 inaccuracy: 3
-reload: 11
+reload: 6
 recoilTIme: 60
 recoil: 1.1
 shake: 1.7
@@ -42,8 +42,8 @@ effects: [
 {
 type: ParticleEffect
 particles: 21
-cone: 26
-lifetime: 20
+cone: 14
+lifetime: 47
 sizeFrom: 3.5
 interp: pow3Out
 sizeInterp: pow5Out
@@ -56,7 +56,7 @@ type: ParticleEffect
 particles: 11
 line: true
 cone: 20
-lifetime: 14
+lifetime: 20
 strokeFrom: 2.3
 strokeTo: 0
 lenFrom: 6
@@ -95,8 +95,8 @@ effects: [
 {
 type: ParticleEffect
 particles: 21
-cone: 26
-lifetime: 20
+cone: 17
+lifetime: 36
 sizeFrom: 3.5
 interp: pow3Out
 sizeInterp: pow5Out
@@ -108,8 +108,8 @@ length: 97
 type: ParticleEffect
 particles: 11
 line: true
-cone: 20
-lifetime: 14
+cone: 15
+lifetime: 18
 strokeFrom: 2.3
 strokeTo: 0
 lenFrom: 6
