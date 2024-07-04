@@ -14,6 +14,10 @@ const astrolium = extend(Item, "astrolium", {});
 
 const astrogen = extend(Liquid, "astrogen", {});
 
+// blocks/distribution
+
+const denseConveyor = extend(StackConveyor, "dense-conveyor", {});
+
 // blocks/power
 
 const batteryMedium = extend(Battery, "battery-medium", {});
