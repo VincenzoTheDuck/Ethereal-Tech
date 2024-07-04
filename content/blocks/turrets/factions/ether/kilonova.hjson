@@ -1,0 +1,119 @@
+name: "Kilonova",
+description: '''
+Charges up then shoots bursts of homing energy charges at enemies.
+'''
+health: 4400
+shootY: 6
+range: 460
+consumes: {
+power: 20
+coolant: {
+amount: 1.7
+}
+}
+shoot: {
+firstShotDelay: 60
+shots: 5
+shotDelay: 4
+}
+drawer: {
+type: DrawTurret
+parts: [
+{
+type: RegionPart
+suffix: "-main"
+heatColor: 8aa3f4
+progress: recoil
+moveY: -2.7
+}
+{
+type: RegionPart
+suffix: "-wing"
+under: true
+heatColor: 8aa3f4
+progress: warmup
+mirror: true
+moveY: 2
+moveX: 0.6
+moveRot: -3
+moves: [
+{
+progress: recoil
+y: 0.8
+x: 0.65
+rot: -4
+}
+]
+}
+]
+}
+shootCone: 25
+inaccuracy: 25
+reload: 300
+recoil: 5.5
+cooldownTime: 130
+recoilTime: 210
+rotateSpeed: 0.66
+shake: 5.7
+size: 7
+shootSound: plasmaboom
+shootType: {
+type: BasicBulletType
+sprite: "ethereal-tech-pierce-shell"
+damage: 0
+splashDamage: 700
+splashDamageRadius: 94
+status: freezing
+statusDuration: 200
+speed: 8
+lifetime: 57.5
+height: 37
+width: 19
+backColor: 8aa3f4
+frontColor: ffffff
+trailColor: 8aa3f4
+trailWidth: 7
+trailLength: 34
+shrinkX: 0
+shrinkY: 0
+ammoMultiplier: 1
+shootEffect: {
+type: ExplosionEffect
+waveColor: 8aa3f4
+sparkColor: 8aa3f4
+smokeColor: 8aa3f447
+waveStroke: 3
+waveRad: 94
+}
+smokeEffect: smokeCloud
+homingPower: 0.03
+lightning: 5
+lightningColor: 8aa3f4
+lightningLength: 10.3
+lightningDamage: 55
+lightningLengthRand: 5.4
+hitEffect: {
+type: ExplosionEffect
+waveColor: 8aa3f4
+sparkColor: 8aa3f4
+smokeColor: 8aa3f443
+waveStroke: 2.3
+waveRad: 45
+}
+despawnEffect: none
+despawnHit: true
+}
+research: {
+parent: supernova
+objectives: []
+}
+category: turret
+requirements: [
+dense-alloy/300
+thorium/440
+phase-fabric/220
+surge-alloy/310
+copper/400
+titanium/345
+astrolium/530
+]
