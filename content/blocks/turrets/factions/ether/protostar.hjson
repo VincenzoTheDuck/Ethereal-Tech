@@ -31,6 +31,7 @@ sprite: "ethereal-tech-pierce-shell"
 damage: 13
 status: freezing
 statusDuration: 40
+hittable: false
 speed: 6
 lifetime: 10
 height: 6
