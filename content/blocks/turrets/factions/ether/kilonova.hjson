@@ -87,6 +87,55 @@ waveStroke: 3
 waveRad: 94
 }
 smokeEffect: smokeCloud
+chargeEffect: {
+type: MultiEffect
+effects: [
+{
+type: ParticleEffect
+particles: 1
+lifetime: 60
+rotWithParent: true
+sizeFrom: 0
+sizeTo: 8
+colorFrom: 8aa3f4
+colorTo: 8aa3f4
+length: 0
+}
+{
+type: ParticleEffect
+particles: 11
+cone: 360
+lifetime: 60
+rotWithParent: true
+sizeFrom: 0
+sizeTo: 3
+interp: pow3In
+sizeInterp: pow5Out
+colorFrom: 8aa3f4
+colorTo: 8aa3f4
+baseLength: 22
+length: -22
+}
+{
+type: ParticleEffect
+particles: 7
+line: true
+cone: 360
+lifetime: 60
+rotWithParent: true
+strokeFrom: 0
+strokeTo: 2
+lenFrom: 2
+lenTo: 6
+interp: pow3In
+sizeInterp: pow5Out
+colorFrom: 8aa3f4
+colorTo: 8aa3f4
+baseLength: 17
+length: -17
+}
+]
+}
 homingPower: 0.03
 lightning: 5
 lightningColor: 8aa3f4
