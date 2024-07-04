@@ -54,7 +54,7 @@ shootType: {
 type: BasicBulletType
 sprite: "ethereal-tech-pierce-shell"
 damage: 0
-splashDamage: 53
+splashDamage: 113
 splashDamageRadius: 45
 status: freezing
 statusDuration: 200
