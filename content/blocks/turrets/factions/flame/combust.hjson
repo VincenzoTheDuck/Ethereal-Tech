@@ -17,7 +17,8 @@ shots: 3
 spread: 15
 }
 inaccuracy: 3
-reload: 5
+reload: 11
+recoilTIme: 60
 recoil: 1.1
 shake: 1.7
 size: 2
@@ -46,8 +47,8 @@ lifetime: 20
 sizeFrom: 3.5
 interp: pow3Out
 sizeInterp: pow5Out
-colorFrom: ff795e
-colorTo: 8aa3f4
+colorFrom: ffcd66
+colorTo: e46b58
 length: 97
 }
 {
@@ -62,8 +63,8 @@ lenFrom: 6
 lenTo: 0
 interp: swingOut
 sizeInterp: pow5Out
-colorFrom: ff795e
-colorTo: 8aa3f4
+colorFrom: ffcd66
+colorTo: e46b58
 length: 88
 }
 ]
@@ -99,8 +100,8 @@ lifetime: 20
 sizeFrom: 3.5
 interp: pow3Out
 sizeInterp: pow5Out
-colorFrom: ffffff
-colorTo: ff795e
+colorFrom: ffffa3
+colorTo: fc8e6c
 length: 97
 }
 {
@@ -115,8 +116,8 @@ lenFrom: 6
 lenTo: 0
 interp: swingOut
 sizeInterp: pow5Out
-colorFrom: ffffff
-colorTo: ff795e
+colorFrom: ffffa3
+colorTo: fc8e6c
 length: 88
 }
 ]
