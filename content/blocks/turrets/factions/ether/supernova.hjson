@@ -54,7 +54,7 @@ shootType: {
 type: BasicBulletType
 sprite: "ethereal-tech-pierce-shell"
 damage: 0
-splashDamage: 500
+splashDamage: 53
 splashDamageRadius: 45
 status: freezing
 statusDuration: 200
@@ -83,7 +83,7 @@ homingPower: 0.05
 lightning: 4
 lightningColor: 8aa3f4
 lightningLength: 6.5
-lightningDamage: 15
+lightningDamage: 22
 lightningLengthRand: 1.4
 lightningCone: 3
 hitEffect: {
@@ -98,7 +98,7 @@ fragBullets: 1
 fragRandomSpread: 0
 fragBullet: {
 type: LaserBulletType
-damage: 100
+damage: 37
 length: 50
 status: freezing
 pierceCap: 5
