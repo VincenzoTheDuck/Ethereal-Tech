@@ -11,9 +11,9 @@ power: 6
 coolant: {
 type: ConsumeLiquid
 liquid: astrogen
-amount: 0.14
+amount: 0.11
 }
-coolantMultiplier: 0.13
+coolantMultiplier: 1.16
 shootCone: 3
 inaccuracy: 0
 reload: 35
