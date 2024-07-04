@@ -14,15 +14,15 @@ amount: 0.21
 shoot: {
 type: ShootSpread
 shots: 3
-spread: 15
+spread: 20
 }
 inaccuracy: 3
 reload: 6
-recoilTIme: 60
+recoilTime: 60
 recoil: 1.1
 shake: 1.7
 size: 2
-shootCone: 45
+shootCone: 60
 targetAir: false
 shootSound: flame
 ammoTypes: {
