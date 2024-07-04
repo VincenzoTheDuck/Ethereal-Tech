@@ -64,6 +64,7 @@ chargeSound: lasercharge2
 shootType: {
 type: BasicBulletType
 sprite: "ethereal-tech-pierce-shell"
+hittable: false
 damage: 0
 splashDamage: 297
 splashDamageRadius: 94
