@@ -2,7 +2,9 @@ name: "Medium Battery"
 description: "Stores some power."
 health: 550
 baseExplosiveness: 3
-consumePowerBuffered: 15000
+consumes: {
+powerBuffered: 15000
+}
 category: power
 research: {
 parent: battery
