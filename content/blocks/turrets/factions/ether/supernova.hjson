@@ -14,6 +14,7 @@ amount: 1
 shoot: {
 shots: 7
 }
+liquidCapacity: 50
 drawer: {
 type: DrawTurret
 parts: [
