@@ -13,7 +13,7 @@ type: ConsumeLiquid
 liquid: astrogen
 amount: 0.03
 }
-coolantMultiplier: 1.77
+coolantMultiplier: 2.7
 shoot: {
 shots: 5
 shotDelay: 3
