@@ -7,10 +7,13 @@ shootY: 2
 range: 240
 consumes: {
 power: 7.5
+}
 coolant: {
-amount: 0.44
+type: ConsumeLiquid
+liquid: astrogen
+amount: 0.35
 }
-}
+coolantMultiplier: 1.43
 shootCone: 3
 inaccuracy: 0
 reload: 110
