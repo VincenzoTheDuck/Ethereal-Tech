@@ -74,7 +74,7 @@ width: 19
 backColor: 8aa3f4
 frontColor: ffffff
 trailColor: 8aa3f4
-trailWidth: 7
+trailWidth: 3.5
 trailLength: 34
 shrinkX: 0
 shrinkY: 0
