@@ -6,7 +6,7 @@ health: 400
 size: 2
 hasLiquids: true
 consumes: {
-power: 2
+power: 1.5
 items: {
 items: [
 graphite/3
