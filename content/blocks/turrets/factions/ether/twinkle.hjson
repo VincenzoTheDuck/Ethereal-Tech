@@ -26,6 +26,7 @@ size: 1
 shootSound: laser
 shootType: {
 type: BasicBulletType
+hittable: false
 sprite: "circle-bullet"
 damage: 15
 splashDamage: 9
