@@ -1,0 +1,183 @@
+name: "Thearchy",
+description: '''
+Charges up then fires a massive, explosive plasma orb, causing huge fires.
+'''
+health: 4400
+shootY: 6
+range: 400
+consumes: {
+power: 32
+coolant: {
+amount: 1.2
+}
+}
+shoot: {
+firstShotDelay: 80
+}
+liquidCapacity: 240
+drawer: {
+type: DrawTurret
+parts: [
+{
+type: RegionPart
+suffix: "-main"
+progress: recoil
+moveY: -7
+}
+{
+type: RegionPart
+suffix: "-wing"
+under: true
+heatColor: 8aa3f4
+progress: warmup
+mirror: true
+moveY: 2
+moveX: 0.6
+moveRot: -3
+moves: [
+{
+progress: recoil
+y: 0.8
+x: 0.65
+rot: -4
+}
+]
+}
+]
+}
+shootCone: 3
+inaccuracy: 0
+reload: 400
+recoil: 6
+cooldownTime: 200
+recoilTime: 300
+rotateSpeed: 0.77
+shake: 5.7
+size: 7
+shootSound: plasmaboom
+chargeSound: lasercharge2
+soundPitchMin: 0.46
+soundPitchMax: 0.57
+shootType: {
+type: BasicBulletType
+sprite: "circle-bullet"
+hittable: false
+damage: 1300
+splashDamage: 6000
+splashDamageRadius: 140
+status: melting
+statusDuration: 220
+speed: 5
+lifetime: 80
+height: 20
+width: 20
+backColor: f3e979
+frontColor: ffffff
+trailColor: f3e979
+trailWidth: 10
+trailLength: 50
+shrinkX: 0
+shrinkY: 0
+ammoMultiplier: 1
+shootEffect: {
+type: ExplosionEffect
+waveColor: f3e979
+sparkColor: f3e979
+smokeColor: f3e979
+waveStroke: 3
+waveRad: 45
+}
+smokeEffect: none
+chargeEffect: [
+{
+type: ParticleEffect
+particles: 1
+lifetime: 80
+rotWithParent: true
+followParent: true
+sizeFrom: 0
+sizeTo: 20
+colorFrom: f3e979
+colorTo: f3e979
+length: 0
+}
+{
+type: ParticleEffect
+particles: 19
+cone: 360
+lifetime: 80
+rotWithParent: true
+followParent: true
+sizeFrom: 0
+sizeTo: 14
+interp: pow3In
+sizeInterp: pow5Out
+colorFrom: f3e979
+colorTo: f3e979
+baseLength: 120
+length: -120
+}
+{
+type: ParticleEffect
+particles: 11
+line: true
+cone: 360
+lifetime: 80
+rotWithParent: true
+followParent: true
+strokeFrom: 2
+strokeTo: 4
+lenFrom: 1
+lenTo: 9.5
+interp: pow3In
+sizeInterp: pow5Out
+colorFrom: f3e979
+colorTo: f3e979
+baseLength: 93
+length: -93
+}
+]
+hitEffect: [
+{
+type: ExplosionEffect
+waveColor: f3e979
+sparkColor: ec7458
+smokeColor: 989aa4
+sparks: 8
+smokes: 14
+waveStroke: 4
+waveRad: 140
+sparkRad: 150
+smokeSize: 9
+smokeRad: 133
+}
+{
+type: ExplosionEffect
+waveColor: 00000000
+sparkColor: f3e979
+smokeColor: f3e979
+sparks: 10
+smokes: 22
+sparkRad: 166
+smokeSize: 7
+smokeRad: 109
+}
+]
+despawnEffect: none
+despawnHit: true
+hitSound: massiveExplosion
+}
+research: {
+parent: blade
+objectives: []
+}
+category: turret
+requirements: [
+dense-alloy/300
+thorium/500
+phase-fabric/140
+surge-alloy/425
+copper/500
+titanium/300
+charged-ingot/550
+]
