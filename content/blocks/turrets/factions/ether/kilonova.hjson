@@ -12,7 +12,7 @@ amount: 1.7
 }
 }
 shoot: {
-firstShotDelay: 60
+firstShotDelay: 40
 shots: 5
 shotDelay: 4
 }
@@ -94,20 +94,20 @@ effects: [
 {
 type: ParticleEffect
 particles: 1
-lifetime: 45
+lifetime: 40
 rotWithParent: true
 followParent: true
 sizeFrom: 0
-sizeTo: 11
+sizeTo: 13
 colorFrom: 8aa3f4
 colorTo: 8aa3f4
 length: 0
 }
 {
 type: ParticleEffect
-particles: 11
+particles: 19
 cone: 360
-lifetime: 45
+lifetime: 40
 rotWithParent: true
 followParent: true
 sizeFrom: 0
@@ -116,15 +116,15 @@ interp: pow3In
 sizeInterp: pow5Out
 colorFrom: 8aa3f4
 colorTo: 8aa3f4
-baseLength: 33
-length: -33
+baseLength: 47
+length: -47
 }
 {
 type: ParticleEffect
-particles: 7
+particles: 11
 line: true
 cone: 360
-lifetime: 45
+lifetime: 40
 rotWithParent: true
 followParent: true
 strokeFrom: 0
@@ -135,8 +135,8 @@ interp: pow3In
 sizeInterp: pow5Out
 colorFrom: 8aa3f4
 colorTo: 8aa3f4
-baseLength: 17
-length: -17
+baseLength: 53
+length: -53
 }
 ]
 }
