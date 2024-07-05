@@ -6,6 +6,7 @@ coal/3
 ]
 }
 }
+size: 2
 outputItem: coke/2
 craftTime: 90
 drawer: {
