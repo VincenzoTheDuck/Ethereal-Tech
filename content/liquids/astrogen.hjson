@@ -1,8 +1,0 @@
-name: "Ether Fluid"
-description: '''
-Used for ammunition, power generation, and resource synthesis. Reacts violently to energy.
-'''
-research: water
-color: 8aa3f4
-temperature: 0.13
-explosiveness: 0.2
