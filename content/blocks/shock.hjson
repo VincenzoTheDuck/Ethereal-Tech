@@ -1,0 +1,58 @@
+range: 180
+size: 2
+reload: 75
+rotateSpeed: 3.3
+shoot: {
+type: ShootHelix
+mag: 1.25
+scl: 6
+}
+consumes: {
+power: 5
+coolant: {
+amount: 0.12
+}
+}
+shootY: 0
+shootSound: blaster
+shootEffect: hitLancer
+smokeEffect: shootBigSmoke
+shootType: {
+type: BasicBulletType
+shrinkY: 0
+damage: 13
+splashDamage: 32
+splashDamageRadius: 33
+speed: 4.5
+lifetime: 40
+sprite: circle-bullet
+width: 6
+height: 6
+frontColor: ffffff
+backColor: a9d8ff
+lightColor: a9d8ff
+pierce: true
+hitShake: 1
+trailColor: a9d8ff
+hittable: false
+trailWidth: 3
+trailLength: 20
+despawnHit: true
+hitEffect: hitLancer
+despawnEffect: {
+type: ExplosionEffect
+sparkColor: a9d8ff
+smokeColor: 7b7b7b
+smokes: 11
+sparks: 7
+waveStroke: 2
+waveColor: a9d8ff
+}
+}
+research: lancer
+category: turret
+requirements: [
+copper/80
+silicon/55
+steel/60
+]
