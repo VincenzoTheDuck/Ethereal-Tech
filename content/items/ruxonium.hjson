@@ -1,4 +1,5 @@
 cost: 3.5
+radioactivity: 0.4
 healthScaling: 2
 color: 7a8cdc
 research: surge-alloy
