@@ -21,15 +21,8 @@ loopSound: machine
 loopSoundVolume: 0.25
 craftTime: 50
 updateEffect: smeltsmoke
-updateEffectChance: 0.19
-craftEffect: {
-type: RadialEffect
-effect: {
-type: colorSpark
-color: fc8e6c
-}
-lengthOffset: 5
-}
+updateEffectChance: 0.05
+craftEffect: smokePuff
 drawer: {
 type: DrawMulti
 drawers: [
