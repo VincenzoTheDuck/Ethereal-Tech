@@ -1,0 +1,6 @@
+name: "Steel"
+description: "Used for strong buildings."
+cost: 2
+healthScaled: 2.3
+color: 989aa4
+research: iron-ore
