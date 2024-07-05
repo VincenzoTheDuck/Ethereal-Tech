@@ -19,10 +19,10 @@ liquidCapacity: 35
 outputItem: ruxonium/3
 loopSound: machine
 loopSoundVolume: 0.25
-craftTime: 50
+craftTime: 75
 updateEffect: smeltsmoke
-updateEffectChance: 0.05
-craftEffect: smokePuff
+updateEffectChance: 0.03
+craftEffect: pulverize
 drawer: {
 type: DrawMulti
 drawers: [
