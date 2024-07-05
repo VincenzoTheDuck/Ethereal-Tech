@@ -33,15 +33,15 @@ bulletInterval: 5
 intervalDelay: 0
 intervalRandomSpread: 360
 intervalBullet: {
+type: BulletType
 hitEffect: hitLancer
 despawnHit: true
 collides: false
-type: BulletType
 lifetime: 1
 speed: 0
 lightning: 4
 lightningColor: a9d8ff
-lightningDamage: 4
+lightningDamage: 5
 lightningLength: 8
 lightningLengthRand: 5
 hitSound: spark
