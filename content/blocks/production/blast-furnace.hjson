@@ -13,7 +13,7 @@ craftTime: 45
 loopSound: smelter
 loopSoundVolume: 0.14
 craftEffect: smokeCloud
-updateEffect: smeltSmoke
+updateEffect: smeltsmoke
 updateEffectChance: 0.11
 drawer: {
 type: DrawMulti
