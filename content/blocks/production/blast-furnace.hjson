@@ -7,6 +7,7 @@ iron-ore/3
 ]
 }
 }
+size: 2
 outputItem: steel/1
 craftTime: 45
 drawer: {
