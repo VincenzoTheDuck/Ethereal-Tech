@@ -1,4 +1,5 @@
-explosiveness = 0.1
-flammability = 2
+explosiveness: 0.16
+flammability: 2
+buildable: false
 color: 2c2d38
 research: coal
