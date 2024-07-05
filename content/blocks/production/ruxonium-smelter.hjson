@@ -17,8 +17,8 @@ size: 3
 itemCapacity: 20
 liquidCapacity: 35
 outputItem: ruxonium/3
-loopSound: machine
-loopSoundVolume: 0.25
+ambientSound: machine
+ambientSoundVolume: 0.25
 craftTime: 75
 updateEffect: smeltsmoke
 updateEffectChance: 0.03
