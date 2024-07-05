@@ -1,0 +1,47 @@
+consumes: {
+power: 1.5
+items: {
+tems: [
+coke/2
+iron-ore/3
+]
+}
+}
+outputItem: steel/1
+craftTime: 45
+drawer: {
+type: DrawMulti
+drawers: [
+DrawDefault
+{
+type: DrawGlowRegion
+alpha: 0.9
+color: ff9c5a
+glowIntensity: 0.6
+glowScale: 5.5
+}
+{
+type: DrawParticles
+color: ff9c5a
+alpha: 0.76
+particleLife: 40
+particleRad: 6.5
+particleSize: 3.5
+reverse: true
+particleInterp: pow5Out
+particleSizeInterp: pow3In
+}
+]
+}
+category: crafting
+research: {
+parent: coke-oven
+objectives: [
+
+]
+}
+requirements: [
+graphite/40
+lead/35
+copper/40
+]
