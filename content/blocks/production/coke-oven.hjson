@@ -1,0 +1,38 @@
+consumes: {
+power: 0.75
+items: {
+tems: [
+coal/3
+]
+}
+}
+outputItem: coke/2
+craftTime: 90
+drawer: {
+type: DrawMulti
+drawers: [
+{
+type: DrawRegion
+suffix: "-bottom"
+}
+{
+type: DrawGlowRegion
+alpha: 0.65
+color: ff795e
+glowIntensity: 0.6
+glowScale: 5.5
+}
+DrawDefault
+]
+}
+category: crafting
+research: {
+parent: graphite-press
+objectives: [
+
+]
+}
+requirements: [
+graphite/25
+copper/45
+]
