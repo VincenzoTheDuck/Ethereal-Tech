@@ -1,8 +1,0 @@
-name: "Stone"
-description: '''
-Used for structures and resource production.
-'''
-research: graphite
-color: 515151
-cost: 1.25
-healthScaling: 0.5
