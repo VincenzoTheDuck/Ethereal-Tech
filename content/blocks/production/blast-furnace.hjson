@@ -10,6 +10,9 @@ iron-ore/3
 size: 2
 outputItem: steel/1
 craftTime: 45
+craftEffect: smokeCloud
+updateEffect: smeltSmoke
+updateEffectChance: 0.11
 drawer: {
 type: DrawMulti
 drawers: [
