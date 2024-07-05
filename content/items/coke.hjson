@@ -1,6 +1,3 @@
-name: "Coke"
-description: "Used for power generation and resource production."
-details: "A form of coal with most impurities removed. Around 95% carbon."
 explosiveness = 0.1
 flammability = 2
 buildable: false
