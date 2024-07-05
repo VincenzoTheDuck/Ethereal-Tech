@@ -1,6 +1,6 @@
 range: 180
 size: 2
-reload: 120
+reload: 175
 rotateSpeed: 3.3
 consumes: {
 power: 5
@@ -24,20 +24,26 @@ splashDamageRadius: 20
 fragBullets: 1
 fragBullet: {
 type: BulletType
+hitEffect: none
+despawnHit: true
+collides: false
 speed: 0
-lifetime: 30
+lifetime: 75
 bulletInterval: 5
 intervalDelay: 0
 intervalRandomSpread: 360
 intervalBullet: {
+hitEffect: hitLancer
+despawnHit: true
+collides: false
 type: BulletType
 lifetime: 1
 speed: 0
 lightning: 4
 lightningColor: a9d8ff
 lightningDamage: 4
-lightningLength: 5
-lightningLengthRand: 3
+lightningLength: 8
+lightningLengthRand: 5
 hitSound: spark
 }
 }
