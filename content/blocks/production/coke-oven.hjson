@@ -1,7 +1,7 @@
 consumes: {
 power: 0.75
 items: {
-tems: [
+items: [
 coal/3
 ]
 }
