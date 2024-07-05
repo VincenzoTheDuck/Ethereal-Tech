@@ -20,11 +20,14 @@ outputItem: ruxonium/3
 loopSound: machine
 loopSoundVolume: 0.25
 craftTime: 50
-updateEffect: smokePuff
-updateEffectChance: 0.12
+updateEffect: smeltsmoke
+updateEffectChance: 0.19
 craftEffect: {
 type: RadialEffect
-effect: heatReactorSmoke
+effect: {
+type: colorSpark
+color: fc8e6c
+}
 lengthOffset: 5
 }
 drawer: {
