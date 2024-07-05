@@ -9,8 +9,8 @@ coal/3
 size: 2
 outputItem: coke/2
 craftTime: 90
-loopSound: smelter
-loopSoundVolume: 0.09
+ambientSound: smelter
+ambientSoundVolume: 0.09
 drawer: {
 type: DrawMulti
 drawers: [
