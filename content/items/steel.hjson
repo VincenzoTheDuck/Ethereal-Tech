@@ -1,4 +1,4 @@
 cost: 2
-healthScaled: 2.3
+healthScaling: 1
 color: 989aa4
 research: iron-ore
