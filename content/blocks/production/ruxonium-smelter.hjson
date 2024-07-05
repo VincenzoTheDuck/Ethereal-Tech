@@ -1,0 +1,59 @@
+consumes: {
+power: 3.5
+items: {
+items: [
+sand/6
+copper/7
+titanium/5
+thorium/8
+]
+}
+liquid: {
+liquid: slag
+amount: 0.11
+}
+}
+size: 3
+itemCapacity: 20
+liquidCapacity: 35
+outputItem: ruxonium/3
+loopSound: machine
+loopSoundVolume: 0.25
+craftTime: 50
+updateEffect: smokePuff
+updateEffectChance: 0.12
+craftEffect: {
+type: RadialEffect
+effect: heatReactorSmoke
+lengthOffset: 5
+}
+drawer: {
+type: DrawMulti
+drawers: [
+{
+type: DrawRegion
+suffix: "-bottom"
+}
+{
+type: DrawRegion
+suffix: "-rotator"
+spinSprite: true
+rotateSpeed: 1.5
+}
+DrawDefault
+]
+}
+category: crafting
+research: {
+parent: surge-smelter
+objectives: [
+slag
+]
+}
+requirements: [
+thorium/75
+surge-alloy/90
+steel/60
+graphite/80
+copper/35
+]
