@@ -1,0 +1,4 @@
+itemDrop: iron-ore
+oreDefault: true
+oreScale: 21.4
+oreThreshold: 0.86
