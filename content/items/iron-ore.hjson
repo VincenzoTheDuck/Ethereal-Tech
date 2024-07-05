@@ -1,5 +1,5 @@
 hardness: 3
 cost: 1.5
-healthScaled: 2
+healthScaling: 0.5
 color: d4816b
 research: copper
