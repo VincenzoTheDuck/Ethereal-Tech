@@ -25,9 +25,9 @@ glowScale: 5.5
 type: DrawParticles
 color: ff9c5a
 alpha: 0.76
-particleLife: 40
-particleRad: 6.5
-particleSize: 3.5
+particleLife: 85
+particleRad: 10
+particleSize: 6
 reverse: true
 particleInterp: pow5Out
 particleSizeInterp: pow3In
