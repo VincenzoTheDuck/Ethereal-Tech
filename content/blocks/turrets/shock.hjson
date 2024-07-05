@@ -20,6 +20,8 @@ shootEffect: hitLancer
 smokeEffect: shootBigSmoke
 shootType: {
 type: BasicBulletType
+status: shocked
+statusDuration: 90
 shrinkY: 0
 damage: 13
 splashDamage: 32
