@@ -22,7 +22,7 @@ type: BasicBulletType
 shrinkY: 0
 damage: 13
 splashDamage: 32
-splashDamageRadius: 33
+splashDamageRadius: 20
 speed: 4.5
 lifetime: 40
 sprite: circle-bullet
@@ -47,6 +47,7 @@ smokeColor: 7b7b7b
 smokes: 11
 sparks: 7
 waveStroke: 2
+waveRad: 20
 waveColor: a9d8ff
 }
 }
