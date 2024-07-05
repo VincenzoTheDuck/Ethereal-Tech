@@ -1,0 +1,7 @@
+name: "Iron Ore"
+description: "Used for building and refining into steel."
+hardness: 3
+cost: 1.5
+healthScaled: 2
+color: d4816b
+research: copper
