@@ -4,8 +4,8 @@ reload: 75
 rotateSpeed: 3.3
 shoot: {
 type: ShootHelix
-mag: 1.25
-scl: 6
+mag: 1
+scl: 9
 }
 consumes: {
 power: 5
@@ -14,7 +14,7 @@ amount: 0.12
 }
 }
 shootY: 0
-shootSound: blaster
+shootSound: bolt
 shootEffect: hitLancer
 smokeEffect: shootBigSmoke
 shootType: {
@@ -33,6 +33,7 @@ backColor: a9d8ff
 lightColor: a9d8ff
 pierce: true
 hitShake: 1
+hitSound: explosion
 trailColor: a9d8ff
 hittable: false
 trailWidth: 3
