@@ -5,7 +5,7 @@ rotateSpeed: 3.3
 shoot: {
 type: ShootHelix
 mag: 1
-scl: 8
+scl: 3.75
 }
 consumes: {
 power: 5
