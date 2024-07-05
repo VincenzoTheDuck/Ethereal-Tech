@@ -10,6 +10,8 @@ iron-ore/3
 size: 2
 outputItem: steel/1
 craftTime: 45
+loopSound: smelter
+loopSoundVolume: 0.14
 craftEffect: smokeCloud
 updateEffect: smeltSmoke
 updateEffectChance: 0.11
