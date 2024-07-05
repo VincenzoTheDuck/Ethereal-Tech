@@ -20,7 +20,7 @@ suffix: "-bottom"
 type: DrawGlowRegion
 alpha: 0.65
 color: ff795e
-glowIntensity: 0.6
+glowIntensity: 0.1
 glowScale: 5.5
 }
 DrawDefault
