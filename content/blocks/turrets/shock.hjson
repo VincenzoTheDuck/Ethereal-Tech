@@ -5,7 +5,7 @@ rotateSpeed: 3.3
 shoot: {
 type: ShootHelix
 mag: 1
-scl: 9
+scl: 8
 }
 consumes: {
 power: 5
@@ -14,6 +14,7 @@ amount: 0.12
 }
 }
 shootY: 0
+recoil: 2.5
 shootSound: bolt
 shootEffect: hitLancer
 smokeEffect: shootBigSmoke
