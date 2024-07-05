@@ -1,11 +1,11 @@
 range: 180
 size: 2
-reload: 75
+reload: 120
 rotateSpeed: 3.3
 consumes: {
 power: 5
 coolant: {
-amount: 0.12
+amount: 0.18
 }
 }
 shootY: 0
