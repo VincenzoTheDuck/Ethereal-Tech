@@ -138,7 +138,7 @@ waveRad: 60
 waveColor: ff9c5a
 }
 }
-blastCompound: {
+blast-compound: {
 type: ArtilleryBulletType
 sprite: "shell"
 status: detonated
