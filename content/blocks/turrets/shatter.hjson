@@ -23,7 +23,7 @@ recoilIndex: 0
 }
 {
 type: DrawPart
-suffix: "-barrel-4"
+suffix: "-barrel-r"
 progress: recoil
 moveY: -5
 recoilIndex: 1
@@ -39,7 +39,7 @@ recoilIndex: 0
 }
 {
 type: DrawPart
-suffix: "-barrel-heat-l"
+suffix: "-barrel-heat-r"
 progress: heat
 color: ab340000
 colorTo: ab3400
