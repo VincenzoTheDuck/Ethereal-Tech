@@ -213,7 +213,6 @@ waveRad: 17
 waveColor: d8d97f
 }
 }
-}
 knockback: 1.7
 speed: 4
 lifetime: 100
