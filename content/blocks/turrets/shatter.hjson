@@ -15,21 +15,21 @@ drawer: {
 type: DrawTurret
 parts: [
 {
-type: DrawPart
+type: RegionPart
 suffix: "-barrel-l"
 progress: recoil
 moveY: -5
 recoilIndex: 0
 }
 {
-type: DrawPart
+type: RegionPart
 suffix: "-barrel-r"
 progress: recoil
 moveY: -5
 recoilIndex: 1
 }
 {
-type: DrawPart
+type: RegionPart
 suffix: "-barrel-heat-l"
 progress: heat
 color: ab340000
@@ -38,7 +38,7 @@ moveY: -5
 recoilIndex: 0
 }
 {
-type: DrawPart
+type: RegionPart
 suffix: "-barrel-heat-r"
 progress: heat
 color: ab340000
