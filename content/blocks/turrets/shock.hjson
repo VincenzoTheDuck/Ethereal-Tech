@@ -9,7 +9,9 @@ amount: 0.18
 }
 }
 shootY: 0
-recoil: 2.5
+recoil: 3.3
+shake: 1.2
+shootCone: 3
 shootSound: bolt
 shootEffect: hitLancer
 smokeEffect: shootBigSmoke
@@ -28,6 +30,7 @@ hitEffect: none
 despawnHit: true
 collides: false
 speed: 0
+damage: 0
 lifetime: 75
 bulletInterval: 5
 intervalDelay: 0
@@ -35,10 +38,12 @@ intervalRandomSpread: 360
 intervalBullet: {
 type: BulletType
 hitEffect: hitLancer
+hitShake: 2.2
 despawnHit: true
 collides: false
 lifetime: 1
 speed: 0
+damage: 0
 lightning: 4
 lightningColor: a9d8ff
 lightningDamage: 5
@@ -55,8 +60,6 @@ height: 6
 frontColor: ffffff
 backColor: a9d8ff
 lightColor: a9d8ff
-hitShake: 1
-hitSound: explosion
 trailColor: a9d8ff
 hittable: false
 trailWidth: 3
