@@ -50,7 +50,6 @@ outline: false
 }
 ]
 }
-}
 recoils: 2
 shoot: {
 type: ShootMulti
