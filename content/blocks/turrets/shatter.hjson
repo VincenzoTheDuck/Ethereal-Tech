@@ -1,6 +1,7 @@
 range: 400
 size: 4
-reload: 85
+reload: 100
+cooldownTime: 75
 rotateSpeed: 3.3
 minRange: 65
 scaledHealth: 180
@@ -12,14 +13,63 @@ amount: 0.4
 }
 drawer: {
 type: DrawTurret
+parts: [
+{
+type: DrawPart
+suffix: "-barrel-l"
+progress: recoil
+moveY: -5
+recoilIndex: 0
+}
+{
+type: DrawPart
+suffix: "-barrel-4"
+progress: recoil
+moveY: -5
+recoilIndex: 1
+}
+{
+type: DrawPart
+suffix: "-barrel-heat-l"
+progress: heat
+color: ab340000
+colorTo: ab3400
+moveY: -5
+recoilIndex: 0
+}
+{
+type: DrawPart
+suffix: "-barrel-heat-l"
+progress: heat
+color: ab340000
+colorTo: ab3400
+moveY: -5
+recoilIndex: 1
+}
+]
+}
+recoils: 2
+shoot: {
+type: ShootMulti
+source: {
+type: ShootAlternate
+spread: 6
+}
+dest: [
+{
+shots: 5
+}
+]
 }
 ammoPerShot: 4
 ammoEjectBack: 8
 ammoUseEffect: casing3Double
-shootY: 0
-recoil: 7.3
+shootY: 11
+recoil: 2
 shake: 2.4
-shootCone: 3
+velocityRand: 0.22
+inaccuracy: 14
+shootCone: 17
 shootSound: largeCannon
 shootEffect: shootBig
 smokeEffect: shootBigSmoke
