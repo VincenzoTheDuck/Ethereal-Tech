@@ -1,0 +1,198 @@
+range: 400
+size: 4
+reload: 85
+rotateSpeed: 3.3
+minRange: 65
+scaledHealth: 180
+targetAir: false
+consumes: {
+coolant: {
+amount: 0.4
+}
+}
+drawer: {
+type: DrawTurret
+}
+ammoPerShot: 4
+ammoEjectBack: 8
+ammoUseEffect: casing3Double
+shootY: 0
+recoil: 7.3
+shake: 2.4
+shootCone: 3
+shootSound: largeCannon
+shootEffect: shootBig
+smokeEffect: shootBigSmoke
+ammoTypes: {
+graphite: {
+type: ArtilleryBulletType
+sprite: "shell"
+status: detonated
+reloadMultiplier: 0.87
+statusDuration: 90
+shrinkY: 0
+damage: 34
+hitShake: 4
+splashDamage: 57
+splashDamageRadius: 60
+knockback: 1.4
+speed: 4
+lifetime: 100
+width: 15
+height: 18
+hitSound: dullExplosion
+trailWidth: 3
+trailLength: 16
+despawnHit: true
+hitEffect: {
+type: ExplosionEffect
+sparkColor: ff9c5a
+smokeColor: 666666
+smokes: 20
+sparks: 15
+waveStroke: 3
+waveRad: 60
+waveColor: 989aa4
+}
+}
+pyratite: {
+type: ArtilleryBulletType
+sprite: "shell"
+status: burning
+statusDuration: 100
+shrinkY: 0
+damage: 24
+hitShake: 4
+splashDamage: 45
+splashDamageRadius: 60
+knockback: 0.9
+speed: 4
+lifetime: 100
+width: 15
+height: 18
+hitSound: dullExplosion
+backColor: f8ad42
+frontColor: f68021
+trailColor: f8ad42
+trailWidth: 3
+trailLength: 16
+despawnHit: true
+hitEffect: {
+type: ExplosionEffect
+sparkColor: ff795e
+smokeColor: eab678
+smokes: 32
+sparks: 18
+waveStroke: 3
+waveRad: 60
+waveColor: ff9c5a
+}
+}
+blastCompound: {
+type: ArtilleryBulletType
+sprite: "shell"
+status: detonated
+statusDuration: 145
+shrinkY: 0
+damage: 40
+hitShake: 4
+splashDamage: 72
+splashDamageRadius: 60
+knockback: 1.7
+speed: 4
+lifetime: 100
+width: 15
+height: 18
+hitSound: dullExplosion
+backColor: e58956
+frontColor: ffd2ae
+trailColor: e58956
+trailWidth: 3
+trailLength: 16
+despawnHit: true
+hitEffect: {
+type: ExplosionEffect
+sparkColor: ffd2ae
+smokeColor: e58956
+smokes: 16
+sparks: 9
+waveStroke: 3
+waveRad: 60
+waveColor: e58956
+}
+}
+plastanium: {
+type: ArtilleryBulletType
+sprite: "shell"
+status: detonated
+statusDuration: 70
+shrinkY: 0
+damage: 22
+hitShake: 4
+splashDamage: 35
+splashDamageRadius: 60
+fragBullets: 10
+fragBullet: {
+type: ArtilleryBulletType
+status: blasted
+statusDuration: 55
+shrinkY: 0
+damage: 11
+hitShake: 2.2
+splashDamage: 20
+splashDamageRadius: 17
+knockback: 1.7
+speed: 4
+lifetime: 100
+width: 5
+height: 8
+backColor: d8d97f
+frontColor: fffac6
+trailColor: d8d97f
+trailWidth: 1.7
+trailLength: 10
+despawnHit: true
+hitEffect: {
+type: ExplosionEffect
+sparkColor: fffac6
+smokeColor: a1b46e
+smokes: 12
+sparks: 6
+waveStroke: 2
+waveRad: 17
+waveColor: d8d97f
+}
+}
+}
+knockback: 1.7
+speed: 4
+lifetime: 100
+width: 15
+height: 18
+hitSound: dullExplosion
+backColor: d8d97f
+frontColor: fffac6
+trailColor: d8d97f
+trailWidth: 3
+trailLength: 16
+despawnHit: true
+hitEffect: {
+type: ExplosionEffect
+sparkColor: fffac6
+smokeColor: a1b46e
+smokes: 12
+sparks: 6
+waveStroke: 3
+waveRad: 60
+waveColor: d8d97f
+}
+}
+}
+research: ripple
+category: turret
+requirements: [
+thorium/100
+steel/75
+titanium/60
+steel/90
+]
