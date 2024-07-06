@@ -39,6 +39,7 @@ recoilIndex: 0
 outline: false
 moves: [
 {
+progress: recoil
 y: -5
 }
 ]
@@ -54,6 +55,7 @@ recoilIndex: 1
 outline: false
 moves: [
 {
+progress: recoil
 y: -5
 }
 ]
