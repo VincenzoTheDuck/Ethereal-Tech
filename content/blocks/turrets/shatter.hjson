@@ -32,17 +32,11 @@ recoilIndex: 1
 type: RegionPart
 suffix: "-barrel-heat-l"
 layerOffset: 0.002
-progress: heat
+progress: recoil
 color: ab340000
 colorTo: ab3400
 recoilIndex: 0
 outline: false
-moves: [
-{
-progress: recoil
-y: -5
-}
-]
 }
 {
 type: RegionPart
@@ -53,14 +47,9 @@ color: ab340000
 colorTo: ab3400
 recoilIndex: 1
 outline: false
-moves: [
-{
-progress: recoil
-y: -5
 }
 ]
 }
-]
 }
 recoils: 2
 shoot: {
