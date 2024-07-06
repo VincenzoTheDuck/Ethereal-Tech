@@ -31,6 +31,7 @@ recoilIndex: 1
 {
 type: RegionPart
 suffix: "-barrel-heat-l"
+layerOffset: 0.002
 progress: heat
 color: ab340000
 colorTo: ab3400
@@ -40,6 +41,7 @@ recoilIndex: 0
 {
 type: RegionPart
 suffix: "-barrel-heat-r"
+layerOffset: 0.002
 progress: heat
 color: ab340000
 colorTo: ab3400
