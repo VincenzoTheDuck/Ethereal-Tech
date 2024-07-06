@@ -1,3 +1,7 @@
+// statuses
+
+const detonated = extend(StatusEffect, "detonated", {});
+
 // items
 
 const ironOre = extend(Item, "iron-ore", {});
