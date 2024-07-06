@@ -32,9 +32,11 @@ recoilIndex: 1
 type: RegionPart
 suffix: "-barrel-heat-l"
 layerOffset: 0.002
+moveY: -5
 progress: recoil
 color: ab340000
 colorTo: ab3400
+blending: additive
 recoilIndex: 0
 outline: false
 }
@@ -42,9 +44,11 @@ outline: false
 type: RegionPart
 suffix: "-barrel-heat-r"
 layerOffset: 0.002
+moveY: -5
 progress: heat
 color: ab340000
 colorTo: ab3400
+blending: additive
 recoilIndex: 1
 outline: false
 }
@@ -183,7 +187,8 @@ damage: 22
 hitShake: 4
 splashDamage: 35
 splashDamageRadius: 60
-fragBullets: 10
+fragBullets: 4
+fragLifeMin: 0.4
 fragBullet: {
 type: ArtilleryBulletType
 status: blasted
@@ -195,7 +200,7 @@ splashDamage: 20
 splashDamageRadius: 17
 knockback: 1.7
 speed: 4
-lifetime: 100
+lifetime: 34
 width: 5
 height: 8
 backColor: d8d97f
