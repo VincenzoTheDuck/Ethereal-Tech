@@ -35,12 +35,14 @@ type: DrawLiquidTile
 drawLiquid: slag
 }
 DrawCrucibleFlame
+/*
 {
 type: DrawRegion
 suffix: "-rotator"
 spinSprite: true
 rotateSpeed: 1.5
 }
+*/
 DrawDefault
 ]
 }
