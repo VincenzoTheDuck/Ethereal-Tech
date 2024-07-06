@@ -1,0 +1,7 @@
+reactive: true
+color: ff795e
+healthMultiplier: 0.7
+affinities: [
+freezing
+]
+transitionDamage: 30
