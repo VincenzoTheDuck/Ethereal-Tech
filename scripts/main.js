@@ -32,8 +32,6 @@ const ruxoniumSmelter = extend(GenericCrafter, "ruxonium-smelter", {});
 
 const shock = extend(PowerTurret, "shock", {});
 
-const shatter = extend(ItemTurret, "shatter", {});
-
 // blocks/walls
 
 const wallHealthMultiplier = 4
