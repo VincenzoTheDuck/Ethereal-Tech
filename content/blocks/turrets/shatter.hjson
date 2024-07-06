@@ -33,20 +33,30 @@ type: RegionPart
 suffix: "-barrel-heat-l"
 layerOffset: 0.002
 progress: heat
-color: ab340000
+color: ab3400ff
 colorTo: ab3400
-moveY: -5
 recoilIndex: 0
+outline: false
+moves: [
+{
+y: -5
+}
+]
 }
 {
 type: RegionPart
 suffix: "-barrel-heat-r"
 layerOffset: 0.002
 progress: heat
-color: ab340000
+color: ab3400ff
 colorTo: ab3400
-moveY: -5
 recoilIndex: 1
+outline: false
+moves: [
+{
+y: -5
+}
+]
 }
 ]
 }
