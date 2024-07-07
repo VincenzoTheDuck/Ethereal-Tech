@@ -104,21 +104,21 @@ lifetime: 100
 width: 15
 height: 18
 hitSound: dullExplosion
-backColor: f8ad42
-frontColor: f68021
-trailColor: f8ad42
+backColor: f68021
+frontColor: f8ad42
+trailColor: f68021
 trailWidth: 3
 trailLength: 16
 despawnHit: true
 hitEffect: {
 type: ExplosionEffect
-sparkColor: ff795e
+sparkColor: f8ad42
 smokeColor: eab678
 smokes: 32
 sparks: 18
 waveStroke: 3
 waveRad: 60
-waveColor: ff9c5a
+waveColor: f68021
 }
 }
 blast-compound: {
