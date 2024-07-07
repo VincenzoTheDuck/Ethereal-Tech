@@ -97,7 +97,7 @@ shrinkY: 0
 damage: 30
 hitShake: 4
 splashDamage: 55
-splashDamageRadius: 60
+splashDamageRadius: 55
 knockback: 0.9
 speed: 4
 lifetime: 100
@@ -117,7 +117,7 @@ smokeColor: eab678
 smokes: 32
 sparks: 18
 waveStroke: 3
-waveRad: 60
+waveRad: 55
 waveColor: f68021
 }
 }
@@ -132,7 +132,7 @@ shrinkY: 0
 damage: 59
 hitShake: 4
 splashDamage: 99
-splashDamageRadius: 60
+splashDamageRadius: 88
 knockback: 3
 speed: 4
 lifetime: 100
@@ -152,7 +152,7 @@ smokeColor: e58956
 smokes: 16
 sparks: 9
 waveStroke: 3
-waveRad: 60
+waveRad: 88
 waveColor: e58956
 }
 }
@@ -166,7 +166,7 @@ shrinkY: 0
 damage: 32
 hitShake: 4
 splashDamage: 49
-splashDamageRadius: 60
+splashDamageRadius: 45
 fragBullets: 4
 fragLifeMin: 0.2
 fragBullet: {
@@ -219,7 +219,7 @@ smokeColor: a1b46e
 smokes: 12
 sparks: 6
 waveStroke: 3
-waveRad: 60
+waveRad: 45
 waveColor: d8d97f
 }
 }
