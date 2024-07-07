@@ -1,8 +1,4 @@
 category: defense
-lightningChance: 0.03
-lightningLength: 13
-lightningDamage: 14
-lightningColor: 7a8cdc
 research: {
 parent: thorium-wall
 objectives: []
