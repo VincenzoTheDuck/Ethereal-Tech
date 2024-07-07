@@ -1,4 +1,5 @@
 range: 180
+healthScaled: 90
 size: 2
 reload: 175
 rotateSpeed: 3.3
