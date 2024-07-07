@@ -6,11 +6,15 @@ const coke = extend(Item, "coke", {});
 
 const steel = extend(Item, "steel", {});
 
+const byrixium = extend(Item, "byrixium", {});
+
 const ruxonium = extend(Item, "ruxonium", {});
 
 // blocks/environment
 
 const oreIron = extend(OreBlock, "ore-iron", {});
+
+const oreByrixium = extend(OreBlock, "ore-byrixium", {});
 
 // blocks/power
 
