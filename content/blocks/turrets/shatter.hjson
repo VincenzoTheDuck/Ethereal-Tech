@@ -242,8 +242,8 @@ trailWidth: 3
 trailLength: 16
 lightning: 7
 lightningDamage: 20
-lightningLength: 11
-lightningLengthRand: 5.5
+lightningLength: 21
+lightningLengthRand: 8.5
 despawnHit: true
 hitEffect: {
 type: ExplosionEffect
