@@ -6,7 +6,7 @@ const coke = extend(Item, "coke", {});
 
 const steel = extend(Item, "steel", {});
 
-const byrixium = extend(Item, "byrixium", {});
+const quarzite = extend(Item, "quarzite", {});
 
 const ruxonium = extend(Item, "ruxonium", {});
 
