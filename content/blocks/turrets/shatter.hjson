@@ -61,7 +61,6 @@ status: blasted
 reloadMultiplier: 0.87
 statusDuration: 90
 ammoMultiplier: 1
-shrinkY: 0
 damage: 44
 hitShake: 4
 splashDamage: 73
@@ -93,7 +92,6 @@ reloadMultiplier: 1.21
 sprite: "shell"
 status: burning
 statusDuration: 100
-shrinkY: 0
 damage: 30
 hitShake: 4
 splashDamage: 55
@@ -128,7 +126,6 @@ ammoMultiplier: 1
 sprite: "shell"
 status: blasted
 statusDuration: 145
-shrinkY: 0
 damage: 59
 hitShake: 4
 splashDamage: 99
@@ -162,7 +159,6 @@ ammoMultiplier: 2
 sprite: "shell"
 status: blasted
 statusDuration: 70
-shrinkY: 0
 damage: 32
 hitShake: 4
 splashDamage: 49
@@ -173,12 +169,11 @@ fragBullet: {
 type: ArtilleryBulletType
 status: blasted
 statusDuration: 55
-shrinkY: 0
 damage: 11
 hitShake: 2.2
 splashDamage: 20
 splashDamageRadius: 33
-knockback: 1.7
+knockback: 0.4
 speed: 4
 lifetime: 27
 width: 5
@@ -223,12 +218,50 @@ waveRad: 45
 waveColor: d8d97f
 }
 }
+surge-alloy: {
+type: ArtilleryBulletType
+reloadMultiplier: 0.65
+ammoMultiplier: 1
+sprite: "shell"
+status: blasted
+statusDuration: 100
+damage: 53
+hitShake: 4
+splashDamage: 88
+splashDamageRadius: 70
+knockback: 1.9
+speed: 4
+lifetime: 100
+width: 15
+height: 18
+hitSound: dullExplosion
+backColor: e58956
+frontColor: ffd2ae
+trailColor: e58956
+trailWidth: 3
+trailLength: 16
+lightning: 7
+lightningDamage: 20
+lightningLength: 11
+lightningLengthRand: 5.5
+despawnHit: true
+hitEffect: {
+type: ExplosionEffect
+sparkColor: ff9c5a
+smokeColor: 666666
+smokes: 16
+sparks: 9
+waveStroke: 3
+waveRad: 70
+waveColor: f3e979
+}
+}
 }
 research: ripple
 category: turret
 requirements: [
 thorium/120
 steel/75
-ruxonium/75
+surge-alloy/75
 plastanium/95
 ]
