@@ -242,7 +242,7 @@ trailWidth: 3
 trailLength: 16
 lightning: 7
 lightningDamage: 20
-lightningLength: 21
+lightningLength: 16
 lightningLengthRand: 8.5
 despawnHit: true
 hitEffect: {
