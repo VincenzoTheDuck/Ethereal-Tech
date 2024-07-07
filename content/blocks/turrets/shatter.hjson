@@ -1,8 +1,7 @@
 range: 400
 size: 4
-reload: 100
-cooldownTime: 75
-recoilTime: 90
+reload: 120
+recoilTime: 100
 rotateSpeed: 2.3
 minRange: 85
 scaledHealth: 180
@@ -63,9 +62,9 @@ reloadMultiplier: 0.87
 statusDuration: 90
 ammoMultiplier: 1
 shrinkY: 0
-damage: 34
+damage: 44
 hitShake: 4
-splashDamage: 57
+splashDamage: 73
 splashDamageRadius: 60
 knockback: 1.4
 speed: 4
@@ -94,9 +93,9 @@ sprite: "shell"
 status: burning
 statusDuration: 100
 shrinkY: 0
-damage: 24
+damage: 30
 hitShake: 4
-splashDamage: 45
+splashDamage: 55
 splashDamageRadius: 60
 knockback: 0.9
 speed: 4
@@ -128,9 +127,9 @@ sprite: "shell"
 status: blasted
 statusDuration: 145
 shrinkY: 0
-damage: 40
+damage: 59
 hitShake: 4
-splashDamage: 72
+splashDamage: 99
 splashDamageRadius: 60
 knockback: 3
 speed: 4
@@ -162,9 +161,9 @@ sprite: "shell"
 status: blasted
 statusDuration: 70
 shrinkY: 0
-damage: 22
+damage: 32
 hitShake: 4
-splashDamage: 35
+splashDamage: 49
 splashDamageRadius: 60
 fragBullets: 4
 fragLifeMin: 0.2
@@ -176,7 +175,7 @@ shrinkY: 0
 damage: 11
 hitShake: 2.2
 splashDamage: 20
-splashDamageRadius: 17
+splashDamageRadius: 33
 knockback: 1.7
 speed: 4
 lifetime: 27
@@ -195,7 +194,7 @@ smokeColor: a1b46e
 smokes: 12
 sparks: 6
 waveStroke: 2
-waveRad: 17
+waveRad: 33
 waveColor: d8d97f
 }
 }
