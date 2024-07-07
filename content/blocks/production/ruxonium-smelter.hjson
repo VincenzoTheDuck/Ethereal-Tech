@@ -49,6 +49,7 @@ research: {
 parent: surge-smelter
 objectives: [
 slag
+byrixium
 ]
 }
 requirements: [
