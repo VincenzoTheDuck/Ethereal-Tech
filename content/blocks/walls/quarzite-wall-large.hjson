@@ -1,0 +1,8 @@
+category: defense
+research: {
+parent: quarzite-wall
+objectives: []
+}
+requirements: [
+quarzite/24
+]
