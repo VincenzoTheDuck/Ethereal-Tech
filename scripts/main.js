@@ -46,7 +46,7 @@ const steelWallLarge = extend(Wall, "steel-wall-large", {
   health: 100 * 4 * wallHealthMultiplier
 });
 
-const quarziteWall = extend(Wall, "ruxonium-wall", {
+const quarziteWall = extend(Wall, "quarzite-wall", {
   health: 295 * wallHealthMultiplier
 });
 
