@@ -1,0 +1,8 @@
+category: defense
+research: {
+parent: thorium-wall
+objectives: []
+}
+requirements: [
+quarzite/6
+]
