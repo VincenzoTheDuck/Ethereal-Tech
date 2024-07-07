@@ -41,10 +41,10 @@ const steelWallLarge = extend(Wall, "steel-wall-large", {
 });
 
 const ruxoniumWall = extend(Wall, "ruxonium-wall", {
-  health: 320 * wallHealthMultiplier
+  health: 360 * wallHealthMultiplier
 });
 
 const ruxoniumWallLarge = extend(Wall, "ruxonium-wall-large", {
-  health: 320 * 4 * wallHealthMultiplier
+  health: 360 * 4 * wallHealthMultiplier
 });
 
