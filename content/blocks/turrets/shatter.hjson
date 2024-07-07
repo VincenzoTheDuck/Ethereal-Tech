@@ -89,6 +89,7 @@ waveColor: 989aa4
 pyratite: {
 type: ArtilleryBulletType
 ammoMultiplier: 0.5
+reloadMultiplier: 1.21
 sprite: "shell"
 status: burning
 statusDuration: 100
@@ -122,6 +123,7 @@ waveColor: ff9c5a
 }
 blast-compound: {
 type: ArtilleryBulletType
+reloadMultiplier: 1.13
 ammoMultiplier: 1
 sprite: "shell"
 status: blasted
