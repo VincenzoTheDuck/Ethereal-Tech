@@ -17,25 +17,24 @@ type: RegionPart
 suffix: "-barrel1"
 progress: recoil
 moveY: -2
-recoilIndex: 0
+recoilIndex: 1
 }
 {
 type: RegionPart
 suffix: "-barrel2"
 progress: recoil
 moveY: -2
-recoilIndex: 1
+recoilIndex: 2
 }
 {
 type: RegionPart
 suffix: "-barrel3"
 progress: recoil
 moveY: -2
-recoilIndex: 2
+recoilIndex: 0
 }
 ]
 }
-minWarmup: 0.85
 recoils: 3
 shoot: {
 type: ShootBarrel
@@ -57,10 +56,9 @@ shootEffect: shootBig
 smokeEffect: shootBigSmoke
 ammoTypes: {
 alpha-steel: {
-type: ArtilleryBulletType
-sprite: "bullet1"
-statusDuration: 90
-ammoMultiplier: 1
+type: BasicBulletType
+sprite: "ethereal-tech-bullet1"
+ammoMultiplier: 4
 damage: 22
 knockback: 1.4
 speed: 5
