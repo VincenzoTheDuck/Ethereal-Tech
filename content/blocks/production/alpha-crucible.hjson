@@ -10,7 +10,6 @@ osmium/10
 }
 size: 3
 hasLiquids: true
-outputLiquids: true
 outputLiquid: "slag/0.08"
 itemCapacity: 30
 liquidCapacity: 20
