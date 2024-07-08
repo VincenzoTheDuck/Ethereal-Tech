@@ -47,7 +47,7 @@ ammoUseEffect: casing3Double
 shootY: 11
 recoil: 1
 shake: 3
-velocityRand: 0.22
+velocityRnd: 0.18
 inaccuracy: 3
 shootCone: 6
 shootSound: largeCannon
