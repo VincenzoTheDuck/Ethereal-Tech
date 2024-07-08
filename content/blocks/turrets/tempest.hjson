@@ -59,6 +59,7 @@ ammoTypes: {
 alpha-steel: {
 type: BasicBulletType
 sprite: "ethereal-tech-bullet1"
+reloadMultiplier: 1.22
 backColor: 7a8cdc
 trailColor: 7a8cdc
 frontColor: a4b8fa
@@ -113,6 +114,40 @@ smokes: 18
 sparks: 19
 waveStroke: 3
 waveRad: 31
+waveColor: 989aa4
+}
+}
+beta-steel: {
+type: BasicBulletType
+sprite: "ethereal-tech-bullet1"
+backColor: 62ae7f
+trailColor: 62ae7f
+frontColor: 84f491
+ammoMultiplier: 2
+reloadMultiplier: 0.9
+damage: 44
+knockback: 2.1
+speed: 5
+lifetime: 44
+width: 9
+height: 14
+trailWidth: 1.5
+trailLength: 22
+homingPower: 0.1
+lightning: 3
+lightningLength: 11
+lightningLengthRand: 5
+lightningColor: 84f491
+lightningDamage: 14
+despawnHit: true
+hitEffect: {
+type: ExplosionEffect
+sparkColor: ff9c5a
+smokeColor: 666666
+smokes: 16
+sparks: 22
+waveStroke: 3
+waveRad: 36
 waveColor: 989aa4
 }
 }
