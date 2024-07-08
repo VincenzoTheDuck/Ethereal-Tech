@@ -23,6 +23,8 @@ const ruxonium = extend(Item, "ruxonium", {});
 
 const osmium = extend(Item, "osmium", {});
 
+const alphaSteel = extend(Item, "alpha-steel", {});
+
 // blocks/environment
 
 const oreIron = extend(OreBlock, "ore-iron", {});
