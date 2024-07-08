@@ -2,3 +2,4 @@ itemDrop: osmium
 oreDefault: true
 oreScale: 30
 oreThreshold: 0.8
+variants: 5
