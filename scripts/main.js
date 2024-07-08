@@ -77,7 +77,7 @@ const ruxoniumWallLarge = extend(Wall, "ruxonium-wall-large", {
   health: 360 * 4 * wallHealthMultiplier
 });
 
-const osmiumWall = extend(Wall, "ruxonium-wall", {
+const osmiumWall = extend(Wall, "osmium-wall", {
   health: 400 * wallHealthMultiplier
 });
 
