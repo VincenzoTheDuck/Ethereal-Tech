@@ -9,7 +9,7 @@ booster: true
 optional: true
 }
 }
-mineEffect: mineHuge
+drillEffect: mineHuge
 updateEffectChance: 0.05
 liquidBoostIntensity: 1.1
 drillTime: 195
