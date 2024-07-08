@@ -1,0 +1,44 @@
+consumes: {
+power: 8.5
+items: {
+items: [
+iron/4
+graphite/7
+osmium/10
+]
+}
+size: 3
+hasLiquids: true
+outputLiquids: true
+outputLiquid: "slag/0.08"
+itemCapacity: 30
+liquidCapacity: 20
+outputItem: alpha-steel/2
+ambientSound: respawning
+ambientSoundVolume: 0.25
+craftTime: 160
+craftEffect: smeltsmoke
+drawer: {
+type: DrawMulti
+drawers: [
+DrawDefault
+{
+type: DrawFlame
+flameColor: 94afd7
+}
+]
+}
+category: crafting
+research: {
+parent: ruxonium-smelter
+objectives: [
+
+]
+}
+requirements: [
+thorium/110
+ruxonium/95
+osmium/60
+graphite/90
+steel/50
+]
