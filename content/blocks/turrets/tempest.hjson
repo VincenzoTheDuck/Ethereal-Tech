@@ -64,7 +64,8 @@ backColor: 7a8cdc
 trailColor: 7a8cdc
 frontColor: a4b8fa
 ammoMultiplier: 4
-damage: 22
+damage: 67
+pierceCap: 2
 knockback: 1.4
 speed: 5
 lifetime: 44
@@ -91,7 +92,8 @@ backColor: 964faa
 trailColor: 964faa
 frontColor: dc7de0
 ammoMultiplier: 3
-damage: 36
+damage: 85
+pierceCap: 4
 knockback: 1.9
 speed: 5
 lifetime: 44
@@ -125,7 +127,8 @@ trailColor: 62ae7f
 frontColor: 84f491
 ammoMultiplier: 2
 reloadMultiplier: 0.9
-damage: 44
+damage: 120
+pierceCap: 7
 knockback: 2.1
 speed: 5
 lifetime: 44
