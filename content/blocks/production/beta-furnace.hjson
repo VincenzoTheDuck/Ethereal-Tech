@@ -15,7 +15,7 @@ outputLiquid: "slag/0.1"
 itemCapacity: 60
 liquidCapacity: 45
 outputItem: beta-steel/2
-ambientSound: respawning
+ambientSound: torch
 ambientSoundVolume: 0.34
 craftTime: 200
 craftEffect: pulverize
