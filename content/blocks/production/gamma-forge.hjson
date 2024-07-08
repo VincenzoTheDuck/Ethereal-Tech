@@ -51,7 +51,7 @@ type: DrawCrucibleFlame
 flameColor: 73d188
 midColor: 62ae7f
 flameRad: 2.3
-circleSpace: 2.5
+circleSpace: 2.2
 flameRadiusScl: 15
 flameRadiusMag: 1.2
 circleStroke: 4
