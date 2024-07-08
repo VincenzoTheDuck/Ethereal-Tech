@@ -27,6 +27,7 @@ mirror: true
 progress: warmup
 moveRot: -15
 moveY: 0.5
+under: true
 moves: [
 {
 progress: recoil
