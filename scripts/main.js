@@ -1,3 +1,14 @@
+// effects
+
+const pulverizeBlue = new Effect(16, e => {
+	Draw.color(Color.white, Pal.lancerLaser, e.fin());
+	const hl = new Floatc2({get: function(x, y){
+		Fill.poly(e.x + x, e.y + y, 4, e.fout() * 9, 45);
+	}});
+	
+	Angles.randLenVectors(e.id, 4, e.finpow() * 40.0, e.rotation, 180.0, hl);
+});
+
 // items
 
 const ironOre = extend(Item, "iron-ore", {});
@@ -76,5 +87,7 @@ const osmiumWallLarge = extend(Wall, "quarzite-wall-large", {
 
 // blocks/drills
 
-const arcDrill = extend(Drill, "arc-drill", {});
+const arcDrill = extend(Drill, "arc-drill", {
+  updateEffect: pulverizeBlue
+});
 
