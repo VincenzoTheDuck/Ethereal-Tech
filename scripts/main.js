@@ -43,6 +43,8 @@ const blastFurnace = extend(GenericCrafter, "blast-furnace", {});
 
 const ruxoniumSmelter = extend(GenericCrafter, "ruxonium-smelter", {});
 
+const alphaCrucible = extend(GenericCrafter, "alpha-crucible", {});
+
 // blocks/turrets
 
 const shock = extend(PowerTurret, "shock", {});
