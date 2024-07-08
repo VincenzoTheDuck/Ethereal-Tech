@@ -99,6 +99,30 @@ const osmiumWallLarge = extend(Wall, "osmium-wall-large", {
   health: 400 * 4 * wallHealthMultiplier
 });
 
+const alphaWall = extend(Wall, "alpha-wall", {
+  health: 440 * wallHealthMultiplier
+});
+
+const alphaWallLarge = extend(Wall, "alpha-wall-large", {
+  health: 440 * 4 * wallHealthMultiplier
+});
+
+const betaWall = extend(Wall, "beta-wall", {
+  health: 475 * wallHealthMultiplier
+});
+
+const betaWallLarge = extend(Wall, "beta-wall-large", {
+  health: 475 * 4 * wallHealthMultiplier
+});
+
+const gammaWall = extend(Wall, "gamma-wall", {
+  health: 520 * wallHealthMultiplier
+});
+
+const gammaWallLarge = extend(Wall, "gamma-wall-large", {
+  health: 520 * 4 * wallHealthMultiplier
+});
+
 // blocks/drills
 
 const arcDrill = extend(Drill, "arc-drill", {
