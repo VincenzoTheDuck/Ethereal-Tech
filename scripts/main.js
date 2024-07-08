@@ -74,3 +74,7 @@ const osmiumWallLarge = extend(Wall, "quarzite-wall-large", {
   health: 400 * 4 * wallHealthMultiplier
 });
 
+// blocks/drills
+
+const arcDrill = extend(Drill, "arc-drill", {});
+
