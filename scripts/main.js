@@ -10,11 +10,15 @@ const quarzite = extend(Item, "quarzite", {});
 
 const ruxonium = extend(Item, "ruxonium", {});
 
+const osmium = extend(Item, "osmium", {});
+
 // blocks/environment
 
 const oreIron = extend(OreBlock, "ore-iron", {});
 
 const oreQuarzite = extend(OreBlock, "ore-quarzite", {});
+
+const oreOsmium = extend(OreBlock, "ore-osmium", {});
 
 // blocks/power
 
@@ -60,5 +64,13 @@ const ruxoniumWall = extend(Wall, "ruxonium-wall", {
 
 const ruxoniumWallLarge = extend(Wall, "ruxonium-wall-large", {
   health: 360 * 4 * wallHealthMultiplier
+});
+
+const osmiumWall = extend(Wall, "ruxonium-wall", {
+  health: 400 * wallHealthMultiplier
+});
+
+const osmiumWallLarge = extend(Wall, "quarzite-wall-large", {
+  health: 400 * 4 * wallHealthMultiplier
 });
 
