@@ -1,0 +1,8 @@
+category: defense
+research: {
+parent: ruxonium-wall
+objectives: []
+}
+requirements: [
+osmium/6
+]
