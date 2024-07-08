@@ -2,7 +2,7 @@ consumes: {
 power: 8.5
 items: {
 items: [
-iron/4
+iron-ore/4
 graphite/7
 osmium/10
 ]
