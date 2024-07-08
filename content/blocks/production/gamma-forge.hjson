@@ -22,13 +22,13 @@ ambientSoundVolume: 0.55
 craftTime: 250
 craftEffect: {
 type: ParticleEffect
-particles: 14
+particles: 22
 lifetime: 185
-sizeFrom: 9
+sizeFrom: 12
 sizeTo: 0
-colorFrom: 73d188
-colorTo: 28785c
-length: 13
+colorFrom: 28785c
+colorTo: 4d4e5833
+length: 40
 }
 drawer: {
 type: DrawMulti
