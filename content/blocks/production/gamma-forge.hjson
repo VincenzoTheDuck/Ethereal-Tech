@@ -30,7 +30,7 @@ colorFrom: 73d188
 colorTo: 28785c
 length: 9
 interp: pow5Out
-sizeIntep: circleIn
+sizeInterp: circleIn
 }
 drawer: {
 type: DrawMulti
