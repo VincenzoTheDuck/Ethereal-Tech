@@ -3,10 +3,10 @@
 const pulverizeBlue = new Effect(16, e => {
 	Draw.color(Color.white, Pal.lancerLaser, e.fin());
 	const hl = new Floatc2({get: function(x, y){
-		Fill.poly(e.x + x, e.y + y, 4, e.fout() * 9, 45);
+		Fill.poly(e.x + x, e.y + y, 4, e.fout() * 9, 0);
 	}});
 	
-	Angles.randLenVectors(e.id, 4, e.finpow() * 40.0, e.rotation, 180.0, hl);
+	Angles.randLenVectors(e.id, 4, e.finpow() * 40.0, 0, 180.0, hl);
 });
 
 // items
