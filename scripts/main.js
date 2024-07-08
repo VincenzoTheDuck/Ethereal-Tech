@@ -49,7 +49,7 @@ const ruxoniumSmelter = extend(GenericCrafter, "ruxonium-smelter", {});
 
 const alphaCrucible = extend(GenericCrafter, "alpha-crucible", {});
 
-const betaCrucible = extend(GenericCrafter, "beta-crucible", {});
+const betaFurnace = extend(GenericCrafter, "beta-furnace", {});
 
 // blocks/turrets
 
