@@ -14,7 +14,7 @@ outputLiquid: "slag/0.08"
 itemCapacity: 30
 liquidCapacity: 20
 outputItem: alpha-steel/2
-ambientSound: respawning
+ambientSound: smelter
 ambientSoundVolume: 0.25
 craftTime: 160
 craftEffect: smeltsmoke
