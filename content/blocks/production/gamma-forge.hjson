@@ -13,7 +13,7 @@ titanium/10
 }
 size: 5
 hasLiquids: true
-outputLiquid: "slag/0.5"
+outputLiquid: "slag/0.3"
 itemCapacity: 100
 liquidCapacity: 75
 outputItem: gamma-steel/2
