@@ -1,0 +1,25 @@
+category: defense
+lightningChance: 0.34
+lightningLength: 18
+lightningDamage: 33
+lightningColor: 84f491
+drawer: {
+type: DrawMulti
+drawers: [
+DrawDefault
+{
+type: DrawGlowRegion
+alpha: 0.75
+color: 84f491
+glowIntensity: 0.2
+glowScale: 5.5
+}
+]
+}
+research: {
+parent: beta-wall
+objectives: []
+}
+requirements: [
+gamma-steel/6
+]
