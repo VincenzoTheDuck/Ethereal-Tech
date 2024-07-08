@@ -53,6 +53,8 @@ const shock = extend(PowerTurret, "shock", {});
 
 const shatter = extend(ItemTurret, "shatter", {});
 
+const tempest = extend(ItemTurret, "tempest", {});
+
 // blocks/walls
 
 const wallHealthMultiplier = 4
