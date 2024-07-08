@@ -1,0 +1,8 @@
+category: defense
+research: {
+parent: osmium-wall
+objectives: []
+}
+requirements: [
+osmium/24
+]
