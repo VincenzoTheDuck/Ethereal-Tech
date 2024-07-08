@@ -51,10 +51,10 @@ type: DrawCrucibleFlame
 flameColor: 73d188
 midColor: 62ae7f
 flameRad: 2.3
-circleSpace: 4.7
+circleSpace: 2.8
 flameRadiusScl: 15
 flameRadiusMag: 1.2
-circleStroke: 2.2
+circleStroke: 4
 alpha: 0.7
 particles: 40
 particleLife: 120
