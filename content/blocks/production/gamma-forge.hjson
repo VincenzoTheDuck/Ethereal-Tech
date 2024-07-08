@@ -23,14 +23,12 @@ craftTime: 250
 craftEffect: {
 type: ParticleEffect
 particles: 14
-lifetime: 160
-sizeFrom: 5.5
-sizeTo: 1.7
+lifetime: 185
+sizeFrom: 9
+sizeTo: 0
 colorFrom: 73d188
 colorTo: 28785c
-length: 9
-interp: pow5Out
-sizeInterp: circleIn
+length: 13
 }
 drawer: {
 type: DrawMulti
