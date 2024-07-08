@@ -1,0 +1,8 @@
+category: defense
+research: {
+parent: osmium-wall
+objectives: []
+}
+requirements: [
+alpha-steel/6
+]
