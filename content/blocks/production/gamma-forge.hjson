@@ -1,0 +1,82 @@
+consumes: {
+power: 16
+items: {
+items: [
+iron-ore/7
+graphite/4
+silicon/8
+osmium/15
+thorium/9
+titanium/10
+]
+}
+}
+size: 5
+hasLiquids: true
+outputLiquid: "slag/0.5"
+itemCapacity: 100
+liquidCapacity: 75
+outputItem: gamma-steel/2
+ambientSound: respawning
+ambientSoundVolume: 0.55
+craftTime: 250
+craftEffect: {
+type: ParticleEffect
+particles: 14
+lifetime: 160
+sizeFrom: 5.5
+sizeTo: 1.7
+colorFrom: 73d188
+colorTo: 28785c
+length: 9
+interp: pow5Out
+sizeIntep: circleIn
+}
+drawer: {
+type: DrawMulti
+drawers: [
+{
+type: DrawRegion
+suffix: "-bottom"
+}
+{
+type: DrawPlasma
+plasma1: 73d188
+plasma2: 62ae7f
+}
+{
+type: DrawRegion
+suffix: "-mid"
+}
+{
+type: DrawCrucibleFlame
+flameColor: 73d188
+midColor: 62ae7f
+flameRad: 2.3
+circleSpace: 4.7
+flameRadiusScl: 15
+flameRadiusMag: 1.2
+circleStroke: 2.2
+alpha: 0.7
+particles: 40
+particleLife: 120
+}
+DrawDefault
+]
+}
+category: crafting
+research: {
+parent: beta-furnace
+objectives: [
+
+]
+}
+requirements: [
+thorium/200
+alpha-steel/160
+beta-steel/185
+osmium/95
+silicon/120
+graphite/90
+titanium/100
+]
