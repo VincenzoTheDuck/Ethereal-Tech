@@ -25,6 +25,8 @@ const osmium = extend(Item, "osmium", {});
 
 const alphaSteel = extend(Item, "alpha-steel", {});
 
+const betaSteel = extend(Item, "beta-steel", {});
+
 // blocks/environment
 
 const oreIron = extend(OreBlock, "ore-iron", {});
@@ -46,6 +48,8 @@ const blastFurnace = extend(GenericCrafter, "blast-furnace", {});
 const ruxoniumSmelter = extend(GenericCrafter, "ruxonium-smelter", {});
 
 const alphaCrucible = extend(GenericCrafter, "alpha-crucible", {});
+
+const betaCrucible = extend(GenericCrafter, "beta-crucible", {});
 
 // blocks/turrets
 
