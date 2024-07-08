@@ -1,0 +1,28 @@
+size: 5
+tier: 6
+consumes: {
+power: 5.5
+liquid: {
+liquid: water
+amount: 0.22
+booster: true
+optional: true
+}
+}
+liquidBoostIntensity: 1.1
+drillTime: 195
+warmupSpeed: 0.003
+itemCapacity: 35
+rotateSpeed: 7.5
+category: production
+research: {
+parent: blast-drill
+objectives: []
+}
+requirements: [
+copper/75
+thorium/80
+ruxonium/95
+silicon/50
+graphite/45
+]
