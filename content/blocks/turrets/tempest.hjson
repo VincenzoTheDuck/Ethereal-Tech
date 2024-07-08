@@ -117,7 +117,7 @@ waveRad: 31
 waveColor: 989aa4
 }
 }
-beta-steel: {
+gamma-steel: {
 type: BasicBulletType
 sprite: "ethereal-tech-bullet1"
 backColor: 62ae7f
