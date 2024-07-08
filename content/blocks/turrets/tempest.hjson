@@ -50,7 +50,7 @@ ammoUseEffect: casing2Double
 shootY: 15
 recoil: 1.3
 shake: 1.5
-inaccuracy: 1
+inaccuracy: 4
 shootCone: 6
 shootSound: shootBig
 shootEffect: shootBig
@@ -59,6 +59,9 @@ ammoTypes: {
 alpha-steel: {
 type: BasicBulletType
 sprite: "ethereal-tech-bullet1"
+backColor: 7a8cdc
+trailColor: 7a8cdc
+frontColor: a4b8fa
 ammoMultiplier: 4
 damage: 22
 knockback: 1.4
@@ -77,6 +80,39 @@ smokes: 20
 sparks: 15
 waveStroke: 3
 waveRad: 22
+waveColor: 989aa4
+}
+}
+beta-steel: {
+type: BasicBulletType
+sprite: "ethereal-tech-bullet1"
+backColor: 964faa
+trailColor: 964faa
+frontColor: dc7de0
+ammoMultiplier: 3
+damage: 36
+knockback: 1.9
+speed: 5
+lifetime: 44
+width: 9
+height: 14
+trailWidth: 1.5
+trailLength: 22
+homingPower: 0.05
+lightning: 3
+lightningLength: 8
+lightningLengthRand: 3
+lightningColor: dc7de0
+lightningDamage: 9
+despawnHit: true
+hitEffect: {
+type: ExplosionEffect
+sparkColor: ff9c5a
+smokeColor: 666666
+smokes: 18
+sparks: 19
+waveStroke: 3
+waveRad: 31
 waveColor: 989aa4
 }
 }
