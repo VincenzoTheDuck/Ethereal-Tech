@@ -1,0 +1,57 @@
+consumes: {
+power: 10
+items: {
+items: [
+iron-ore/5
+graphite/8
+silicon/5
+osmium/8
+]
+}
+}
+size: 3
+hasLiquids: true
+outputLiquid: "slag/0.1"
+itemCapacity: 60
+liquidCapacity: 45
+outputItem: beta-steel/2
+ambientSound: respawning
+ambientSoundVolume: 0.34
+craftTime: 200
+craftEffect: pulverize
+drawer: {
+type: DrawMulti
+drawers: [
+{
+type: DrawRegion
+suffix: "-bottom"
+}
+{
+type: DrawCrucibleFlame
+flameColor: dc7de0
+midColor: 964faa
+flameRad: 2
+circleSpace: 3.5
+flameRadiusScl: 7.5
+flameRadiusMag: 0.8
+circleStroke: 1.7
+alpha: 0.65
+particles: 37
+particleLife: 95
+}
+DrawDefault
+]
+}
+category: crafting
+research: {
+parent: alpha-crucible
+objectives: [
+
+]
+}
+requirements: [
+thorium/130
+alpha-steel/75
+osmium/75
+graphite/105
+]
