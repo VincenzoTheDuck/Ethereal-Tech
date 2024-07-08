@@ -9,6 +9,7 @@ coolant: {
 amount: 0.53
 }
 }
+coolantMultiplier: 2
 drawer: {
 type: DrawTurret
 parts: [
