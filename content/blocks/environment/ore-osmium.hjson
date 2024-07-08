@@ -1,0 +1,4 @@
+itemDrop: osmium
+oreDefault: true
+oreScale: 30
+oreThreshold: 0.8
