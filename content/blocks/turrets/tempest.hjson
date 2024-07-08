@@ -1,0 +1,93 @@
+range: 220
+size: 4
+reload: 16
+recoilTime: 40
+rotateSpeed: 3
+scaledHealth: 220
+consumes: {
+coolant: {
+amount: 0.53
+}
+}
+drawer: {
+type: DrawTurret
+parts: [
+{
+type: RegionPart
+suffix: "-barrel1"
+progress: recoil
+moveY: -2
+recoilIndex: 0
+}
+{
+type: RegionPart
+suffix: "-barrel2"
+progress: recoil
+moveY: -2
+recoilIndex: 1
+}
+{
+type: RegionPart
+suffix: "-barrel3"
+progress: recoil
+moveY: -2
+recoilIndex: 2
+}
+]
+}
+minWarmup: 0.85
+recoils: 3
+shoot: {
+type: ShootBarrel
+barrels: [
+0, 0, 0,
+5, -3, 0,
+-5, -3, 0
+]
+}
+ammoEjectBack: 8
+ammoUseEffect: casing2Double
+shootY: 11
+recoil: 1.3
+shake: 1.5
+inaccuracy: 1
+shootCone: 6
+shootSound: shootBig
+shootEffect: shootBig
+smokeEffect: shootBigSmoke
+ammoTypes: {
+alpha-steel: {
+type: ArtilleryBulletType
+sprite: "bullet1"
+statusDuration: 90
+ammoMultiplier: 1
+damage: 22
+knockback: 1.4
+speed: 5
+lifetime: 44
+width: 9
+height: 14
+trailWidth: 3
+trailLength: 22
+despawnHit: true
+hitEffect: {
+type: ExplosionEffect
+sparkColor: ff9c5a
+smokeColor: 666666
+smokes: 20
+sparks: 15
+waveStroke: 3
+waveRad: 22
+waveColor: 989aa4
+}
+}
+}
+research: cyclone
+category: turret
+requirements: [
+thorium/120
+ruxonium/95
+surge-alloy/100
+plastanium/95
+alpha-steel/50
+]
