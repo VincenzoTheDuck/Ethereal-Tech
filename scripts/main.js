@@ -236,6 +236,8 @@ const oreOsmium = extend(OreBlock, "ore-osmium", {});
 
 const batteryMedium = extend(Battery, "battery-medium", {});
 
+const chargeGenerator = extend(ConsumeGenerator, "charge-generator", {});
+
 // blocks/production
 
 const cokeOven = extend(GenericCrafter, "coke-oven", {});
