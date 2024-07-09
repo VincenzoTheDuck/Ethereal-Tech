@@ -11,18 +11,18 @@ const pulverizeBlue = new Effect(16, e => {
 
 const ruxoniumConveyorLoad = new Effect(25, e => {
 	Draw.color(Pal.lancerLaser);
-	Lines.stroke(e.fout(Interp.pow5Out) * 4)
-	Lines.square(e.x, e.y, e.fin() * 8, 45);
-	Lines.stroke(e.fout(Interp.pow5Out) * 2)
-	Lines.square(e.x, e.y, e.fin() * 4, 45);
-});
-
-const ruxoniumConveyorUnload = new Effect(25, e => {
-	Draw.color(Pal.lancerLaser);
 	Lines.stroke(e.fin() * 4)
 	Lines.square(e.x, e.y, e.fout(Interp.pow5Out) * 8, 45);
 	Lines.stroke(e.fin() * 2)
 	Lines.square(e.x, e.y, e.fout(Interp.pow5Out) * 4, 45);
+});
+
+const ruxoniumConveyorUnload = new Effect(25, e => {
+	Draw.color(Pal.lancerLaser);
+	Lines.stroke(e.fout(Interp.pow5Out) * 4)
+	Lines.square(e.x, e.y, e.fin() * 8, 45);
+	Lines.stroke(e.fout(Interp.pow5Out) * 2)
+	Lines.square(e.x, e.y, e.fin() * 4, 45);
 });
 
 // items
