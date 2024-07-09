@@ -115,12 +115,13 @@ storm.buildType = () => extend(PowerTurret.PowerTurretBuild, storm,  {
   draw() {
 	  Draw.rect(storm.baseRegion, this.x, this.y, 0);
 	  Draw.rect(storm.region, this.x, this.y, this.rotation - 90);
-	  Draw.alpha(0.4);
-	  Draw.color(Color.valueOf("ff7272").shiftHue(Time.time));
+	  Draw.color(Color.valueOf("ff727250").shiftHue(Time.time));
           Draw.rect(storm.rainbowRegion, this.x, this.y, this.rotation - 90);
           Draw.color()
   }
 });
+
+const current = extend(LaserTurret, "current", {});
 
 const shatter = extend(ItemTurret, "shatter", {});
 
