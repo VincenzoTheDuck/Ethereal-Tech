@@ -151,7 +151,7 @@ const dreadBoltGamma = extend(PointBulletType, {
 // turret
 
 const dread = extend(ItemTurret, "dread", {});
-dread.range = dreadRange
+dread.range = range
 dread.ammo(
   alphaSteel, dreadBoltAlpha,
   betaSteel, dreadBoltBeta,
