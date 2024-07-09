@@ -132,8 +132,6 @@ storm.buildType = () => extend(PowerTurret.PowerTurretBuild, storm,  {
   }
 });
 
-const current = extend(LaserTurret, "current", {});
-
 const shatter = extend(ItemTurret, "shatter", {});
 
 const tempest = extend(ItemTurret, "tempest", {});
