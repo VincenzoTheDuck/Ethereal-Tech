@@ -1,0 +1,49 @@
+size: 5
+reload: 400
+recoilTime: 200
+cooldownTime: 170
+rotateSpeed: 1.5
+minRange: 120
+scaledHealth: 330
+consumes: {
+power: 22
+coolant: {
+amount: 2
+}
+}
+coolantMultiplier: 4
+maxAmmo: 60
+ammoPerShot: 10
+drawer: {
+type: DrawTurret
+parts: [
+{
+type: RegionPart
+suffix: "-cells"
+heatProgress: charge
+}
+]
+}
+minWarmup: 0.85
+shoot: {
+firstShotDelay: 40
+}
+chargeSound: lasercharge2
+ammoEjectBack: 4
+ammoUseEffect: casing3Double
+shootY: 0
+recoil: 4
+shake: 10
+shootCone: 2
+shootSound: railgun
+smokeEffect: smokeCloud
+research: foreshadow
+category: turret
+requirements: [
+thorium/200
+steel/230
+alpha-steel/220
+beta-steel/300
+surge-alloy/150
+plastanium/180
+]
