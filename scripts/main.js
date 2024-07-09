@@ -90,12 +90,12 @@ const dreadHitAlpha = new Effect(25, e => {
         stroke(e.fout() * 4);
         Lines.circle(e.x, e.y, 4 + e.finpow() * 25);
 
-        for(int i = 0; i < 4; i++){
+        for(let i = 0; i < 4; i++){
             Drawf.tri(e.x, e.y, 8, 100 * e.fout(), i*90 + 45);
         }
 
         color();
-        for(int i = 0; i < 4; i++){
+        for(let i = 0; i < 4; i++){
             Drawf.tri(e.x, e.y, 5, 55 * e.fout(), i*90 + 45);
         }
 });
@@ -105,12 +105,12 @@ const dreadHitBeta = new Effect(25, e => {
         stroke(e.fout() * 4);
         Lines.circle(e.x, e.y, 4 + e.finpow() * 25);
 
-        for(int i = 0; i < 4; i++){
+        for(let i = 0; i < 4; i++){
             Drawf.tri(e.x, e.y, 8, 100 * e.fout(), i*90 + 45);
         }
 
         color();
-        for(int i = 0; i < 4; i++){
+        for(let i = 0; i < 4; i++){
             Drawf.tri(e.x, e.y, 5, 55 * e.fout(), i*90 + 45);
         }
 });
@@ -120,12 +120,12 @@ const dreadHitGamma = new Effect(25, e => {
         stroke(e.fout() * 4);
         Lines.circle(e.x, e.y, 4 + e.finpow() * 25);
 
-        for(int i = 0; i < 4; i++){
+        for(let i = 0; i < 4; i++){
             Drawf.tri(e.x, e.y, 8, 100 * e.fout(), i*90 + 45);
         }
 
         color();
-        for(int i = 0; i < 4; i++){
+        for(let i = 0; i < 4; i++){
             Drawf.tri(e.x, e.y, 5, 55 * e.fout(), i*90 + 45);
         }
 });
