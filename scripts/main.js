@@ -60,7 +60,7 @@ const stormBullet = extend(BasicBulletType, {
 	}
 });
 
-require("items")
+require("items");
 
 // environment
 
