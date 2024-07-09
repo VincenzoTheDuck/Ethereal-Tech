@@ -12,7 +12,8 @@ coolantMultiplier: 2
 shootY: 2
 recoil: 3
 shake: 0.5
-shootCone: 3
+shootCone: 10
+inaccuracy: 10
 shootSound: bolt
 shootEffect: hitLancer
 smokeEffect: none
