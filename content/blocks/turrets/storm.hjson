@@ -1,6 +1,6 @@
 scaledHealth: 85
 size: 3
-reload: 10
+reload: 7
 rotateSpeed: 3.9
 consumes: {
 power: 8
@@ -12,8 +12,8 @@ coolantMultiplier: 2
 shootY: 2
 recoil: 3
 shake: 0.5
-shootCone: 10
-inaccuracy: 10
+shootCone: 25
+inaccuracy: 25
 shootSound: bolt
 shootEffect: hitLancer
 smokeEffect: none
