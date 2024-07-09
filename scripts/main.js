@@ -28,7 +28,7 @@ const ruxoniumConveyorUnload = new Effect(10, e => {
 const stormShoot = new Effect(28, e => {
 	Draw.color(Color.white, Color.valueOf("ff7272").shiftHue(Time.time), e.fin());
 	const hl = new Floatc2({get: function(x, y){
-		Fill.circle(e.x + x, e.y + y, 4, e.fout() * 5, 0);
+		Fill.circle(e.x, e.y, e.fout() * 0.75);
 	}});
 	
 	Angles.randLenVectors(e.id, 4, e.finpow() * 21.0, 0, 40.0, hl);
@@ -37,7 +37,7 @@ const stormShoot = new Effect(28, e => {
 const stormHit = new Effect(28, e => {
 	Draw.color(Color.white, Color.valueOf("ff7272").shiftHue(Time.time), e.fin());
 	const hl = new Floatc2({get: function(x, y){
-		Fill.circle(e.x, e.y, e.fout() * 0.75);
+		Fill.poly(e.x + x, e.y + y, 4, e.fout() * 5, 0);
 	}});
 	
 	Angles.randLenVectors(e.id, 4, e.finpow() * 21.0, 0, 180.0, hl);
