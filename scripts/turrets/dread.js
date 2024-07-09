@@ -1,6 +1,6 @@
 // vars
 
-const eitems = require("items")
+const eitems = require("items");
 
 const range = 700;
 
