@@ -1,0 +1,13 @@
+health: 100
+speed: 0.1
+itemCapacity: 20
+category: distribution
+research: {
+parent: plastanium-conveyor
+objectives: []
+}
+requirements: [
+copper/2
+ruxonium/2
+silicon/1
+]
