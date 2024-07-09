@@ -25,10 +25,19 @@ const ruxoniumConveyorUnload = new Effect(10, e => {
 	Lines.square(e.x, e.y, e.fin() * 4, 45);
 });
 
+const stormShoot = new Effect(28, e => {
+	Draw.color(Color.white, Color.valueOf("ff7272").shiftHue(Time.time), e.fin());
+	const hl = new Floatc2({get: function(x, y){
+		Fill.circle(e.x + x, e.y + y, 4, e.fout() * 5, 0);
+	}});
+	
+	Angles.randLenVectors(e.id, 4, e.finpow() * 21.0, 0, 40.0, hl);
+});
+
 const stormHit = new Effect(28, e => {
 	Draw.color(Color.white, Color.valueOf("ff7272").shiftHue(Time.time), e.fin());
 	const hl = new Floatc2({get: function(x, y){
-		Fill.poly(e.x + x, e.y + y, 4, e.fout() * 5, 0);
+		Fill.circle(e.x, e.y, e.fout() * 0.75);
 	}});
 	
 	Angles.randLenVectors(e.id, 4, e.finpow() * 21.0, 0, 180.0, hl);
@@ -43,6 +52,7 @@ const stormBullet = extend(BasicBulletType, {
 	hitEffect: stormHit,
 	homingPower: 0.08,
 	despawnHit: true,
+	ammoMultiplier: 1,
 	draw(b){
 		Draw.color(Color.valueOf("ff7272").shiftHue(Time.time));
 		Fill.circle(b.x, b.y, 3);
