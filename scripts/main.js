@@ -31,7 +31,7 @@ const stormShoot = new Effect(28, e => {
 		Fill.circle(e.x + x, e.y + y, e.fout() * 0.75);
 	}});
 	
-	Angles.randLenVectors(e.id, 4, e.finpow() * 21.0, 0, 40.0, hl);
+	Angles.randLenVectors(e.id, 4, e.finpow() * 21.0, e.rot, 40.0, hl);
 });
 
 const stormHit = new Effect(28, e => {
