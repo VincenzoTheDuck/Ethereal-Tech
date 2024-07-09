@@ -1,6 +1,6 @@
 scaledHealth: 85
 size: 3
-reload: 7
+reload: 4
 rotateSpeed: 3.9
 consumes: {
 power: 8
@@ -10,7 +10,8 @@ amount: 0.24
 }
 coolantMultiplier: 2
 shootY: 2
-recoil: 3
+recoil: 6
+recoilTime: 50
 shake: 0.5
 shootCone: 25
 inaccuracy: 25
