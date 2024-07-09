@@ -161,7 +161,6 @@ const dreadBoltAlpha = extend(PointBulletType, {
 	despawnEffect: Fx.none,
 	despawnHit: true,
 	homingPower: 0.08,
-	despawnHit: true,
 	ammoMultiplier: 1
 });
 
@@ -177,7 +176,6 @@ const dreadBoltBeta = extend(PointBulletType, {
 	despawnEffect: Fx.none,
 	despawnHit: true,
 	homingPower: 0.08,
-	despawnHit: true,
 	ammoMultiplier: 1
 });
 
@@ -194,7 +192,6 @@ const dreadBoltGamma = extend(PointBulletType, {
 	despawnEffect: Fx.none,
 	despawnHit: true,
 	homingPower: 0.08,
-	despawnHit: true,
 	ammoMultiplier: 1
 });
 
