@@ -1,16 +1,3 @@
-// bullets
-
-const stormBullet = extend(BasicBulletType, {
-  	damage: 17,
-	speed: 6,
-	lifetime: 30,
-	draw(b){
-		Draw.color(Color.valueOf("ff7272").shiftHue(Time.time * 2.3));
-		Fill.circle(b.x, b.y, 3);
-		Draw.reset();
-	}
-});
-
 // effects
 
 const pulverizeBlue = new Effect(16, e => {
@@ -36,6 +23,28 @@ const ruxoniumConveyorUnload = new Effect(10, e => {
 	Lines.square(e.x, e.y, e.fin() * 8, 45);
 	Lines.stroke(e.fout() * 2)
 	Lines.square(e.x, e.y, e.fin() * 4, 45);
+});
+
+const stormHit = new Effect(16, e => {
+	Draw.color(Color.white, Color.valueOf("ff7272").shiftHue(Time.time), e.fin());
+	const hl = new Floatc2({get: function(x, y){
+		Fill.poly(e.x + x, e.y + y, 4, e.fout() * 9, 0);
+	}});
+	
+	Angles.randLenVectors(e.id, 4, e.finpow() * 40.0, 0, 180.0, hl);
+});
+
+// bullets
+
+const stormBullet = extend(BasicBulletType, {
+  	damage: 17,
+	speed: 6,
+	lifetime: 30,
+	draw(b){
+		Draw.color(Color.valueOf("ff7272").shiftHue(Time.time));
+		Fill.circle(b.x, b.y, 3);
+		Draw.reset();
+	}
 });
 
 // items
@@ -104,7 +113,7 @@ storm.buildType = () => extend(PowerTurret.PowerTurretBuild, storm,  {
 	  Draw.rect(storm.baseRegion, this.x, this.y, 0);
 	  Draw.rect(storm.region, this.x, this.y, this.rotation - 90);
 	  Draw.alpha(0.4);
-	  Draw.color(Color.valueOf("ff7272").shiftHue(Time.time * 2.3));
+	  Draw.color(Color.valueOf("ff7272").shiftHue(Time.time));
           Draw.rect(storm.rainbowRegion, this.x, this.y, this.rotation - 90);
           Draw.color()
   }
