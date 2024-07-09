@@ -86,45 +86,45 @@ const dreadTrailGamma = new Effect(25, e => {
 });
 
 const dreadHitAlpha = new Effect(25, e => {
-	color(Color.valueOf("7a8cdc"));
-        stroke(e.fout() * 4);
+	Draw.color(Color.valueOf("7a8cdc"));
+        Lines.stroke(e.fout() * 4);
         Lines.circle(e.x, e.y, 4 + e.finpow() * 25);
 
         for(let i = 0; i < 4; i++){
             Drawf.tri(e.x, e.y, 8, 100 * e.fout(), i*90 + 45);
         }
 
-        color();
+        Draw.color();
         for(let i = 0; i < 4; i++){
             Drawf.tri(e.x, e.y, 5, 55 * e.fout(), i*90 + 45);
         }
 });
 
 const dreadHitBeta = new Effect(25, e => {
-	color(Color.valueOf("dc7de0"));
-        stroke(e.fout() * 4);
+	Draw.color(Color.valueOf("dc7de0"));
+        Lines.stroke(e.fout() * 4);
         Lines.circle(e.x, e.y, 4 + e.finpow() * 25);
 
         for(let i = 0; i < 4; i++){
             Drawf.tri(e.x, e.y, 8, 100 * e.fout(), i*90 + 45);
         }
 
-        color();
+        Draw.color();
         for(let i = 0; i < 4; i++){
             Drawf.tri(e.x, e.y, 5, 55 * e.fout(), i*90 + 45);
         }
 });
 
 const dreadHitGamma = new Effect(25, e => {
-	color(Color.valueOf("96f58c"));
-        stroke(e.fout() * 4);
+	Draw.color(Color.valueOf("96f58c"));
+        Lines.stroke(e.fout() * 4);
         Lines.circle(e.x, e.y, 4 + e.finpow() * 25);
 
         for(let i = 0; i < 4; i++){
             Drawf.tri(e.x, e.y, 8, 100 * e.fout(), i*90 + 45);
         }
 
-        color();
+        Draw.color();
         for(let i = 0; i < 4; i++){
             Drawf.tri(e.x, e.y, 5, 55 * e.fout(), i*90 + 45);
         }
