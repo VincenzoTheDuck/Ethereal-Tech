@@ -279,6 +279,7 @@ const shatter = extend(ItemTurret, "shatter", {});
 
 const tempest = extend(ItemTurret, "tempest", {});
 
+/*
 const dread = extend(ItemTurret, "dread", {});
 dread.range = dreadRange
 dread.ammo(
@@ -286,6 +287,9 @@ dread.ammo(
   betaSteel, dreadBoltBeta,
   gammaSteel, dreadBoltGamma
 );
+*/
+
+require("turrets/dread");
 
 // blocks/walls
 
