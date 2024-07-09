@@ -16,7 +16,6 @@ shake: 0.5
 shootCone: 25
 inaccuracy: 25
 shootSound: bolt
-shootEffect: hitLancer
 smokeEffect: none
 research: lancer
 category: turret
