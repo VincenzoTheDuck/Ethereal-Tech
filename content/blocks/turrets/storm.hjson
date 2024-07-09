@@ -1,0 +1,27 @@
+scaledHealth: 85
+size: 3
+reload: 10
+rotateSpeed: 3.9
+consumes: {
+power: 8
+coolant: {
+amount: 0.24
+}
+}
+coolantMultiplier: 2
+shootY: 2
+recoil: 3
+shake: 0.5
+shootCone: 3
+shootSound: bolt
+shootEffect: hitLancer
+smokeEffect: none
+research: lancer
+category: turret
+requirements: [
+metaglass/90
+silicon/65
+copper/50
+titanium/60
+steel/75
+]
