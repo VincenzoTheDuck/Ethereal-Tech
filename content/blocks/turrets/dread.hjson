@@ -1,4 +1,5 @@
 size: 5
+unitSort: strongest
 reload: 400
 recoilTime: 200
 cooldownTime: 170
