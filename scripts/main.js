@@ -60,6 +60,8 @@ const stormBullet = extend(BasicBulletType, {
 	}
 });
 
+require("items")
+
 // environment
 
 const oreIron = extend(OreBlock, "ore-iron", {});
