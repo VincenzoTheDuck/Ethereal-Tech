@@ -260,12 +260,11 @@ const storm = extend(PowerTurret, "storm", {
 	  	this.region = Core.atlas.find(this.name);
           	this.rainbowRegion = Core.atlas.find(this.name + "-rainbow");
 	  	this.baseRegion = Core.atlas.find("block-" + this.size);
-  	},
-  	shootType: stormBullet,
-	shootEffect: stormShoot,
-  	range: 180
+  	}
 });
-
+storm.shootType: stormBullet;
+storm.shootEffect: stormShoot;
+storm.range: 180;
 storm.buildType = () => extend(PowerTurret.PowerTurretBuild, storm,  {
   draw() {
 	  Draw.rect(storm.baseRegion, this.x, this.y, 0);
