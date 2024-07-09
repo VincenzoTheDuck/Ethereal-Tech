@@ -19,9 +19,9 @@ const ruxoniumConveyorLoad = new Effect(10, e => {
 
 const ruxoniumConveyorUnload = new Effect(10, e => {
 	Draw.color(Pal.lancerLaser);
-	Lines.stroke(e.fin() * 4)
+	Lines.stroke(e.fout() * 4)
 	Lines.square(e.x, e.y, e.fin() * 8, 45);
-	Lines.stroke(e.fin() * 2)
+	Lines.stroke(e.fout() * 2)
 	Lines.square(e.x, e.y, e.fin() * 4, 45);
 });
 
