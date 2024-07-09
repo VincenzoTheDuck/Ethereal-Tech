@@ -111,14 +111,15 @@ const gammaForge = extend(GenericCrafter, "gamma-forge", {});
 const shock = extend(PowerTurret, "shock", {});
 
 const storm = extend(PowerTurret, "storm", {
-  load() {
-          this.super$load()
-	  this.region = Core.atlas.find(this.name);
-          this.rainbowRegion = Core.atlas.find(this.name + "-rainbow");
-	  this.baseRegion = Core.atlas.find("block-" + this.size);
-  },
-  shootType: stormBullet,
-  range: 180,
+  	load() {
+          	this.super$load()
+	  	this.region = Core.atlas.find(this.name);
+          	this.rainbowRegion = Core.atlas.find(this.name + "-rainbow");
+	  	this.baseRegion = Core.atlas.find("block-" + this.size);
+  	},
+  	shootType: stormBullet,
+	shootEffect: stormShoot,
+  	range: 180
 });
 
 storm.buildType = () => extend(PowerTurret.PowerTurretBuild, storm,  {
