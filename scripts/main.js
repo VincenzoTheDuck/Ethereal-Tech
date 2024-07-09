@@ -153,7 +153,7 @@ const dreadBoltAlpha = extend(PointBulletType, {
   	damage: 2750,
 	speed: dreadRange,
 	shootEffect: dreadShootAlpha,
-	hitShake: 6.5
+	hitShake: 6.5,
 	trailSpacing: 10,
 	buildingDamageMultiplier: 0.12,
 	trailEffect: dreadTrailAlpha,
@@ -169,7 +169,7 @@ const dreadBoltBeta = extend(PointBulletType, {
   	damage: 3250,
 	speed: dreadRange,
 	shootEffect: dreadShootBeta,
-	hitShake: 6.5
+	hitShake: 6.5,
 	trailSpacing: 10,
 	buildingDamageMultiplier: 0.12,
 	trailEffect: dreadTrailBeta,
@@ -186,7 +186,7 @@ const dreadBoltGamma = extend(PointBulletType, {
 	speed: dreadRange,
 	lifetime: 30,
 	shootEffect: dreadShootGamma,
-	hitShake: 6.5
+	hitShake: 6.5,
 	trailSpacing: 10,
 	buildingDamageMultiplier: 0.12,
 	trailEffect: dreadTrailGamma,
