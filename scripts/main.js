@@ -25,13 +25,13 @@ const ruxoniumConveyorUnload = new Effect(10, e => {
 	Lines.square(e.x, e.y, e.fin() * 4, 45);
 });
 
-const stormHit = new Effect(16, e => {
+const stormHit = new Effect(28, e => {
 	Draw.color(Color.white, Color.valueOf("ff7272").shiftHue(Time.time), e.fin());
 	const hl = new Floatc2({get: function(x, y){
-		Fill.poly(e.x + x, e.y + y, 4, e.fout() * 9, 0);
+		Fill.poly(e.x + x, e.y + y, 4, e.fout() * 5, 0);
 	}});
 	
-	Angles.randLenVectors(e.id, 4, e.finpow() * 40.0, 0, 180.0, hl);
+	Angles.randLenVectors(e.id, 4, e.finpow() * 21.0, 0, 180.0, hl);
 });
 
 // bullets
