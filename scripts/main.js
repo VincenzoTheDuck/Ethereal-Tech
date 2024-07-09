@@ -70,19 +70,19 @@ const dreadShootGamma = new Effect(35, e => {
 const dreadTrailAlpha = new Effect(25, e => {
 	Draw.color(Color.valueOf("7a8cdc"));
 	Lines.stroke(e.fout() * 4)
-	lineAngle(e.x, e.y, e.rotation, 10);
+	Lines.lineAngle(e.x, e.y, e.rotation, 10);
 });
 
 const dreadTrailBeta = new Effect(25, e => {
 	Draw.color(Color.valueOf("dc7de0"));
 	Lines.stroke(e.fout() * 4)
-	lineAngle(e.x, e.y, e.rotation, 10);
+	Lines.lineAngle(e.x, e.y, e.rotation, 10);
 });
 
 const dreadTrailGamma = new Effect(25, e => {
 	Draw.color(Color.valueOf("96f58c"));
 	Lines.stroke(e.fout() * 4)
-	lineAngle(e.x, e.y, e.rotation, 10);
+	Lines.lineAngle(e.x, e.y, e.rotation, 10);
 });
 
 const dreadHitAlpha = new Effect(25, e => {
