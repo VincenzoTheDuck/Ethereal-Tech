@@ -160,39 +160,48 @@ const dreadBoltAlpha = extend(PointBulletType, {
 	hitEffect: dreadHitAlpha,
 	despawnEffect: Fx.none,
 	despawnHit: true,
-	homingPower: 0.08,
 	ammoMultiplier: 1
 });
 
 const dreadBoltBeta = extend(PointBulletType, {
   	damage: 3250,
+	lightning: 6,
+	lightningLength: 9,
+	lightningLengthRand: 3,
+	lightningDamage: 770,
+	lightningColor: Color.valueOf("dc7de0"),
 	speed: dreadRange,
 	shootEffect: dreadShootBeta,
-	hitShake: 6.5,
+	hitShake: 9,
 	trailSpacing: 10,
 	buildingDamageMultiplier: 0.12,
 	trailEffect: dreadTrailBeta,
 	hitEffect: dreadHitBeta,
 	despawnEffect: Fx.none,
 	despawnHit: true,
-	homingPower: 0.08,
-	ammoMultiplier: 1
+	ammoMultiplier: 1,
+	reloadMultiplier: 0.88
 });
 
 const dreadBoltGamma = extend(PointBulletType, {
   	damage: 4920,
+	lightning: 9,
+	lightningLength: 11,
+	lightningLengthRand: 4,
+	lightningDamage: 920,
+	lightningColor: Color.valueOf("96f58c"),
 	speed: dreadRange,
 	lifetime: 30,
 	shootEffect: dreadShootGamma,
-	hitShake: 6.5,
+	hitShake: 15,
 	trailSpacing: 10,
 	buildingDamageMultiplier: 0.12,
 	trailEffect: dreadTrailGamma,
 	hitEffect: dreadHitGamma,
 	despawnEffect: Fx.none,
 	despawnHit: true,
-	homingPower: 0.08,
-	ammoMultiplier: 1
+	ammoMultiplier: 1,
+	reloadMultiplier: 0.63
 });
 
 // items
