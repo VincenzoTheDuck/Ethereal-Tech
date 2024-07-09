@@ -43,6 +43,93 @@ const stormHit = new Effect(28, e => {
 	Angles.randLenVectors(e.id, 4, e.finpow() * 21.0, 0, 180.0, hl);
 });
 
+const dreadShootAlpha = new Effect(35, e => {
+	Draw.color(Color.valueOf("7a8cdc"));
+	Lines.stroke(e.fout() * 5)
+	Lines.square(e.x, e.y, e.fin() * 24, 45);
+	Lines.stroke(e.fout() * 2.5)
+	Lines.square(e.x, e.y, e.fin() * 12, 45);
+});
+
+const dreadShootBeta = new Effect(35, e => {
+	Draw.color(Color.valueOf("dc7de0"));
+	Lines.stroke(e.fout() * 5)
+	Lines.square(e.x, e.y, e.fin() * 24, 45);
+	Lines.stroke(e.fout() * 2.5)
+	Lines.square(e.x, e.y, e.fin() * 12, 45);
+});
+
+const dreadShootGamma = new Effect(35, e => {
+	Draw.color(Color.valueOf("96f58c"));
+	Lines.stroke(e.fout() * 5)
+	Lines.square(e.x, e.y, e.fin() * 24, 45);
+	Lines.stroke(e.fout() * 2.5)
+	Lines.square(e.x, e.y, e.fin() * 12, 45);
+});
+
+const dreadTrailAlpha = new Effect(25, e => {
+	Draw.color(Color.valueOf("7a8cdc"));
+	Lines.stroke(e.fout() * 4)
+	lineAngle(e.x, e.y, e.rotation, 10);
+});
+
+const dreadTrailBeta = new Effect(25, e => {
+	Draw.color(Color.valueOf("dc7de0"));
+	Lines.stroke(e.fout() * 4)
+	lineAngle(e.x, e.y, e.rotation, 10);
+});
+
+const dreadTrailGamma = new Effect(25, e => {
+	Draw.color(Color.valueOf("96f58c"));
+	Lines.stroke(e.fout() * 4)
+	lineAngle(e.x, e.y, e.rotation, 10);
+});
+
+const dreadHitAlpha = new Effect(25, e => {
+	color(Color.valueOf("7a8cdc"));
+        stroke(e.fout() * 4f);
+        Lines.circle(e.x, e.y, 4 + e.finpow() * 25);
+
+        for(int i = 0; i < 4; i++){
+            Drawf.tri(e.x, e.y, 8, 100 * e.fout(), i*90 + 45);
+        }
+
+        color();
+        for(int i = 0; i < 4; i++){
+            Drawf.tri(e.x, e.y, 5, 55 * e.fout(), i*90 + 45);
+        }
+});
+
+const dreadHitBeta = new Effect(25, e => {
+	color(Color.valueOf("dc7de0"));
+        stroke(e.fout() * 4f);
+        Lines.circle(e.x, e.y, 4 + e.finpow() * 25);
+
+        for(int i = 0; i < 4; i++){
+            Drawf.tri(e.x, e.y, 8, 100 * e.fout(), i*90 + 45);
+        }
+
+        color();
+        for(int i = 0; i < 4; i++){
+            Drawf.tri(e.x, e.y, 5, 55 * e.fout(), i*90 + 45);
+        }
+});
+
+const dreadHitGamma = new Effect(25, e => {
+	color(Color.valueOf("96f58c"));
+        stroke(e.fout() * 4f);
+        Lines.circle(e.x, e.y, 4 + e.finpow() * 25);
+
+        for(int i = 0; i < 4; i++){
+            Drawf.tri(e.x, e.y, 8, 100 * e.fout(), i*90 + 45);
+        }
+
+        color();
+        for(int i = 0; i < 4; i++){
+            Drawf.tri(e.x, e.y, 5, 55 * e.fout(), i*90 + 45);
+        }
+});
+
 // bullets
 
 const stormBullet = extend(BasicBulletType, {
@@ -58,6 +145,57 @@ const stormBullet = extend(BasicBulletType, {
 		Fill.circle(b.x, b.y, 3);
 		Draw.reset();
 	}
+});
+
+const dreadRange = 700
+
+const dreadBoltAlpha = extend(PointBulletType, {
+  	damage: 2750,
+	speed: dreadRange,
+	shootEffect: dreadShootAlpha,
+	hitShake: 6.5
+	trailSpacing: 10,
+	buildingDamageMultiplier: 0.12,
+	trailEffect: dreadTrailAlpha,
+	hitEffect: dreadHitAlpha,
+	despawnEffect: Fx.none,
+	despawnHit: true,
+	homingPower: 0.08,
+	despawnHit: true,
+	ammoMultiplier: 1
+});
+
+const dreadBoltBeta = extend(PointBulletType, {
+  	damage: 3250,
+	speed: dreadRange,
+	shootEffect: dreadShootBeta,
+	hitShake: 6.5
+	trailSpacing: 10,
+	buildingDamageMultiplier: 0.12,
+	trailEffect: dreadTrailBeta,
+	hitEffect: dreadHitBeta,
+	despawnEffect: Fx.none,
+	despawnHit: true,
+	homingPower: 0.08,
+	despawnHit: true,
+	ammoMultiplier: 1
+});
+
+const dreadBoltGamma = extend(PointBulletType, {
+  	damage: 4920,
+	speed: dreadRange,
+	lifetime: 30,
+	shootEffect: dreadShootGamma,
+	hitShake: 6.5
+	trailSpacing: 10,
+	buildingDamageMultiplier: 0.12,
+	trailEffect: dreadTrailGamma,
+	hitEffect: dreadHitGamma,
+	despawnEffect: Fx.none,
+	despawnHit: true,
+	homingPower: 0.08,
+	despawnHit: true,
+	ammoMultiplier: 1
 });
 
 // items
@@ -135,6 +273,14 @@ storm.buildType = () => extend(PowerTurret.PowerTurretBuild, storm,  {
 const shatter = extend(ItemTurret, "shatter", {});
 
 const tempest = extend(ItemTurret, "tempest", {});
+
+const dread = extend(ItemTurret, "dread", {});
+
+dread.ammo(
+  alphaSteel, dreadBoltAlpha,
+  betaSteel, dreadBoltBeta,
+  gammaSteel, dreadBoltGamma
+);
 
 // blocks/walls
 
