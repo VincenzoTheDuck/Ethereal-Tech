@@ -147,9 +147,11 @@ const stormBullet = extend(BasicBulletType, {
 	}
 });
 
+const dreadRange = 700
+
 const dreadBoltAlpha = extend(PointBulletType, {
   	damage: 2750,
-	speed: range,
+	speed: dreadRange,
 	shootEffect: dreadShootAlpha,
 	hitShake: 6.5,
 	trailSpacing: 10,
@@ -168,7 +170,7 @@ const dreadBoltBeta = extend(PointBulletType, {
 	lightningLengthRand: 3,
 	lightningDamage: 770,
 	lightningColor: Color.valueOf("dc7de0"),
-	speed: range,
+	speed: dreadRange,
 	shootEffect: dreadShootBeta,
 	hitShake: 9,
 	trailSpacing: 10,
@@ -188,7 +190,7 @@ const dreadBoltGamma = extend(PointBulletType, {
 	lightningLengthRand: 4,
 	lightningDamage: 920,
 	lightningColor: Color.valueOf("96f58c"),
-	speed: range,
+	speed: dreadRange,
 	lifetime: 30,
 	shootEffect: dreadShootGamma,
 	hitShake: 15,
@@ -278,7 +280,7 @@ const shatter = extend(ItemTurret, "shatter", {});
 const tempest = extend(ItemTurret, "tempest", {});
 
 const dread = extend(ItemTurret, "dread", {});
-dread.range = range
+dread.range = dreadRange
 dread.ammo(
   alphaSteel, dreadBoltAlpha,
   betaSteel, dreadBoltBeta,
