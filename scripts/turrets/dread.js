@@ -1,5 +1,7 @@
 // vars
 
+const eitems = require("items")
+
 const range = 700;
 
 // fx
@@ -153,7 +155,7 @@ const dreadBoltGamma = extend(PointBulletType, {
 const dread = extend(ItemTurret, "dread", {});
 dread.range = range
 dread.ammo(
-  alphaSteel, dreadBoltAlpha,
-  betaSteel, dreadBoltBeta,
-  gammaSteel, dreadBoltGamma
+  eitems.alphaSteel, dreadBoltAlpha,
+  eitems.betaSteel, dreadBoltBeta,
+  eitems.gammaSteel, dreadBoltGamma
 );
