@@ -41,6 +41,7 @@ const stormBullet = extend(BasicBulletType, {
 	speed: 6,
 	lifetime: 30,
 	hitEffect: stormHit,
+	homingPower: 0.08,
 	despawnHit: true,
 	draw(b){
 		Draw.color(Color.valueOf("ff7272").shiftHue(Time.time));
