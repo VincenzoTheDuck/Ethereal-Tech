@@ -1,3 +1,16 @@
+// bullets
+
+const stormBullet = extend(BasicBulletType, {
+  	damage: 17,
+	speed: 6,
+	lifetime: 30,
+	draw(b){
+		Draw.color(Color.valueOf("ff7272").shiftHue(Time.time * 2.3));
+		Fill.circle(b.x, b.y, 3);
+		Draw.reset();
+	}
+});
+
 // effects
 
 const pulverizeBlue = new Effect(16, e => {
@@ -74,6 +87,28 @@ const gammaForge = extend(GenericCrafter, "gamma-forge", {});
 // blocks/turrets
 
 const shock = extend(PowerTurret, "shock", {});
+
+const storm = extend(PowerTurret, "storm", {
+  load() {
+          this.super$load()
+	  this.region = Core.atlas.find(this.name);
+          this.rainbowRegion = Core.atlas.find(this.name + "-rainbow");
+	  this.baseRegion = Core.atlas.find("block-" + this.size);
+  },
+  shootType: stormBullet,
+  range: 180,
+});
+
+storm.buildType = () => extend(PowerTurret.PowerTurretBuild, storm,  {
+  draw() {
+	  Draw.rect(storm.baseRegion, this.x, this.y, 0);
+	  Draw.rect(storm.region, this.x, this.y, this.rotation - 90);
+	  Draw.alpha(0.4);
+	  Draw.color(Color.valueOf("ff7272").shiftHue(Time.time * 2.3));
+          Draw.rect(storm.rainbowRegion, this.x, this.y, this.rotation - 90);
+          Draw.color()
+  }
+});
 
 const shatter = extend(ItemTurret, "shatter", {});
 
