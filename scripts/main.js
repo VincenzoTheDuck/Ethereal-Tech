@@ -275,7 +275,7 @@ const shatter = extend(ItemTurret, "shatter", {});
 const tempest = extend(ItemTurret, "tempest", {});
 
 const dread = extend(ItemTurret, "dread", {});
-
+dread.range = dreadRange
 dread.ammo(
   alphaSteel, dreadBoltAlpha,
   betaSteel, dreadBoltBeta,
