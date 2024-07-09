@@ -12,7 +12,7 @@ coolant: {
 amount: 2
 }
 }
-coolantMultiplier: 4
+coolantMultiplier: 2
 maxAmmo: 60
 ammoPerShot: 10
 drawer: {
