@@ -87,7 +87,7 @@ const dreadTrailGamma = new Effect(25, e => {
 
 const dreadHitAlpha = new Effect(25, e => {
 	color(Color.valueOf("7a8cdc"));
-        stroke(e.fout() * 4f);
+        stroke(e.fout() * 4);
         Lines.circle(e.x, e.y, 4 + e.finpow() * 25);
 
         for(int i = 0; i < 4; i++){
@@ -102,7 +102,7 @@ const dreadHitAlpha = new Effect(25, e => {
 
 const dreadHitBeta = new Effect(25, e => {
 	color(Color.valueOf("dc7de0"));
-        stroke(e.fout() * 4f);
+        stroke(e.fout() * 4);
         Lines.circle(e.x, e.y, 4 + e.finpow() * 25);
 
         for(int i = 0; i < 4; i++){
@@ -117,7 +117,7 @@ const dreadHitBeta = new Effect(25, e => {
 
 const dreadHitGamma = new Effect(25, e => {
 	color(Color.valueOf("96f58c"));
-        stroke(e.fout() * 4f);
+        stroke(e.fout() * 4);
         Lines.circle(e.x, e.y, 4 + e.finpow() * 25);
 
         for(int i = 0; i < 4; i++){
