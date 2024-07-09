@@ -1,3 +1,7 @@
+// vars
+
+const range = 700;
+
 // fx
 
 const dreadShootAlpha = new Effect(35, e => {
