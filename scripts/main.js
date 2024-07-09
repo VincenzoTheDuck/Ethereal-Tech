@@ -147,7 +147,7 @@ const stormBullet = extend(BasicBulletType, {
 	}
 });
 
-const dreadRange = 700
+const dreadRange = 700;
 
 const dreadBoltAlpha = extend(PointBulletType, {
   	damage: 2750,
