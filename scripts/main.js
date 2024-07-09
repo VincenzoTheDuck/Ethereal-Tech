@@ -9,7 +9,7 @@ const pulverizeBlue = new Effect(16, e => {
 	Angles.randLenVectors(e.id, 4, e.finpow() * 40.0, 0, 180.0, hl);
 });
 
-const ruxoniumConveyorLoad = new Effect(25, e => {
+const ruxoniumConveyorLoad = new Effect(15, e => {
 	Draw.color(Pal.lancerLaser);
 	Lines.stroke(e.fin() * 4)
 	Lines.square(e.x, e.y, e.fout(Interp.pow5Out) * 8, 45);
@@ -17,7 +17,7 @@ const ruxoniumConveyorLoad = new Effect(25, e => {
 	Lines.square(e.x, e.y, e.fout(Interp.pow5Out) * 4, 45);
 });
 
-const ruxoniumConveyorUnload = new Effect(25, e => {
+const ruxoniumConveyorUnload = new Effect(15, e => {
 	Draw.color(Pal.lancerLaser);
 	Lines.stroke(e.fout(Interp.pow5Out) * 4)
 	Lines.square(e.x, e.y, e.fin() * 8, 45);
