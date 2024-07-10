@@ -78,7 +78,7 @@ waveRad: 20
 waveColor: a9d8ff
 }
 }
-research: lancer
+research: discharge
 category: turret
 requirements: [
 copper/80
