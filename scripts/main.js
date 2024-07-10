@@ -2,6 +2,10 @@
 
 const dischargeShoot = new Effect(20, e => {
 	Draw.color(Color.white, Pal.surge, e.fin());
+	
+	Drawf.tri(e.x, e.y, 4 * e.fout(), 6.5, e.rotation);
+        Drawf.tri(e.x, e.y, 4 * e.fout(), 4, e.rotation + 180f);
+	
 	const hl = new Floatc2({get: function(x, y){
 		Fill.poly(e.x + x, e.y + y, 4, e.fout() * 3, 0);
 	}});
@@ -9,11 +13,9 @@ const dischargeShoot = new Effect(20, e => {
 	Angles.randLenVectors(e.id, 4, e.finpow() * 13.0, 0, 180.0, hl);
 });
 
-const dischargeTrail = new Effect(40, e => {
-	Mathf.rand.setSeed(e.id)
-	let randomn = Mathf.random(4)
+const dischargeTrail = new Effect(25, e => {
 	Draw.color(Color.white, Pal.surge, e.fin());
-	Lines.stroke(e.fout() * 3)
+	Lines.stroke(e.fout() * 1.5)
 	Lines.lineAngle(e.x, e.y, e.rotation + randomn, 5);
 });
 
