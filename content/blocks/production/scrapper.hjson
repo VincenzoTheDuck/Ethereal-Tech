@@ -21,16 +21,16 @@ type: DrawRegion
 suffix: "-bottom"
 }
 {
-type: DrawRegion
-suffix: "-spinner"
-spinSprite: true
-rotateSpeed: 5
-}
-{
 type: DrawPlasma
 suffix: "-sand-"
 plasma1: d3ae8d
 plasma2: f7cba4
+}
+{
+type: DrawRegion
+suffix: "-spinner"
+spinSprite: true
+rotateSpeed: 5
 }
 DrawDefault
 ]
