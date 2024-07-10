@@ -12,7 +12,7 @@ DrawDefault
 {
 type: DrawFade
 suffix: "-glow"
-alpha: 0.35
+alpha: 0.17
 scale: 8.5
 }
 ]
@@ -21,7 +21,7 @@ liquidCapacity: 120
 size: 5
 baseExplosiveness: 4
 consumes: {
-power: 15.5
+power: 19.5
 items: {
 items: [
 gamma-steel/1
