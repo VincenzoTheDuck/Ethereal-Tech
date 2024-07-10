@@ -9,13 +9,12 @@ const dischargeShoot = new Effect(20, e => {
 	Angles.randLenVectors(e.id, 4, e.finpow() * 13.0, 0, 180.0, hl);
 });
 
-const dischargeTrailLength = 7;
-
 const dischargeTrail = new Effect(40, e => {
+	Mathf.rand.setSeed(e.id)
+	let randomn = Mathf.random(4)
 	Draw.color(Color.white, Pal.surge, e.fin());
-	Lines.stroke(e.fout() * 4)
-	Lines.line(e.x, e.y, e.x + Math.sin(e.rotation) * (dischargeTrailLength / 2), e.y + Math.cos(e.rotation) * (dischargeTrailLength / 2));
-	Lines.line(e.x + Math.sin(e.rotation) * (dischargeTrailLength / 2), e.y + Math.cos(e.rotation) * (dischargeTrailLength / 2), e.x + Math.sin(e.rotation) * dischargeTrailLength, e.y + Math.cos(e.rotation) * dischargeTrailLength);
+	Lines.stroke(e.fout() * 3)
+	Lines.lineAngle(e.x, e.y, e.rotation + randomn, 5);
 });
 
 const dischargeHit = new Effect(25, e => {
@@ -24,12 +23,12 @@ const dischargeHit = new Effect(25, e => {
         Lines.circle(e.x, e.y, 4 + e.finpow() * 10);
 
         for(let i = 0; i < 4; i++){
-            Drawf.tri(e.x, e.y, 3, 13 * e.fout(), i*90);
+            Drawf.tri(e.x, e.y, 7, 4 * e.fout(), i*90);
         }
 
         Draw.color();
         for(let i = 0; i < 4; i++){
-            Drawf.tri(e.x, e.y, 1.6, 7 * e.fout(), i*90);
+            Drawf.tri(e.x, e.y, 4, 2 * e.fout(), i*90);
         }
 });
 
@@ -188,7 +187,7 @@ const dischargeBolt = extend(PointBulletType, {
 	statusDuration: 25,
 	speed: dischargeRange,
 	hitShake: 0.8,
-	trailSpacing: dischargeTrailLength,
+	trailSpacing: 5,
 	buildingDamageMultiplier: 0.55,
 	trailEffect: dischargeTrail,
 	hitEffect: dischargeHit,
