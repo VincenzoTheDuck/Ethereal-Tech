@@ -1,0 +1,48 @@
+consumes: {
+power: 2.5
+items: {
+items: [
+sand/4
+copper/3
+lead/4
+]
+}
+}
+size: 2
+outputItem: scrap/2
+craftTime: 75
+ambientSound: windhowl
+ambientSoundVolume: 0.07
+craftEffect: none
+drawer: [
+DrawDefault
+{
+type: DrawRegion
+suffix: "-bottom"
+}
+{
+type: DrawRegion
+suffix: "-spinner"
+spinSprite: true
+rotateSpeed: 5
+}
+{
+type: DrawPlasma
+suffix: "-sand-"
+plasma1: d3ae8d
+plasma2: f7cba4
+}
+DrawDefault
+]
+category: crafting
+research: {
+parent: graphite-press
+objectives: [
+sand
+]
+}
+requirements: [
+graphite/60
+copper/55
+metaglass/20
+]
