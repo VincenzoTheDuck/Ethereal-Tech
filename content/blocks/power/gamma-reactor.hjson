@@ -21,6 +21,24 @@ gamma-steel/1
 ]
 }
 }
+warmupRadius: 0.0006
+explosionRadius: 120
+explosionEffect: {
+type: ExplosionEffect
+waveRad: 120
+waveStroke: 4.5
+smokes: 33
+sparks: 21
+waveColor: 62ae7f
+sparkColor: 62ae7f
+smokeColor: 4e5753
+}
+explosionShake: 4
+explosionShakeDuration: 33
+explosionDamage: 240
+explosionMinWarmup: 0.45
+lightRadius: 220
+lightColor: 73d188
 itemDuration: 660
 powerProduction: 280
 category: power
