@@ -24,9 +24,7 @@ craftTime: 75
 updateEffect: smeltsmoke
 updateEffectChance: 0.03
 craftEffect: pulverize
-drawer: {
-type: DrawMulti
-drawers: [
+drawer: [
 {
 type: DrawRegion
 suffix: "-bottom"
@@ -43,7 +41,6 @@ flameRadiusMag: 0.7
 }
 DrawDefault
 ]
-}
 category: crafting
 research: {
 parent: surge-smelter
