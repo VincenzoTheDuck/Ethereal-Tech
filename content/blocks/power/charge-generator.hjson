@@ -1,8 +1,5 @@
 size: 2
 baseExplosiveness: 8
-consumes: {
-consumeItemCharged
-}
 powerProduction: 10
 itemDuration: 540
 generateEffect: generateSpark
