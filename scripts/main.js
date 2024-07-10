@@ -242,6 +242,8 @@ const batteryMedium = extend(Battery, "battery-medium", {});
 const chargeGenerator = extend(ConsumeGenerator, "charge-generator", {});
 chargeGenerator.consume(new ConsumeItemCharged());
 
+const gammaReactor = extend(ImpactReactor, "gamma-reactor", {});
+
 // blocks/production
 
 const cokeOven = extend(GenericCrafter, "coke-oven", {});
