@@ -42,6 +42,8 @@ smokes: 33
 sparks: 21
 waveColor: 62ae7f
 sparkColor: 62ae7f
+smokeRad: 110
+sparkRad: 133
 smokeColor: 4e5753
 }
 explosionShake: 4
