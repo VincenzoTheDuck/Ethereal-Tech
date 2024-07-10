@@ -18,16 +18,13 @@ ambientSound: smelter
 ambientSoundVolume: 0.25
 craftTime: 160
 craftEffect: smeltsmoke
-drawer: {
-type: DrawMulti
-drawers: [
+drawer: [
 DrawDefault
 {
 type: DrawFlame
 flameColor: 94afd7
 }
 ]
-}
 category: crafting
 research: {
 parent: ruxonium-smelter
