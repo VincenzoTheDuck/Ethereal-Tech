@@ -103,7 +103,7 @@ const dreadHitAlpha = new Effect(25, e => {
 const dreadHitBeta = new Effect(25, e => {
 	Draw.color(Color.valueOf("dc7de0"));
         Lines.stroke(e.fout() * 4);
-        Lines.circle(e.x, e.y, 4 + e.finpow() * 25);
+        Lines.circle(e.x, e.y, 4 + e.finpow() * 35);
 
         for(let i = 0; i < 4; i++){
             Drawf.tri(e.x, e.y, 8, 100 * e.fout(), i*90 + 45);
@@ -118,7 +118,7 @@ const dreadHitBeta = new Effect(25, e => {
 const dreadHitGamma = new Effect(25, e => {
 	Draw.color(Color.valueOf("96f58c"));
         Lines.stroke(e.fout() * 4);
-        Lines.circle(e.x, e.y, 4 + e.finpow() * 25);
+        Lines.circle(e.x, e.y, 4 + e.finpow() * 50);
 
         for(let i = 0; i < 4; i++){
             Drawf.tri(e.x, e.y, 8, 100 * e.fout(), i*90 + 45);
@@ -151,6 +151,8 @@ const dreadRange = 700;
 
 const dreadBoltAlpha = extend(PointBulletType, {
   	damage: 2750,
+	splashDamage: 1720,
+	splashDamageRadius: 25,
 	speed: dreadRange,
 	shootEffect: dreadShootAlpha,
 	hitShake: 6.5,
@@ -165,6 +167,8 @@ const dreadBoltAlpha = extend(PointBulletType, {
 
 const dreadBoltBeta = extend(PointBulletType, {
   	damage: 3250,
+	splashDamage: 2250,
+	splashDamageRadius: 35,
 	lightning: 6,
 	lightningLength: 9,
 	lightningLengthRand: 3,
@@ -185,6 +189,8 @@ const dreadBoltBeta = extend(PointBulletType, {
 
 const dreadBoltGamma = extend(PointBulletType, {
   	damage: 4920,
+	splashDamage: 3850,
+	splashDamageRadius: 50,
 	lightning: 9,
 	lightningLength: 11,
 	lightningLengthRand: 4,
