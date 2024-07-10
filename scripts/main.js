@@ -237,6 +237,7 @@ const oreOsmium = extend(OreBlock, "ore-osmium", {});
 const batteryMedium = extend(Battery, "battery-medium", {});
 
 const chargeGenerator = extend(ConsumeGenerator, "charge-generator", {});
+chargeGenerator.consume(new ConsumeItemCharged());
 
 // blocks/production
 
