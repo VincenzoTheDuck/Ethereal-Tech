@@ -4,7 +4,7 @@ const dischargeShoot = new Effect(20, e => {
 	Draw.color(Color.white, Pal.surge, e.fin());
 	
 	Drawf.tri(e.x, e.y, 4 * e.fout(), 6.5, e.rotation);
-        Drawf.tri(e.x, e.y, 4 * e.fout(), 4, e.rotation + 180f);
+        Drawf.tri(e.x, e.y, 4 * e.fout(), 4, e.rotation + 180);
 	
 	const hl = new Floatc2({get: function(x, y){
 		Fill.poly(e.x + x, e.y + y, 4, e.fout() * 3, 0);
