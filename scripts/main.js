@@ -246,6 +246,8 @@ const gammaReactor = extend(ImpactReactor, "gamma-reactor", {});
 
 // blocks/production
 
+const scrapper = extend(GenericCrafter, "scrapper", {});
+
 const cokeOven = extend(GenericCrafter, "coke-oven", {});
 
 const blastFurnace = extend(GenericCrafter, "blast-furnace", {});
