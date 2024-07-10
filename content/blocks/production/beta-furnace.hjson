@@ -19,9 +19,7 @@ ambientSound: torch
 ambientSoundVolume: 0.34
 craftTime: 200
 craftEffect: pulverize
-drawer: {
-type: DrawMulti
-drawers: [
+drawer: [
 {
 type: DrawRegion
 suffix: "-bottom"
@@ -41,7 +39,6 @@ particleLife: 95
 }
 DrawDefault
 ]
-}
 category: crafting
 research: {
 parent: alpha-crucible
