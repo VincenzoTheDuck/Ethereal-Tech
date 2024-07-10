@@ -15,9 +15,7 @@ ambientSoundVolume: 0.14
 craftEffect: smokeCloud
 updateEffect: smeltsmoke
 updateEffectChance: 0.11
-drawer: {
-type: DrawMulti
-drawers: [
+drawer: [
 DrawDefault
 {
 type: DrawGlowRegion
@@ -38,7 +36,6 @@ particleInterp: pow5Out
 particleSizeInterp: pow3In
 }
 ]
-}
 category: crafting
 research: {
 parent: coke-oven
