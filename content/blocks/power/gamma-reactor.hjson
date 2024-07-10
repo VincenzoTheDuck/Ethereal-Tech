@@ -33,7 +33,7 @@ amount: 0.5
 }
 }
 warmupSpeed: 0.0006
-explosionRadius: 120
+explosionRadius: 30
 explodeEffect: {
 type: ExplosionEffect
 waveRad: 120
