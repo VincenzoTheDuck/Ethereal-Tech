@@ -150,7 +150,7 @@ const stormBullet = extend(BasicBulletType, {
 const dreadRange = 700;
 
 const dreadBoltAlpha = extend(PointBulletType, {
-	splashDamage: 2750,
+	splashDamage: 1790,
 	splashDamageRadius: 25,
 	speed: dreadRange,
 	shootEffect: dreadShootAlpha,
@@ -165,7 +165,7 @@ const dreadBoltAlpha = extend(PointBulletType, {
 });
 
 const dreadBoltBeta = extend(PointBulletType, {
-	splashDamage: 3250,
+	splashDamage: 2680,
 	splashDamageRadius: 35,
 	lightning: 6,
 	lightningLength: 9,
@@ -186,7 +186,7 @@ const dreadBoltBeta = extend(PointBulletType, {
 });
 
 const dreadBoltGamma = extend(PointBulletType, {
-	splashDamage: 4920,
+	splashDamage: 3960,
 	splashDamageRadius: 50,
 	lightning: 9,
 	lightningLength: 11,
