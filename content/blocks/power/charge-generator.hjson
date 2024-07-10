@@ -4,6 +4,10 @@ powerProduction: 10
 itemDuration: 540
 generateEffect: generatespark
 category: power
+drawer: [
+DrawDefault
+DrawWarmupRegion
+]
 research: {
 parent: combustion-generator
 objectives: []
