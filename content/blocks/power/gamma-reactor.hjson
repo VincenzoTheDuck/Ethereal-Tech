@@ -1,0 +1,38 @@
+drawer: [
+{
+type: DrawRegion
+suffix: "-bottom"
+}
+{
+type: DrawPlasma
+plasma1: 73d188
+plasma2: 62ae7f
+}
+DrawDefault
+DrawFade
+]
+size: 5
+baseExplosiveness: 3
+consumes: {
+power: 15.5
+items: {
+items: [
+gamma-steel/1
+]
+}
+}
+itemDuration: 660
+powerProduction: 280
+category: power
+research: {
+parent: impact-reactor
+objectives: []
+}
+requirements: [
+copper/750
+surge-alloy/600
+osmium/850
+alpha-steel/580
+beta-steel/650
+gamma-steel/770
+]
