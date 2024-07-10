@@ -9,7 +9,12 @@ plasma1: 73d188
 plasma2: 62ae7f
 }
 DrawDefault
-DrawFade
+{
+type: DrawFade
+suffix: "-glow"
+alpha: 0.7
+scale: 8.5
+}
 ]
 size: 5
 baseExplosiveness: 3
