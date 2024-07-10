@@ -2,6 +2,7 @@ scaledHealth: 55
 size: 1
 reload: 100
 rotateSpeed: 3.3
+minRange: 25
 consumes: {
 power: 3
 coolant: {
@@ -12,7 +13,7 @@ recoil: 1.2
 shake: 1
 shootCone: 3
 shootSound: spark
-smokeEffect: shootBigSmoke
+smokeEffect: none
 research: arc
 category: turret
 requirements: [
