@@ -17,7 +17,7 @@ scale: 8.5
 }
 ]
 size: 5
-baseExplosiveness: 3
+baseExplosiveness: 4
 consumes: {
 power: 15.5
 items: {
@@ -26,9 +26,9 @@ gamma-steel/1
 ]
 }
 }
-warmupRadius: 0.0006
+warmupSpeed: 0.0006
 explosionRadius: 120
-explosionEffect: {
+explodeEffect: {
 type: ExplosionEffect
 waveRad: 120
 waveStroke: 4.5
