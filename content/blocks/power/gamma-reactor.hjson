@@ -16,6 +16,8 @@ alpha: 0.35
 scale: 8.5
 }
 ]
+itemCapacity: 40
+liquidCapacity: 120
 size: 5
 baseExplosiveness: 4
 consumes: {
@@ -24,6 +26,10 @@ items: {
 items: [
 gamma-steel/1
 ]
+}
+liquid: {
+liquid: cryofluid
+amount: 0.5
 }
 }
 warmupSpeed: 0.0006
