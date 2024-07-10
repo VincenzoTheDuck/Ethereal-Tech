@@ -1,5 +1,36 @@
 // effects
 
+const dischargeShoot = new Effect(20, e => {
+	Draw.color(Color.white, Pal.surge, e.fin());
+	const hl = new Floatc2({get: function(x, y){
+		Fill.poly(e.x + x, e.y + y, 4, e.fout() * 3, 0);
+	}});
+	
+	Angles.randLenVectors(e.id, 4, e.finpow() * 13.0, 0, 180.0, hl);
+});
+const dischargeTrail = new Effect(40, e => {
+	let length = 7
+	Draw.color(Color.white, Pal.surge, e.fin());
+	Lines.stroke(e.fout() * 4)
+	Lines.line(e.x, e.y, e.x + Math.sin(e.rotation) * (length / 2), e.y + Math.cos(e.rotation) * (length / 2));
+	Lines.line(e.x + Math.sin(e.rotation) * (length / 2), e.y + Math.cos(e.rotation) * (length / 2), e.x + Math.sin(e.rotation) * length, e.y + Math.cos(e.rotation) * length);
+});
+
+const dischargeHit = new Effect(25, e => {
+	Draw.color(Pal.surge);
+        Lines.stroke(e.fout() * 3);
+        Lines.circle(e.x, e.y, 4 + e.finpow() * 10);
+
+        for(let i = 0; i < 4; i++){
+            Drawf.tri(e.x, e.y, 3, 13 * e.fout(), i*90);
+        }
+
+        Draw.color();
+        for(let i = 0; i < 4; i++){
+            Drawf.tri(e.x, e.y, 1.6, 7 * e.fout(), i*90);
+        }
+});
+
 const pulverizeBlue = new Effect(16, e => {
 	Draw.color(Color.white, Pal.lancerLaser, e.fin());
 	const hl = new Floatc2({get: function(x, y){
@@ -261,6 +292,9 @@ const betaFurnace = extend(GenericCrafter, "beta-furnace", {});
 const gammaForge = extend(GenericCrafter, "gamma-forge", {});
 
 // blocks/turrets
+
+const discharge = extend(PowerTurret, "discharge", {});
+discharge.shootEffect = dischargeShoot;
 
 const shock = extend(PowerTurret, "shock", {});
 
