@@ -12,7 +12,7 @@ DrawDefault
 {
 type: DrawFade
 suffix: "-glow"
-alpha: 0.7
+alpha: 0.35
 scale: 8.5
 }
 ]
