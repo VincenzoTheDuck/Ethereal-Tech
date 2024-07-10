@@ -16,7 +16,7 @@ const dischargeShoot = new Effect(20, e => {
 const dischargeTrail = new Effect(25, e => {
 	Draw.color(Color.white, Pal.surge, e.fin());
 	Lines.stroke(e.fout() * 1.5)
-	Lines.lineAngle(e.x, e.y, e.rotation + randomn, 5);
+	Lines.lineAngle(e.x, e.y, e.rotation, 5);
 });
 
 const dischargeHit = new Effect(25, e => {
