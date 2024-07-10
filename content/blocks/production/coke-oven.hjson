@@ -11,9 +11,7 @@ outputItem: coke/2
 craftTime: 90
 ambientSound: smelter
 ambientSoundVolume: 0.09
-drawer: {
-type: DrawMulti
-drawers: [
+drawer: [
 {
 type: DrawRegion
 suffix: "-bottom"
@@ -27,7 +25,6 @@ glowScale: 5.5
 }
 DrawDefault
 ]
-}
 category: crafting
 research: {
 parent: graphite-press
