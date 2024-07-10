@@ -30,28 +30,17 @@ colorFrom: 28785c
 colorTo: 4d4e5833
 length: 40
 }
-drawer: {
-type: DrawMulti
-drawers: [
+drawer: [
 {
 type: DrawRegion
 suffix: "-bottom"
 }
 {
-type: DrawPlasma
-plasma1: 73d188
-plasma2: 62ae7f
-}
-{
-type: DrawRegion
-suffix: "-mid"
-}
-{
 type: DrawCrucibleFlame
 flameColor: 73d188
 midColor: 62ae7f
-flameRad: 2.3
-circleSpace: 2.2
+flameRad: 4
+circleSpace: 4
 flameRadiusScl: 15
 flameRadiusMag: 1.2
 circleStroke: 4
@@ -59,9 +48,17 @@ alpha: 0.7
 particles: 40
 particleLife: 120
 }
+{
+type: DrawRegion
+suffix: "-mid"
+}
+{
+type: DrawPlasma
+plasma1: 73d188
+plasma2: 62ae7f
+}
 DrawDefault
 ]
-}
 category: crafting
 research: {
 parent: beta-furnace
