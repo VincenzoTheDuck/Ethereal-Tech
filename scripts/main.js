@@ -8,12 +8,14 @@ const dischargeShoot = new Effect(20, e => {
 	
 	Angles.randLenVectors(e.id, 4, e.finpow() * 13.0, 0, 180.0, hl);
 });
+
+const dischargeTrailLength = 7;
+
 const dischargeTrail = new Effect(40, e => {
-	let length = 7
 	Draw.color(Color.white, Pal.surge, e.fin());
 	Lines.stroke(e.fout() * 4)
-	Lines.line(e.x, e.y, e.x + Math.sin(e.rotation) * (length / 2), e.y + Math.cos(e.rotation) * (length / 2));
-	Lines.line(e.x + Math.sin(e.rotation) * (length / 2), e.y + Math.cos(e.rotation) * (length / 2), e.x + Math.sin(e.rotation) * length, e.y + Math.cos(e.rotation) * length);
+	Lines.line(e.x, e.y, e.x + Math.sin(e.rotation) * (dischargeTrailLength / 2), e.y + Math.cos(e.rotation) * (dischargeTrailLength / 2));
+	Lines.line(e.x + Math.sin(e.rotation) * (dischargeTrailLength / 2), e.y + Math.cos(e.rotation) * (dischargeTrailLength / 2), e.x + Math.sin(e.rotation) * dischargeTrailLength, e.y + Math.cos(e.rotation) * dischargeTrailLength);
 });
 
 const dischargeHit = new Effect(25, e => {
@@ -178,6 +180,23 @@ const stormBullet = extend(BasicBulletType, {
 	}
 });
 
+const dischargeRange = 115;
+
+const dischargeBolt = extend(PointBulletType, {
+	damage: 70,
+	status: StatusEffects.shocked,
+	statusDuration: 25,
+	speed: dischargeRange,
+	hitShake: 0.8,
+	trailSpacing: dischargeTrailLength,
+	buildingDamageMultiplier: 0.55,
+	trailEffect: dischargeTrail,
+	hitEffect: dischargeHit,
+	despawnEffect: Fx.none,
+	despawnHit: true,
+	ammoMultiplier: 1
+});
+
 const dreadRange = 700;
 
 const dreadBoltAlpha = extend(PointBulletType, {
@@ -295,6 +314,7 @@ const gammaForge = extend(GenericCrafter, "gamma-forge", {});
 
 const discharge = extend(PowerTurret, "discharge", {});
 discharge.shootEffect = dischargeShoot;
+discharge.shootType = dischargeBolt;
 
 const shock = extend(PowerTurret, "shock", {});
 
