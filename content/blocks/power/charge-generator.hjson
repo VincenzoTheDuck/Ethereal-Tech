@@ -1,0 +1,19 @@
+size: 2
+baseExplosiveness: 8
+consumes: {
+consumeItemCharged
+}
+powerProduction: 10
+itemDuration: 540
+generateEffect: generateSpark
+category: power
+research: {
+parent: combustion-generator
+objectives: []
+}
+requirements: [
+copper/85
+silicon/50
+surge-alloy/60
+steel/40
+]
