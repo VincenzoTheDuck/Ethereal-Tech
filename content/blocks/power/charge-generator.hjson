@@ -2,7 +2,7 @@ size: 2
 baseExplosiveness: 8
 powerProduction: 10
 itemDuration: 540
-generateEffect: generateSpark
+generateEffect: generatespark
 category: power
 research: {
 parent: combustion-generator
