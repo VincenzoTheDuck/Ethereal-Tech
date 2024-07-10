@@ -1,10 +1,10 @@
 // effects
 
-const dischargeShoot = new Effect(20, e => {
+const dischargeShoot = new Effect(25, e => {
 	Draw.color(Color.white, Pal.surge, e.fin());
 	
-	Drawf.tri(e.x, e.y, 4 * e.fout(), 6.5, e.rotation);
-        Drawf.tri(e.x, e.y, 4 * e.fout(), 4, e.rotation + 180);
+	Drawf.tri(e.x, e.y, 6 * e.fout(), 9, e.rotation);
+        Drawf.tri(e.x, e.y, 6 * e.fout(), 6, e.rotation + 180);
 	
 	const hl = new Floatc2({get: function(x, y){
 		Fill.poly(e.x + x, e.y + y, 4, e.fout() * 3, 0);
