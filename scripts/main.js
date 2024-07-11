@@ -299,7 +299,7 @@ pist.sinScl = 4;
 pist.sideOffset = Mathf.PI;
 
 var glow = new DrawGlowRegion();
-glow.alpha = 1;
+glow.alpha = 0.55;
 glow.glowScale = 5;
 glow.color = Pal.slagOrange;
 
