@@ -1,0 +1,23 @@
+size: 3
+baseExplosiveness: 5
+powerProduction: 32
+generateEffect: none
+category: power
+consumes: {
+liquids: {
+liquids: [oil/0.5, slag/0.35]
+}
+}
+research: {
+parent: steam-generator
+objectives: [
+oil
+]
+}
+requirements: [
+copper/90
+thorium/100
+silicon/60
+metaglass/75
+steel/85
+]
