@@ -301,7 +301,7 @@ pist.sideOffset = Mathf.PI;
 var glow = new DrawGlowRegion();
 glow.alpha = 1;
 glow.glowScale = 5;
-glow.color: Pal.slagOrange;
+glow.color = Pal.slagOrange;
 
 const oilCombustionChamber = extend(ConsumeGenerator, "oil-combustion-chamber", {});
 oilCombustionChamber.drawer = new DrawMulti(
