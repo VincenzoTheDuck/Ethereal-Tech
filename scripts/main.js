@@ -293,22 +293,24 @@ const batteryMedium = extend(Battery, "battery-medium", {});
 const chargeGenerator = extend(ConsumeGenerator, "charge-generator", {});
 chargeGenerator.consume(new ConsumeItemCharged());
 
+var pist = new DrawPistons();
+pist.sinMag = 1.5;
+pist.sinScl = 4;
+pist.sideOffset = Mathf.PI;
+
+var glow = new DrawGlowRegion();
+alpha = 1;
+glowScale = 5;
+color: Pal.slagOrange;
+
 const oilCombustionChamber = extend(ConsumeGenerator, "oil-combustion-chamber", {});
 oilCombustionChamber.drawer = new DrawMulti(
 	new DrawRegion("-bottom"),
-	extend(DrawPistons, {
-		sinMag = 1.5,
-                sinScl = 4,
-                sideOffset = Mathf.PI
-	}),
+	pist,
 	new DrawRegion("-mid"),
 	new DrawLiquidTile(Liquids.oil, 39),
 	new DrawDefault(),
-	extend(DrawGlowRegion, {
-		alpha = 1,
-                glowScale = 5,
-                color: Pal.slagOrange
-	})
+	glow
 );
 
 const gammaReactor = extend(ImpactReactor, "gamma-reactor", {});
