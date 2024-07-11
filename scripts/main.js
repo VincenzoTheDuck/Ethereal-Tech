@@ -296,7 +296,7 @@ chargeGenerator.consume(new ConsumeItemCharged());
 const oilCombustionChamber = extend(ConsumeGenerator, "oil-combustion-chamber", {});
 oilCombustionChamber.drawer = new DrawMulti(
 	new DrawRegion("-bottom"),
-	new DrawPistons({
+	extend(DrawPistons, {
 		sinMag = 1.5,
                 sinScl = 4,
                 sideOffset = Mathf.PI
@@ -304,7 +304,7 @@ oilCombustionChamber.drawer = new DrawMulti(
 	new DrawRegion("-mid"),
 	new DrawLiquidTile(Liquids.oil, 39),
 	new DrawDefault(),
-	new DrawGlowRegion({
+	extend(DrawGlowRegion, {
 		alpha = 1,
                 glowScale = 5,
                 color: Pal.slagOrange
